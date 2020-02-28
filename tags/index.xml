@@ -5,12 +5,36 @@
     <link>https://conanhujinming.github.io/tags/</link>
       <atom:link href="https://conanhujinming.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 27 Feb 2020 16:42:57 +0800</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Tags</title>
       <link>https://conanhujinming.github.io/tags/</link>
     </image>
+    
+    <item>
+      <title>秋招</title>
+      <link>https://conanhujinming.github.io/tags/%E7%A7%8B%E6%8B%9B/</link>
+      <pubDate>Thu, 27 Feb 2020 16:42:57 +0800</pubDate>
+      <guid>https://conanhujinming.github.io/tags/%E7%A7%8B%E6%8B%9B/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>自学CS</title>
+      <link>https://conanhujinming.github.io/tags/%E8%87%AA%E5%AD%A6cs/</link>
+      <pubDate>Thu, 27 Feb 2020 16:42:57 +0800</pubDate>
+      <guid>https://conanhujinming.github.io/tags/%E8%87%AA%E5%AD%A6cs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>面试</title>
+      <link>https://conanhujinming.github.io/tags/%E9%9D%A2%E8%AF%95/</link>
+      <pubDate>Thu, 27 Feb 2020 16:42:57 +0800</pubDate>
+      <guid>https://conanhujinming.github.io/tags/%E9%9D%A2%E8%AF%95/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Jinming Hu</title>
-    <link>https://conanhujinming.github.io/</link>
-      <atom:link href="https://conanhujinming.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <description>Jinming Hu</description>
+    <title>面试 | Jinming Hu</title>
+    <link>https://conanhujinming.github.io/tags/%E9%9D%A2%E8%AF%95/</link>
+      <atom:link href="https://conanhujinming.github.io/tags/%E9%9D%A2%E8%AF%95/index.xml" rel="self" type="application/rss+xml" />
+    <description>面试</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 27 Feb 2020 16:42:57 +0800</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
-      <title>Jinming Hu</title>
-      <link>https://conanhujinming.github.io/</link>
+      <title>面试</title>
+      <link>https://conanhujinming.github.io/tags/%E9%9D%A2%E8%AF%95/</link>
     </image>
     
     <item>
