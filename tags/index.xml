@@ -5,12 +5,28 @@
     <link>https://conanhujinming.github.io/tags/</link>
       <atom:link href="https://conanhujinming.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 27 Feb 2020 18:34:44 +0800</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 06 Mar 2020 21:10:32 +0800</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Tags</title>
       <link>https://conanhujinming.github.io/tags/</link>
     </image>
+    
+    <item>
+      <title>写作</title>
+      <link>https://conanhujinming.github.io/tags/%E5%86%99%E4%BD%9C/</link>
+      <pubDate>Fri, 06 Mar 2020 21:10:32 +0800</pubDate>
+      <guid>https://conanhujinming.github.io/tags/%E5%86%99%E4%BD%9C/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>英文写作</title>
+      <link>https://conanhujinming.github.io/tags/%E8%8B%B1%E6%96%87%E5%86%99%E4%BD%9C/</link>
+      <pubDate>Fri, 06 Mar 2020 21:10:32 +0800</pubDate>
+      <guid>https://conanhujinming.github.io/tags/%E8%8B%B1%E6%96%87%E5%86%99%E4%BD%9C/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>故事</title>

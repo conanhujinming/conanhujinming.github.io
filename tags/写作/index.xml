@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>写作 | Jinming Hu</title>
+    <link>https://conanhujinming.github.io/tags/%E5%86%99%E4%BD%9C/</link>
+      <atom:link href="https://conanhujinming.github.io/tags/%E5%86%99%E4%BD%9C/index.xml" rel="self" type="application/rss+xml" />
+    <description>写作</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 06 Mar 2020 21:10:32 +0800</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>写作</title>
+      <link>https://conanhujinming.github.io/tags/%E5%86%99%E4%BD%9C/</link>
+    </image>
+    
+    <item>
+      <title>写作的4C法则</title>
+      <link>https://conanhujinming.github.io/post/paper_writing/</link>
+      <pubDate>Fri, 06 Mar 2020 21:10:32 +0800</pubDate>
+      <guid>https://conanhujinming.github.io/post/paper_writing/</guid>
+      <description>&lt;p&gt;昨天有同学找我讨论了一下写作的几个简单的法则，我们总结出了四个简单的写作法则。注意我们讨论的主要是议论文、科技文写作；而抒情记叙散文等可能会有不同的原则。我们将下面四个简单的法则概括为4C法则。&lt;/p&gt;
+&lt;h2 id=&#34;concrete-具体&#34;&gt;Concrete 具体&lt;/h2&gt;
+&lt;p&gt;内容要具体，言之有物，不能空泛。这个内容指的不仅仅是文章的主旨，还包括每个段落，每个句子，甚至每个词。有同学举了一个很好的例子，例如&amp;quot;do the construction&amp;rdquo;，这里的do就是一个无意义的词，不如直接用动词&amp;quot;construct&amp;rdquo;。&lt;/p&gt;
+&lt;h2 id=&#34;cohesion-内聚性&#34;&gt;Cohesion 内聚性&lt;/h2&gt;
+&lt;p&gt;文章要有内聚性，即每个段落都是为文章主旨所服务的。段落要有内聚性，每个段落应该只有一个主旨，且一个段落的主旨往往在开头，即topic sentence，而之后的句子均要为此服务。每个句子也应该有内聚性，例如一个句子不应该讲述两件不同的事情，除非有意为之。&lt;/p&gt;
+&lt;h2 id=&#34;coherence-连贯&#34;&gt;Coherence 连贯&lt;/h2&gt;
+&lt;p&gt;文章要有比较好的衔接性。譬如，每个段落之间应该有一定的逻辑衔接关系，而段落之中的句子也应该有衔接关系。当英文写作水平不够的时候，这种衔接往往可以用一些衔接词来加强、强调。&lt;/p&gt;
+&lt;h2 id=&#34;consistent-一致&#34;&gt;Consistent 一致&lt;/h2&gt;
+&lt;p&gt;文章的主题应该一致，譬如文章的内部不应该有完全相反的结论（除非本身就是survey或者review）。文章的正式性应该一致，譬如一篇文章应该通篇为正式文体(formal)，或者半正式(semi-formal)，或者非正式(informal)；所选用的词、表述方式等均应该与对应的正式性保持一致。除此以外，文章内对同一事物的提法也应该保持一致。&lt;/p&gt;
+&lt;h2 id=&#34;推荐写作书籍&#34;&gt;推荐写作书籍&lt;/h2&gt;
+&lt;p&gt;最后推荐一本关于英文写作的小书：
+&lt;a href=&#34;https://book.douban.com/subject/1433835/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The Elements of Style&lt;/a&gt;。这本小书号称英文写作圣经，而且只有100页左右，很值得一读。不过作者的taste有些过于严格，各位也要因时制宜，因地制宜。另外写paper的话，在掌握了general的写作技能之后，还应该去模仿、研究优秀的paper的writing。&lt;/p&gt;
+&lt;p&gt;同样很有名的英文写作的书还有
+&lt;a href=&#34;https://book.douban.com/subject/4740002/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;《On Writing Well》&lt;/a&gt;，但因为我太懒了，一直没看，所以也不知道怎么样Orz&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
