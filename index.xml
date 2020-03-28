@@ -5,12 +5,102 @@
     <link>https://conanhujinming.github.io/</link>
       <atom:link href="https://conanhujinming.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Jinming Hu</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 06 Mar 2020 21:10:32 +0800</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 28 Mar 2020 19:12:37 +0800</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Jinming Hu</title>
       <link>https://conanhujinming.github.io/</link>
     </image>
+    
+    <item>
+      <title>机器学习分级</title>
+      <link>https://conanhujinming.github.io/post/level_of_machine_learning/</link>
+      <pubDate>Sat, 28 Mar 2020 19:12:37 +0800</pubDate>
+      <guid>https://conanhujinming.github.io/post/level_of_machine_learning/</guid>
+      <description>&lt;p&gt;大约在两个月前，一位朋友找我帮他的妹子写一段对机器学习不同水准的分级，并描述不同等级的人具有的特点。于是我就勉强瞎写了一通，发在这里。当时写的是英文版的，这里就懒得翻译了，直接贴过来了。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;#some-claim&#34;&gt;Some Claim&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#basic-knowledgefoundation-of-machine-learning&#34;&gt;Basic Knowledge/Foundation of Machine Learning&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;#level-1&#34;&gt;Level 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#level-2&#34;&gt;Level 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#level-3&#34;&gt;Level 3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#level-4&#34;&gt;Level 4&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#engineering-of-machine-learning&#34;&gt;Engineering of Machine Learning&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;#level-1-1&#34;&gt;Level 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#level-2-1&#34;&gt;Level 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#level-3-1&#34;&gt;Level 3&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#research-of-machine-learning&#34;&gt;Research of Machine Learning&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;#level-1-2&#34;&gt;Level 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#level-2-2&#34;&gt;Level 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#level-3-2&#34;&gt;Level 3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#level-4-1&#34;&gt;Level 4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#level-5&#34;&gt;Level 5&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#level-6&#34;&gt;Level 6&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#level-7&#34;&gt;Level 7&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;some-claim&#34;&gt;Some Claim&lt;/h2&gt;
+&lt;p&gt;Personally, I think it is not trivial to group people in machine learning area into different levels. Here I only try my best to give some rough levels.&lt;/p&gt;
+&lt;p&gt;In machine learning area, I think there are some different types of knowledge. Thus I would like to list these different type of knowledge and try to give levels corresponding to these different types of knowledge. Note that these levels are not necessarily designed/proposed for self-learner. For machine learning guys, there are roughly two types of career directions, i.e. engineering and research. The necessary techniques for these two directions can be very different from each other. Some may be very good at enginnering but know few about research and vice versa. Of course there are some experts who can be a master of both directions, but these people only take up a small proportion. Also I want to clarify that I do not want to list levels corresponding to very junior people. It is not necessary to do this.&lt;/p&gt;
+&lt;h2 id=&#34;basic-knowledgefoundation-of-machine-learning&#34;&gt;Basic Knowledge/Foundation of Machine Learning&lt;/h2&gt;
+&lt;h3 id=&#34;level-1&#34;&gt;Level 1&lt;/h3&gt;
+&lt;p&gt;They are familiar with frequently-used algorithms such as SVM, GBDT, DT, NN, and etc. They know the formulation of these algorithms. They can understand many parts of the proof and derivation of these algorithms, but they may not be able to derive these algorithms independently. They also may implement many algorithms themselves, but with the help from other code/other guys, and also with the skeleton code written by TA :) Typically they can get a score over B in a good machine learning course.&lt;/p&gt;
+&lt;h3 id=&#34;level-2&#34;&gt;Level 2&lt;/h3&gt;
+&lt;p&gt;They can understand many frequently-used algorithms. They are able to derive many of them independently. Also, they know the trade-off/advantages/disadvantages of these algorithms. They may be able to implement many algorithms independently (maybe with the help of books) with the skeleton code. They can get a score of A in a course.&lt;/p&gt;
+&lt;h3 id=&#34;level-3&#34;&gt;Level 3&lt;/h3&gt;
+&lt;p&gt;They can understand most of the frequently-used algorithms. They are able to dervice almost all of them independently. They are qualified to teach other people about these knowledge. They are able to implement most algorithms independently. They can be a strong TA or even lecturer for a good course.&lt;/p&gt;
+&lt;h3 id=&#34;level-4&#34;&gt;Level 4&lt;/h3&gt;
+&lt;p&gt;They are able to write very good textbooks.&lt;/p&gt;
+&lt;h2 id=&#34;engineering-of-machine-learning&#34;&gt;Engineering of Machine Learning&lt;/h2&gt;
+&lt;h3 id=&#34;level-1-1&#34;&gt;Level 1&lt;/h3&gt;
+&lt;p&gt;They have at least Level 1 basic knowledge of machine learning. They are able to write machine learning codes with many packages such as sklearn, xgboost, lightgbm, tensorflow, pytorch, and etc. However, they do not have a good understanding of features, applications, and when and why some models work and some do not. When the models do not work, they do not know how to debug it.&lt;/p&gt;
+&lt;h3 id=&#34;level-2-1&#34;&gt;Level 2&lt;/h3&gt;
+&lt;p&gt;They have at least Level 2 basic knowledge of machine learning. They have a good understanding of features, data, and the scenarios. They know how to develop a simple but fast solution for a problem (maybe leading some people), and also how to improve the current solution. When the models do not work, they know how to debug it, i.e. they are able to diagnose where the problems are in systematically. They are also able to estimate the time for developing machine learning solutions for a specific problem.&lt;/p&gt;
+&lt;h3 id=&#34;level-3-1&#34;&gt;Level 3&lt;/h3&gt;
+&lt;p&gt;They have at least Level 2 basic knowledge of machine learning. Usually, they can write very good codes. Moreover, they can lead hundreads of people to develop giant machine learning solutions for some very difficult problems.&lt;/p&gt;
+&lt;h2 id=&#34;research-of-machine-learning&#34;&gt;Research of Machine Learning&lt;/h2&gt;
+&lt;h3 id=&#34;level-1-2&#34;&gt;Level 1&lt;/h3&gt;
+&lt;p&gt;Sadly, in the deep learning era, they do not even have to get an Level 1 basic knowledge of machine learning. They are able to write some rubbish papers, which may be published in some rubbish journals/conferences :( Their research is useless both for research and application. Their papers are confusing, and the ideas may even be copied from other papers.&lt;/p&gt;
+&lt;h3 id=&#34;level-2-2&#34;&gt;Level 2&lt;/h3&gt;
+&lt;p&gt;Sadly, in the deep learning era, they do not even have to get an Level 1 basic knowledge of machine learning. They are able to write incremental and sometimes not so incremental papers and may get them published in top conferences/journals. However, their research is usually useless both for reasearch and application, and the research is even irreproducible. The writing of their papers are not bad, though.&lt;/p&gt;
+&lt;h3 id=&#34;level-3-2&#34;&gt;Level 3&lt;/h3&gt;
+&lt;p&gt;They have at least Level 1 basic knowledge of machine learning. The ideas of their paper make sense. They are able to get their papers published in top conferences/journals frequently. However, their research is usually useless both for research and application, but the research is even reproducible. The writing of their papers are good.&lt;/p&gt;
+&lt;h3 id=&#34;level-4-1&#34;&gt;Level 4&lt;/h3&gt;
+&lt;p&gt;They have at least Level 2 basic knowledge of machine learning. Their papers are sometimes published as oral papers in the top conferences. Their research is sometimes useful both in research and application. Their papers may be cited frequently by the other authors.&lt;/p&gt;
+&lt;h3 id=&#34;level-5&#34;&gt;Level 5&lt;/h3&gt;
+&lt;p&gt;They can make impact and even influence the direction of the research. Their papers are frequently published as oral papers in top conferences, and even best papers sometimes. Many professors in top-tier universities are in this level.&lt;/p&gt;
+&lt;h3 id=&#34;level-6&#34;&gt;Level 6&lt;/h3&gt;
+&lt;p&gt;They can propose some paradigms that are very popular for a considerable time in their area. Some professors in top-tier universities are in this level.&lt;/p&gt;
+&lt;h3 id=&#34;level-7&#34;&gt;Level 7&lt;/h3&gt;
+&lt;p&gt;They are able to create some areas.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>写作的7C法则</title>
