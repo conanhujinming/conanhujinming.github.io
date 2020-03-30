@@ -5,12 +5,24 @@
     <link>https://conanhujinming.github.io/post/</link>
       <atom:link href="https://conanhujinming.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 28 Mar 2020 19:12:37 +0800</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 30 Mar 2020 19:42:11 +0800</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Posts</title>
       <link>https://conanhujinming.github.io/post/</link>
     </image>
+    
+    <item>
+      <title>硕士毕业感言</title>
+      <link>https://conanhujinming.github.io/post/master_graduate_thoughts/</link>
+      <pubDate>Mon, 30 Mar 2020 19:42:11 +0800</pubDate>
+      <guid>https://conanhujinming.github.io/post/master_graduate_thoughts/</guid>
+      <description>&lt;p&gt;今天是硕士毕业的日子，长达接近二十年的求学生涯终于要暂时告一段落了。在疫情的影响下，这次的毕业没有任何毕业应该有的气息：没有笨拙的硕士服硕士帽，没有拍这拍那的毕业照，没有枯燥但又颇有意义的毕业典礼，也没有朋友们的依依惜别。本科毕业的时候，一位朋友告诉我说：“离别的时候要用力、再用力一点，因为再次相见往往比你想象中要长，这就是我们离别的意义。”当时我听了她的建议，很认真地与朋友们做了道别之后，踏上了回到杭州的火车，开启了一段新的旅程。然而这次的离别却来得出乎意料，大家都还没做好离别的准备，离别就这样在沉闷的疫情氛围下悄悄而至。原以为只是普通的相见竟成为了毕业前最后的匆匆一面，从此再难见到各自不戴口罩的面容。&lt;/p&gt;
+&lt;p&gt;回顾自己的硕士生涯，可以说这是一段跌宕起伏、难以置信的旅程。在这期间我经历了许多颇有些匪夷所思的事情，回顾起来竟还有些不真实感。我经历了多次研究方向的转变，从本科的航天开始转成了CS，然后依次做了爬虫、SR、知识图谱、人脸识别、多标签分类、OCR和前端，而最后却又出乎很多人意料地选择了金融行业的系统开发。这样的多次转变，即使是我自己看来都觉得有些任性妄为。但是这或许就是年轻的好处：只要足够勇敢，年轻的时候总是有做选择的资本的。除了研究方向的变化以外，我也多次在research和工程之间来回切换，最后自然是一事无成。不过要谈起硕士阶段的收获，我想最大的收获应该有两点。第一，我自己的成长。这个成长不仅仅是CS技术本身的进步，还包括了自己学习的方法、思维的习惯、交流沟通的能力、解决问题的能力等，更包括了自己性格上的成长以及对自己人生追求的思考，我想这些成长毫无疑问会是自己一生中宝贵的财富。第二，认识到了许多志同道合的朋友和让我尊敬的师长。非常非常感谢我的导师蔡登老师多年来对我的支持与帮助、指导与栽培，无奈自己愚笨且懒惰，未能达到蔡老师水平的万一。也非常非常幸运地遇到诸多朋友，大家一直不嫌弃我的恶劣性格与糟糕的技术水平，在生活上和学业上都给了我巨大的帮助。可以说，当我回首硕士往事时，我认为我不因虚度年华而悔恨，也不因碌碌无为而羞愧。&lt;/p&gt;
+&lt;p&gt;接下来就要开启一段全新的、甚至是比求学生涯更加长久的旅程。New adventures of Jinming! 想想就让人心潮澎湃。不知道这又会是怎样的一段旅程呢？&lt;/p&gt;
+&lt;p&gt;光阴似流水，不一会，课毕放学归。问君此去几时来，来时莫徘徊。各位，少年强则国强。将来治国平天下，全靠吾辈。大家努力啊，同学们，明天再会。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>机器学习分级</title>
