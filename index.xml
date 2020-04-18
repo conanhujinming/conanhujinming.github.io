@@ -5,12 +5,52 @@
     <link>https://conanhujinming.github.io/</link>
       <atom:link href="https://conanhujinming.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Jinming Hu</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 16 Apr 2020 09:07:17 +0800</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 18 Apr 2020 08:11:09 +0800</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Jinming Hu</title>
       <link>https://conanhujinming.github.io/</link>
     </image>
+    
+    <item>
+      <title>在Optiver工作的第一周</title>
+      <link>https://conanhujinming.github.io/post/first_week_in_optiver/</link>
+      <pubDate>Sat, 18 Apr 2020 08:11:09 +0800</pubDate>
+      <guid>https://conanhujinming.github.io/post/first_week_in_optiver/</guid>
+      <description>&lt;p&gt;千呼万唤始出来，我终于在这周一入职了Optiver上海。由于疫情的缘故，这次的入职有些特殊，我全程是在家中完成的远程入职。幸好同事们早已将我的入职事项安排妥当，全程没有碰到什么问题，很顺利地加入了公司。练习时长两年半的硕士练习生就此开始了自己的职场之路。&lt;/p&gt;
+&lt;p&gt;纸上得来终觉浅，绝知此事要躬行。之前虽与HR小姐姐们、学长学姐们、leader们和CTO都有过一些交流，对在这里工作的情况心中大致有一些猜测，但这种猜测与认识终究比不上直接在公司工作来得准确、真实、高效。成为社会人一周后，我已然对在这里工作的体验有了一个初步的认识。这篇小文章就简单讲讲在这里工作的体验。&lt;/p&gt;
+&lt;h2 id=&#34;advantage&#34;&gt;Advantage&lt;/h2&gt;
+&lt;p&gt;首先想谈谈我认为在这里工作的优点。&lt;/p&gt;
+&lt;h3 id=&#34;针对新人的超细致培养&#34;&gt;针对新人的超细致培养&lt;/h3&gt;
+&lt;p&gt;作为一个新人，我被组织对培养我的细致计划和帮助所震惊。在入职的第一天，我的leader和上海office的CTO都与我进行了一次One One Meeting（即一对一的交流，简称1:1），和我交流了他们为我所设计的培养计划。许多互联网公司迫切、甚至有些急功近利地要求新人要迅速上手、马上搬砖，而这里则很不一样：团队会为新人一个为期半年的培养计划，而在此期间，新人的KPI就是自己的学习成果。我猜测这可能是因为公司新人的离职率非常低（实际上，上海Office这边历史上的所有应届生现在都还在公司），因此公司可以放心地用这么长的一段时间去做耐心的培养，并认为in the long run，这是值得的。培养计划的组成大约是这样的：贯穿培养计划的大量training program，开始相对简单但能形成对系统全局认识的小项目，逐渐增加难度的项目，并最终达到合格水平的完整项目。可以看到，这样的培养计划耐心而科学，相信半年后我会有很大的成长。&lt;/p&gt;
+&lt;p&gt;除了培养计划以外，我们Team还为我安排了一位buddy带我，而她就是之前我在另一个帖子里提到的S学姐。人生真是神奇，我因为S学姐而听说并投递了Optiver，并因为她和另一位学长的建议选择了Optiver，最后我进入了同一个Team，带我的人也是S学姐。学姐实力强而又人美心善，为了确保我碰到的问题都能解决，每天都会与我1:1一次，时间常常长达半小时甚至一小时；除此以外，学姐还给我设计了一些training program帮助我了解公司的系统设计，所以学姐几乎有25%的工作时间是用来带我的，太感动了&amp;gt;_&amp;lt;。除了自己Team的buddy外，公司还为我安排了一位来自MIT的trader小哥，帮助我融入公司的文化。小哥也是一位快人快语的好buddy，给了我很多帮助~&lt;/p&gt;
+&lt;p&gt;除此以外，公司还有大量的其他training program帮助我们去了解其他team做的是什么样的事情，以形成对系统的全局认识，并帮助以后的交流沟通等等&amp;gt;_&amp;lt; training之多，以至于我第一周基本上不是在training，就是在前往training的路上~&lt;/p&gt;
+&lt;h3 id=&#34;超鼓励challenge&#34;&gt;超鼓励challenge&lt;/h3&gt;
+&lt;p&gt;公司非常鼓励任何人去challenge任何事情，只要这个challenge是有道理的。实际上，我从我的硕士导师蔡登老师学到的非常重要的一点就是”take nothing for granted, challenge everything that doesn&amp;rsquo;t make sense to you&amp;rdquo;。这样的challenge使得我能够以一种很主动的方式去学习、了解，并常常能较为扎实地掌握一些知识。但是我之前时常担心这样的做法在企业中是难以适用的：很多公司都有明显的上下级之分，甚至是尊卑有别；如果天天challenge自己的同事或者领导，也许会让人觉得没有面子，最后让我自己丢了饭碗。好在这样的concern在Optiver是不存在的，公司从上到下都欢迎大家去challenge已有的事情。因此，我在参加各种training program的时候也是疯狂提问、疯狂challenge，常常生生把计划1小时的training问成了1小时半以上&amp;gt;_&amp;lt; 也幸亏有这样的challenge，才让愚笨的我对各种知识掌握得扎实了一些。而这样的challenge对于被challenge者也是有好处的，我们一起讨论了一些已有系统中存在的问题，并提出了一些未来改进的设想。&lt;/p&gt;
+&lt;h3 id=&#34;工作氛围超棒&#34;&gt;工作氛围超棒&lt;/h3&gt;
+&lt;p&gt;这里有着超棒的工作氛围。同事们都超级nice，也非常照顾我。举个简单的例子，同事们对我的challenge从不生气，而是非常耐心地给予解答。为了保证公司的工作氛围，公司还要求每位入职的同事都参加几个课程的学习，警告大家千万不能欺凌(bully)他人、骚扰(harass)他人、歧视(discriminate)他人等等，&amp;ldquo;Optiver has no tolerance for such stuff&amp;rdquo;；也告诉大家如果碰到这种情况，可以迅速告诉相应的管理人员，公司一定会给出合适的处理。而说实话，欺凌、骚扰、歧视这种事情在一些国内的互联网企业真的是非常常见，比如我就有一位女性朋友之前在某大厂工作，她的两位男同事（他们组大概也就10个人吧）在知道她有对象的情况下还去骚扰她&amp;hellip;&amp;hellip;&lt;/p&gt;
+&lt;p&gt;另外很有意思的一点是，公司对歧视的定义会更加严格而广泛一些。例如，公司认为&lt;strong&gt;要求员工每天工作8小时以上就是一种歧视&lt;/strong&gt;，因为这显然是忽略了追求家庭与个人生活的同事的感受。还有一个有意思的例子是，我在第一天入职的时候开了很长很长时间的会，开到最后我精疲力竭。最后一场会是与HR小姐姐开的，HR问我入职体验如何，我说挺棒的，就是会太多了，有点扛不住。HR立刻说看来我们的设计有些问题，下次把这些会分成两天让新入职的同事参加，避免太累了。多么有爱的同事啊！这要是换在某知名大厂，高冷的HR可能会当场让你滚蛋&amp;gt;_&amp;lt;&lt;/p&gt;
+&lt;h3 id=&#34;效率超高&#34;&gt;效率超高&lt;/h3&gt;
+&lt;p&gt;在这里的工作效率非常高。你对公司的任何同事（包括CTO和CEO）有任何问题想问，可以随时发一条消息过去，大家在看到之后都会耐心地回复，必要的时候还会约一个meeting来讲清楚。与许多大厂各种冗长的流程手续不同，Optiver追求扁平而又人性化的管理。举个例子，今年因为疫情，浙大这边的同学现在都没能拿到纸质的毕业证和学位证，而很多大厂就硬性规定这种情况下不能入职；Optiver就不一样，只需要我提供学校能提供的电子证明即可，特殊时期特殊对待。&lt;/p&gt;
+&lt;p&gt;让我对公司效率感触最深的还是另一件事情。公司现在有很多同事在做一些机器学习ML相关的工作。周四我与学姐1:1的时候讨论了一些ML方面的事情，得知其实公司里参与这块工作的一些同事对这ML其实不算很熟悉。周五早上的时候我突然想到，我可以在公司内部开一个ML课程，讲一些fundamental的知识和一些best practice。这个想法让我激动得睡不着觉。起床之后我先后和学姐、我的leader、其他几位ML相关的同事以及CTO都进行了沟通，大家都非常支持我的想法，于是这件事情就这么定了下来&amp;gt;_&amp;lt; 这要换在其他公司，就算能定下来，也至少有个长达不知道多久的过程。&lt;/p&gt;
+&lt;h3 id=&#34;福利超棒&#34;&gt;福利超棒&lt;/h3&gt;
+&lt;p&gt;公司有超棒的福利。例如：超高额度的商业保险、远超国内互联网大厂的各种假期、免费的上海几十家连锁的大型健身房会员、每周一次的massage等等。现在我们都疫情在家work from home，公司还提供了每天150的饿了么餐补&amp;gt;_&amp;lt; 至于工资待遇，那自然也是超一流，所有萌新的package都会高过互联网的ssp（例如阿里A+）。&lt;/p&gt;
+&lt;h3 id=&#34;工作内容超核心&#34;&gt;工作内容超核心&lt;/h3&gt;
+&lt;p&gt;与一些大厂“面试造火箭、进去拧螺丝”的常见现象不同，Optiver这边是“面试造火箭、进去造火箭”。我们的团队小而精，每个人都是要独当一面，开发最核心而又有趣的系统并很快上线使用。&lt;/p&gt;
+&lt;h3 id=&#34;对中国市场超负责&#34;&gt;对中国市场超负责&lt;/h3&gt;
+&lt;p&gt;有些同学可能会认为高频交易的目的就是割韭菜、从市场上狂捞钱，但其实不是这样的。Optiver作为做市商，其一大目的是提供市场上的流动性(liquidity)，来改进市场的现状，而这也正是我们的使命(mission): To improve the market。例如某公司可能急需市场上的某种期货，为此不惜以更高的价格去购买，但是市场上此时却没有人愿意买，那这家公司会就此被卡住，影响后续操作，最后影响中国的金融市场。而Optiver所做的事情就是在这个时候提供期货给这家公司，取得一个买方赢、卖方赢、中国市场赢的三赢结果。除此以外，我们也要求做交易的时候一定要考虑到中国市场的发展，尤其是长期发展，而不是短视地做一些不合规的、对市场有害的事情。这对我们来说也是很重要的，我们当然想赚钱，但是希望能以一种sustainable的方式，与中国市场一起发展壮大，互利共赢。&lt;/p&gt;
+&lt;h3 id=&#34;工作生活超平衡&#34;&gt;工作生活超平衡&lt;/h3&gt;
+&lt;p&gt;这也就是所谓的work-life balance。许多同事都有自己的家庭与生活，下班之后就会去忙自己的生活去，而公司从不强制员工加班，并鼓励大家去追求工作生活的平衡。换言之，我们不认为996或995是一种福报。我们当然也不认为一周40小时的工作制是一种福报：这是理所当然的事情。这样的理所当然，在国内的大环境下显得如此珍贵。当然了，一些同事如果非常喜欢工作，也可以自行加班，但是这个选择权是握在大家自己手上的。&lt;/p&gt;
+&lt;p&gt;&amp;hellip;&amp;hellip;公司的优点太多了，一时也说不完，这里就暂时只列这些吧。下面自然是要列一些公司的缺点啦，希望公司的同事们不要打我&amp;gt;_&amp;lt; 由于我观察到的缺点不多，这里就简单列举下吧~&lt;/p&gt;
+&lt;h2 id=&#34;disadvantage&#34;&gt;Disadvantage&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;餐补太高，导致我每天吃得很多很好，甚至不得已每天点几杯奶茶才能把餐补花完&amp;hellip;.感觉不是很健康&amp;gt;_&amp;lt;&lt;/li&gt;
+&lt;li&gt;公司的发展太快，我个人感觉设计的系统方面还存在一些问题。不过这也是理所当然的，如果没有问题，那还需要我们干嘛？另一方面，公司存在的这些不完善的现象也是需要我们这些员工一起去改进的。Grow with Optiver. 正如同中国的金融市场也存在很多问题一样，We grow with the Chinese market.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;最后&#34;&gt;最后&lt;/h2&gt;
+&lt;p&gt;一言以蔽之，我认为Optiver上海是结合了startup与大公司的优点的一个地方。我很荣幸自己能有这样的机会在这里与工作，与各位同事共事~也请各位同事多多关照我这个弱鸡萌新~&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>关于Boosting算法的一点思考</title>
