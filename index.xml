@@ -5,12 +5,153 @@
     <link>https://conanhujinming.github.io/</link>
       <atom:link href="https://conanhujinming.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Jinming Hu</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 16 Apr 2020 09:07:17 +0800</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 19 Apr 2020 21:36:51 +0800</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Jinming Hu</title>
       <link>https://conanhujinming.github.io/</link>
     </image>
+    
+    <item>
+      <title>Machine Learning in Practice Crash Course</title>
+      <link>https://conanhujinming.github.io/post/ml_in_practice_crash_course/</link>
+      <pubDate>Sun, 19 Apr 2020 21:36:51 +0800</pubDate>
+      <guid>https://conanhujinming.github.io/post/ml_in_practice_crash_course/</guid>
+      <description>&lt;h2 id=&#34;what-is-this-course-about&#34;&gt;What is This Course About?&lt;/h2&gt;
+&lt;p&gt;There are tons of good machine learning courses in the web. So why bother taking this course? The reason is that this course focuses on different parts from other courses. Specifically, this course is about the fundamental knowledge of machine learning; the insights of different algorithms; best practices in applications. On the other hand, we will not pay much attention to the theoretical part of machine learning; instead, we provide some resources such as links to other courses or chapters of textbooks for interested readers.&lt;/p&gt;
+&lt;h2 id=&#34;textbook&#34;&gt;Textbook&lt;/h2&gt;
+&lt;p&gt;There are books for interested readers.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;[PC]&lt;/strong&gt; &lt;em&gt;Pattern Classification (2nd Edition)&lt;/em&gt;, by Richard O. Duda, Peter E. Hart, and David G. Stork, Wiley-Interscience, 2000.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[PRML]&lt;/strong&gt;  &lt;em&gt;Pattern Recognition and Machine Learning&lt;/em&gt;, by Christopher M. Bishop, Springer 2006.&lt;/li&gt;
+&lt;li&gt;[&lt;strong&gt;ESLII&lt;/strong&gt;] &lt;em&gt;The Elements of Statistical Learning: Data Mining, Inference, and Prediction (2nd ed.)&lt;/em&gt;, by T. Hastie, R. Tibshirani &amp;amp; J. Friedman, Springer 2009.&lt;/li&gt;
+&lt;li&gt;[&lt;strong&gt;MLAPP&lt;/strong&gt;] &lt;em&gt;Machine Learning: A Probabilistic Perspective&lt;/em&gt;, by Kevin Murphy, The MIT Press, 2012.&lt;/li&gt;
+&lt;li&gt;Supplementary readings will be available online.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;schedule&#34;&gt;Schedule&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Week&lt;/th&gt;
+&lt;th&gt;Time&lt;/th&gt;
+&lt;th&gt;Topic&lt;/th&gt;
+&lt;th&gt;Download&lt;/th&gt;
+&lt;th&gt;Reading&lt;/th&gt;
+&lt;th&gt;Lecturer&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;4/25 Sat.&lt;/td&gt;
+&lt;td&gt;Course Overview &amp;amp; Introduction&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;[PC] 1; [ESL] 1&amp;amp;2; [PRML] 1&lt;/td&gt;
+&lt;td&gt;Conan Hu&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;5/2 Sat.&lt;/td&gt;
+&lt;td&gt;ML Problem Reframing &amp;amp; Metrics&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;a href=&#34;https://developers.google.com/machine-learning/problem-framing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Course&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Conan Hu&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;5/9 Sat.&lt;/td&gt;
+&lt;td&gt;Linear Regression Methods &amp;amp; Bias-Variance &amp;amp; Overfitting&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Conan Hu&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;5/16 Sat.&lt;/td&gt;
+&lt;td&gt;Linear Classifcation Methods&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;[ESL] 4.5.1, 12; [PRML] 4.1.7, 7&lt;/td&gt;
+&lt;td&gt;Conan Hu&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;5/23 Sat.&lt;/td&gt;
+&lt;td&gt;kNN &amp;amp; Decision Tree&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;[PC] 5.1~5.5&lt;/td&gt;
+&lt;td&gt;Conan Hu&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;td&gt;5/30 Sat.&lt;/td&gt;
+&lt;td&gt;Ensemble Methods&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Conan Hu&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;7&lt;/td&gt;
+&lt;td&gt;6/6 Sat.&lt;/td&gt;
+&lt;td&gt;Clustering &amp;amp; Dimension Reduction &amp;amp; Visualization&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Conan Hu&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;8&lt;/td&gt;
+&lt;td&gt;6/13 Sat.&lt;/td&gt;
+&lt;td&gt;Neural Networks &amp;amp; Deep Learning&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;a href=&#34;cs231n.stanford.edu&#34;&gt;CS231N&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Conan Hu&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;9&lt;/td&gt;
+&lt;td&gt;6/20 Sat.&lt;/td&gt;
+&lt;td&gt;Frequent Pattern&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Conan Hu&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;10&lt;/td&gt;
+&lt;td&gt;6/27 Sat.&lt;/td&gt;
+&lt;td&gt;ML in Practice: Tools &amp;amp; Data &amp;amp; Feature Engineering&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;a href=&#34;https://developers.google.com/machine-learning/data-prep&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Course&lt;/a&gt;  
+&lt;a href=&#34;http://cs229.stanford.edu/materials/ML-advice.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ML Advice&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Conan Hu&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;where-to-go&#34;&gt;Where to Go?&lt;/h2&gt;
+&lt;p&gt;Here we list some recommended courses for deeply learning. Remember, if you want to gain a deep understanding, you should finish the assignments.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://www.coursera.org/learn/machine-learning&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Coursera Machine Learning&lt;/a&gt;: An introductory given by Andrew NG. We suggest starting from here.&lt;/p&gt;
+&lt;p&gt;Pick one from the following two:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://cs229.stanford.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Stanford CS229 Machine Learing&lt;/a&gt;: There are videos in Youtube and 
+&lt;a href=&#34;https://www.bilibili.com/video/BV16J411t71N?from=search&amp;amp;seid=14263588844851175178&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bilibili (2018 version)&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://www.cs.cmu.edu/~mgormley/courses/10701-f16/schedule.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CMU 15-701 Intro to ML&lt;/a&gt;：There are videos in Youtube (2016 version).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;As the homework of the above three courses either based on MATLAB or do not cover much in coding part. Here we suggest the assignments of 
+&lt;a href=&#34;http://dengcai.zjulearning.org.cn/Courses/ml/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;our course in Zhejiang University&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;For the most popular deep learning, I recommend the following courses:&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;http://cs231n.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Stanford CS231n&lt;/a&gt;：Deep learning for CV. We suggest starting from here for deep learning.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;http://web.stanford.edu/class/cs224n/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Stanford CS224n&lt;/a&gt;：Deep learning for NLP.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;http://rll.berkeley.edu/deeprlcourse/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Berkeley CS285&lt;/a&gt;：Deep Reinforcement Learning.&lt;/p&gt;
+&lt;h2 id=&#34;last-word&#34;&gt;Last Word&lt;/h2&gt;
+&lt;p&gt;Welcome to give us any feedback or suggestion. We are eager to hear any of them. Also, welcome to suggest topics that you would like us to cover!&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>关于Boosting算法的一点思考</title>
