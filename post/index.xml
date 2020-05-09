@@ -5,12 +5,26 @@
     <link>https://conanhujinming.github.io/post/</link>
       <atom:link href="https://conanhujinming.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 18 Apr 2020 08:11:09 +0800</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 09 May 2020 21:08:56 +0800</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Posts</title>
       <link>https://conanhujinming.github.io/post/</link>
     </image>
+    
+    <item>
+      <title>6.NULL：恨不相逢“未嫁时”</title>
+      <link>https://conanhujinming.github.io/post/missing_semester/</link>
+      <pubDate>Sat, 09 May 2020 21:08:56 +0800</pubDate>
+      <guid>https://conanhujinming.github.io/post/missing_semester/</guid>
+      <description>&lt;p&gt;几个月前就开始看MIT的这门课程：
+&lt;a href=&#34;https://missing.csail.mit.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;6.NULL: The Missing Semester of Your CS Education&lt;/a&gt; 。后来因为开始工作了比较忙，自己又懒，一直拖到昨天才把这门课看完。看完之后，赶紧抽空写了这篇小文章来介绍这门课程。&lt;strong&gt;实话实说，看了这门课程，我现在就是后悔，十分后悔：后悔自己没有早看到这门课程&lt;/strong&gt;。我甚至认为这门课程非常适合作为多数学CS的同学的第二门CS课程，即在上了一门CS导论课程之后就学这门课程。下面斗胆简单介绍一下这门课程。&lt;/p&gt;
+&lt;p&gt;首先，这是一门出发点颇为有趣的课程：其他的CS课程往往会介绍一些更为“高级”或“理论”的内容，例如操作系统、数据库原理、机器学习深度学习等等，然而却几乎没有课程介绍一些极为“实用”的知识，即如何使用一些好用（能大大提高生产力）的工具，如terminal、编辑器editor、tmux、profiler、数据处理工具(如awk, sed, grep, perl）等等。而作为学生，大家（至少我）要么是靠同学、师长、同事推荐听说到这些工具，然后靠网上一些质量未必很高的tutorial去自学；要么是靠缘分去碰到这些工具；有的时候运气好点，会自己调研到好用的工具并学习。但总而言之，因为缺乏这方面的“系统化”的教育，大家往往需要走很多弯路才会培养出一个比较完善的武器库。更重要的是，当武器库中缺少某种武器的时候，我们甚至会认为碰到的某个任务是无法完成的，而这个任务实际上可以用针对它的“恐龙克星”轻松搞定。而6.NULL这门课的作用，就是教你一些常用且好用的武器，让它们成为你武器库中的一部分。&lt;/p&gt;
+&lt;p&gt;其次，这门课对各种工具的介绍相对简洁，并没有非常深入地介绍各个工具。具体地说，由于课程时间有限，课程上主要是告诉你这些工具是做什么的、能实现什么样的事情，并给了一些简单的使用示例，而如果你想要去深入地了解这些工具，课程的notes则提供了一些资料供你阅读。在我看来，这样的教学方式是十分合适的，能够在相对有限的课堂时间内尽量多地介绍一些有用的工具。而也许对很多人来说，对这些工具的使用场景有一个初步的印象就已经足够。这之后碰到需要用这些工具的问题时，之前留下的印象便能够让你反应过来“奥这里是不是用之前看到的xx工具就可以搞定啊”，然后去找寻工具的文档、教程来现学现用，这种learn by doing的学习效果往往也是最好的。当然了，课程同样提供了一些简单的习题来帮助你学习这些工具。&lt;/p&gt;
+&lt;p&gt;再者，我非常认可几位instructor的观点：作为一位程序员，我们也许会花几百甚至几千小时在terminal、 editor等常用工具的使用上，因此花几个小时或者几十个小时去熟练掌握这些工具的使用是极其有价值的。如果你是一位刚开始CS学习历程不久的同学，那么我强烈建议你过一遍这门课程，这并不会需要很多时间（也许20、30个小时？）。而即便你已经有了一些CS方面的经验，我也强烈推荐扫一眼课程网站上的内容介绍，如果有哪块自己不是很熟悉的，可以快速地过一下，说不定就会有收获呢？&lt;/p&gt;
+&lt;p&gt;最后，b站上也有搬运的课程视频，不需要科学上网也可以轻松观看，大家可以自行搜索~ 同时在这里也表达一下对Youtube自动生成字幕的强大的震惊，要不是有自动生成的字幕，我实在是听不懂某位instructor的英语Orz 深度学习真的很强大Orz&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>在Optiver工作的第一周</title>
