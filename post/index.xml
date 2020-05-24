@@ -301,8 +301,9 @@
 &lt;tr&gt;
 &lt;td&gt;3&lt;/td&gt;
 &lt;td&gt;5/24 Sun.&lt;/td&gt;
-&lt;td&gt;Bayesian Decision Rule &amp;amp; Naive Bayes Classifier&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Bayesian Decision Rule&lt;/td&gt;
+&lt;td&gt;
+&lt;a href=&#34;https://www.bilibili.com/video/BV1Rg4y1B7X8/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Lec3&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;
 &lt;a href=&#34;https://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Domingos&amp;rsquo;s excellent paper&lt;/a&gt;; [PC] 2&lt;/td&gt;
 &lt;td&gt;Conan Hu&lt;/td&gt;
@@ -310,7 +311,7 @@
 &lt;tr&gt;
 &lt;td&gt;4&lt;/td&gt;
 &lt;td&gt;TBD&lt;/td&gt;
-&lt;td&gt;Linear Regression Methods &amp;amp; Bias-Variance &amp;amp; Overfitting&lt;/td&gt;
+&lt;td&gt;Naive Bayes &amp;amp; Linear Regression Methods &amp;amp; Bias-Variance &amp;amp; Overfitting&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;Conan Hu&lt;/td&gt;
