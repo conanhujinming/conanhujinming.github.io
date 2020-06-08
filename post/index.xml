@@ -310,16 +310,16 @@
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;4&lt;/td&gt;
-&lt;td&gt;TBD&lt;/td&gt;
-&lt;td&gt;Naive Bayes &amp;amp; Linear Regression Methods &amp;amp; Bias-Variance &amp;amp; Overfitting&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;5/31 Sun.&lt;/td&gt;
+&lt;td&gt;Naive Bayes &amp;amp; Linear Regression Methods&lt;/td&gt;
+&lt;td&gt;None&lt;/td&gt;
+&lt;td&gt;[PC] 3&lt;/td&gt;
 &lt;td&gt;Conan Hu&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;5&lt;/td&gt;
 &lt;td&gt;TBD&lt;/td&gt;
-&lt;td&gt;Linear Classifcation Methods&lt;/td&gt;
+&lt;td&gt;Bias-Variance &amp;amp; Overfitting&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;[ESL] 4.5.1, 12; [PRML] 4.1.7, 7&lt;/td&gt;
 &lt;td&gt;Conan Hu&lt;/td&gt;
@@ -327,13 +327,21 @@
 &lt;tr&gt;
 &lt;td&gt;6&lt;/td&gt;
 &lt;td&gt;TBD&lt;/td&gt;
+&lt;td&gt;Linear Classification Methods&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;[ESL] 4.5.1, 12; [PRML] 4.1.7, 7&lt;/td&gt;
+&lt;td&gt;Conan Hu&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;7&lt;/td&gt;
+&lt;td&gt;TBD&lt;/td&gt;
 &lt;td&gt;kNN &amp;amp; Decision Tree&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;[PC] 5.1~5.5&lt;/td&gt;
 &lt;td&gt;Conan Hu&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;7&lt;/td&gt;
+&lt;td&gt;8&lt;/td&gt;
 &lt;td&gt;TBD&lt;/td&gt;
 &lt;td&gt;Ensemble Methods&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
@@ -341,7 +349,7 @@
 &lt;td&gt;Conan Hu&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;8&lt;/td&gt;
+&lt;td&gt;9&lt;/td&gt;
 &lt;td&gt;TBD&lt;/td&gt;
 &lt;td&gt;Clustering &amp;amp; Dimension Reduction &amp;amp; Visualization&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
@@ -349,7 +357,7 @@
 &lt;td&gt;Conan Hu&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;9&lt;/td&gt;
+&lt;td&gt;10&lt;/td&gt;
 &lt;td&gt;TBD&lt;/td&gt;
 &lt;td&gt;Neural Networks &amp;amp; Deep Learning&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
@@ -358,7 +366,7 @@
 &lt;td&gt;Conan Hu&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;10&lt;/td&gt;
+&lt;td&gt;11&lt;/td&gt;
 &lt;td&gt;TBD&lt;/td&gt;
 &lt;td&gt;Frequent Pattern &amp;amp; ML in Practice&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
@@ -366,7 +374,7 @@
 &lt;td&gt;Conan Hu&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;11&lt;/td&gt;
+&lt;td&gt;12&lt;/td&gt;
 &lt;td&gt;TBD&lt;/td&gt;
 &lt;td&gt;ML in Practice: Tools &amp;amp; Data &amp;amp; Feature Engineering&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
@@ -387,7 +395,7 @@
 &lt;a href=&#34;http://cs229.stanford.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Stanford CS229 Machine Learing&lt;/a&gt;: There are videos in Youtube and 
 &lt;a href=&#34;https://www.bilibili.com/video/BV16J411t71N?from=search&amp;amp;seid=14263588844851175178&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bilibili (2018 version)&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://www.cs.cmu.edu/~mgormley/courses/10701-f16/schedule.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CMU 15-701 Intro to ML&lt;/a&gt;：There are videos in Youtube (2016 version).&lt;/li&gt;
+&lt;a href=&#34;http://www.cs.cmu.edu/~mgormley/courses/10701-f16/schedule.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CMU 10-701 Intro to ML&lt;/a&gt;：There are videos in Youtube (2016 version).&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;As the homework of the above three courses either based on MATLAB or do not cover much in coding part. Here we suggest the assignments of 
 &lt;a href=&#34;http://dengcai.zjulearning.org.cn/Courses/ml/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;our course in Zhejiang University&lt;/a&gt;.&lt;/p&gt;
