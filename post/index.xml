@@ -5,12 +5,38 @@
     <link>https://conanhujinming.github.io/post/</link>
       <atom:link href="https://conanhujinming.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 22 May 2020 17:39:23 +0800</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 05 Jul 2020 11:23:53 +0800</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Posts</title>
       <link>https://conanhujinming.github.io/post/</link>
     </image>
+    
+    <item>
+      <title>MHRD: From NAND to CPU</title>
+      <link>https://conanhujinming.github.io/post/mhrd/</link>
+      <pubDate>Sun, 05 Jul 2020 11:23:53 +0800</pubDate>
+      <guid>https://conanhujinming.github.io/post/mhrd/</guid>
+      <description>&lt;p&gt;几天前下班回家的时候心血来潮，想玩玩单机游戏，但又不知道该玩什么，就问朋友们有没有推荐的游戏。室友 
+立马给我推荐了这款游戏MHRD，说我玩了之后肯定会爱不释手，一玩到底。我问他这游戏是玩啥的，他只是神秘一笑，说玩了就知道了。我对于他的提议向来是言听计从，就装了steam买了这款游戏，怀着好奇的心情打开了它。&lt;/p&gt;
+&lt;p&gt;刚打开这个游戏，我就从画面和声音中意识到事情并不简单。游戏的开机画面是一个黑底白字的画面。开始之后，首先跳出来的是“microhard is booting”，随后是ROM的加载提示，与之相伴的是软盘加载的次扎次扎的声音，与夸张的风扇转动声：我眼前仿佛跳出了一台来自上世纪70年代的庞大的机器怪兽。“这什么玩意儿？”我错愕道。随后，游戏加载完成，并提示我是microhard公司的一位工程师，现在公司正计划开发一个名为cpu的组件，公司相信cpu会成为一个具有划时代意义的重要发明。不过目前公司手头上只有一些能模拟NAND电路的基本组件，所以公司需要我从NAND开始，一步一步搭建出AND, NOT, XOR等其他基本组件，再逐渐完成Mux, Demux, PC, RAM, ALU, Decoder等其他更高阶的组件，直至最后完成CPU的开发。&lt;/p&gt;
+&lt;p&gt;“我这是玩游戏还是上课呢？”我向室友抱怨。室友嘿嘿一笑，说：“你这种跨专业的人应该好好补一补这些基础知识。我想来想去，感觉也没有比这个游戏更合适更有趣的方式了。不要慌，不懂就问我。”由于已经掏了钱上了贼船，本来只想好吃懒做玩点游戏打发时间的我只好硬着头皮继续玩了下去。&lt;/p&gt;
+&lt;p&gt;想不到游戏设计得非常合理有趣，点一下，玩几天，玩得根本停不下来。我按照游戏的指示一步一步走下去，竟然相对顺利地一路过关斩将，甚至直捣黄龙，将最终Boss Decoder和CPU一剑斩于马下。虽然中间有一些组件的设计让我抓耳挠腮、苦思冥想，但经过仔细思考之后还是成功给出了可行的设计方案。每次成功完成一个组件的设计，都会产生不小的成就感。而经过了这一趟精心设计的旅程，也的的确确让我对计算机的底层实现有了更深的理解。&lt;/p&gt;
+&lt;p&gt;值得一提的有几件事情：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;每个组件的实现方式是不唯一的，有的实现方式需要的NAND数量多一些，另一些则需要得更少一些。只是给出一个可行方案，和给出最优方案的难度差距是很大的。我虽然已经通关了游戏，但很多组件都不是最优的方案，之后还得再去研究改进。针对每个组件，游戏会告诉你，你的好友中最优的方案用了多少NAND，以及世界上所有玩家最优的方案用了多少NAND。需要注意的是，世界的最优方案的NAND数量很多时候没有参考意义，因为他们是面向test case编程的。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;有一些组件的设计工作量巨大但又比较枯燥，于是microhard公司雇了个实习生来搞定这些。看到这里的时候我不禁笑出了声：这也太真实了。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;个人认为最后Decoder的test case是有一点问题的，玩游戏的小伙伴到时候可以留意一下。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;最后想说，寓教于乐，让学习充满趣味又能确确实实地掌握到有用的知识，这在我看来无疑是教学中的最高境界之一。非常期待游戏制作商号称会出的续作，猜测可能是写流水线之类的。而我的室友也笑眯眯地凑过来给我推荐下一个“副本”了。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>自学英语的经验分享</title>
