@@ -5,12 +5,35 @@
     <link>https://conanhujinming.github.io/</link>
       <atom:link href="https://conanhujinming.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Jinming Hu</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 05 Jul 2020 11:23:53 +0800</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 09 Aug 2020 08:48:37 +0800</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Jinming Hu</title>
       <link>https://conanhujinming.github.io/</link>
     </image>
+    
+    <item>
+      <title>CS144: 什么，你学不会TCP？那就来自己写一个吧！</title>
+      <link>https://conanhujinming.github.io/post/cs144_tcp/</link>
+      <pubDate>Sun, 09 Aug 2020 08:48:37 +0800</pubDate>
+      <guid>https://conanhujinming.github.io/post/cs144_tcp/</guid>
+      <description>&lt;p&gt;计算机网络是CS极为基础和重要的一门课，但却一直是我的心病之一，其原因在于我并没有认真地学习过这门课：我对计网的了解基本局限于考研时拿着某本国内教材死记硬背的那点知识。这么重要的课程，我却掌握得如此不扎实，这一直让我非常惶恐，所以读研之后也一直有一些想法去补一下。但是自己实在是太懒了，且读研期间也几乎没有接触到什么需要用到相关知识的地方，故而就一直像鸵鸟一样，对自己的菜视而不见。然而学习终究是没有捷径可走的，当初欠下的终归是要还的：这不，我现在的工作内容就有很大一部分是需要与网络打交道。求生欲终究还是战胜了自己的懒惰，我这才终于下定决心补一补这部分的知识。&lt;/p&gt;
+&lt;p&gt;如之前的文章所述，我在补这些CS的知识的时候，比较喜欢找一门有视频的名校（通常是四大）课程跟着上一遍。搜了一圈，我发现四大中只有Stanford的
+&lt;a href=&#34;https://cs144.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CS144&lt;/a&gt;是有
+&lt;a href=&#34;https://search.bilibili.com/all?keyword=cs144&amp;amp;from_source=nav_search_new&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;视频&lt;/a&gt;的，虽然这个视频版本是多年前的MOOC版本而非课程录像。除了视频以外，我认为自学课程最重要的一点就是这门课是否有很好的Assignment/Lab。我一看，这CS144的Lab是用C++自己实现一个TCP。就它了！于是就开始了CS144的学习。&lt;/p&gt;
+&lt;p&gt;可能是因不适应两位教授的授课风格，看CS144的视频总是让我犯困（我甚至在某个失眠的夜晚打开了CS144的授课视频，然后成功治好了我的失眠），再加上我之前还是多多少少知道一些计网的皮毛知识，我终于决定不看授课视频而直接上手完成Lab。不得不说，Lab的设计还是非常不错的。前5个Lab从byte_stream开始，一步一步地指导你实现出一个&lt;strong&gt;能真实使用的TCP&lt;/strong&gt;，总得来说有趣而又有用，且难度也不算很大。不过由于我太懒，再加上中间有一段时间非常忙没时间去写，前后拖了一个月才终于完成了前面几个实现TCP的Lab。后面两个Lab涉及到的知识似乎暂时没什么需求，只能说“下次一定”了。&lt;/p&gt;
+&lt;p&gt;夸完了之后，也补充一下我认为CS144 Lab中存在的一些坑点。毕竟这个Lab系列只使用了一届，还不是特别完善，相信之后也会每年根据学生的反馈改进的。坑点大概有以下这些：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;有一些设计的选择细节并没有在PDF里给出，我有的时候需要去看test case才会知道Lab希望怎样去设计。不过也许这些内容在上课的时候会提到。另外这也暴露了自学网课的一个问题：没有TA以及同学可以交流。所以大家自学网课的时候也可以找一些小伙伴一起学，搞一个“虚拟课程”甚至是“虚拟大学”。&lt;/li&gt;
+&lt;li&gt;Lab2和Lab3的test case不够多，导致错误或者是与Lab期望的设计不符的实现也能通过全部的test case。然后在Lab4里，这些问题会全部暴露出来&amp;hellip;&amp;hellip;结果就是在做Lab4的时候完全不能信任自己在Lab2和Lab3里的相应实现，这样也大大增加了debug难度。&lt;/li&gt;
+&lt;li&gt;Lab4里有两个test case即fsm_ack_rst和fsm_ack_rst_relaxed期待的行为是完全相反的。实际上在官方的FAQ页面上给出的状态机是与fsm_ack_rst期待的行为一致，但Lab4默认启用的却是fsm_ack_rst_relaxed&amp;hellip;&amp;hellip;&lt;/li&gt;
+&lt;li&gt;官方提供的VirtualBox Image中的GDB是有bug的，在cmake_build_type=Debug生成的binary上不能正确地打断点。在Lab4之前我还能靠肉眼调试，但是Lab4实在是肉眼调不动了，不得不寻求解决方案。后来问了一位之前也做过这个Lab的清华大佬，他告诉我说他用的是LLDB。我就赶紧换了LLDB，这才能愉快的进行调试。顺带一提，这位大佬在GitHub上有自己
+&lt;a href=&#34;https://github.com/huangrt01/CS-Notes&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;完成这门课程和Lab的笔记&lt;/a&gt;，也是值得参考的Orz 我室友后来也来做这个Lab了，据他说开了-O0之后GDB就能正常工作了，但我自己之前尝试的时候这样还是不能正常工作。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;不过瑕不掩瑜，这门课程的Lab无疑是非常好的材料。扎实地掌握TCP的最好办法也许就是自己去写一个能用的TCP，写完之后对各种细节就会掌握得扎实很多，对背后的设计思想也会有更深的理解。真是眼红美国名校的课程资源啊，也希望国内的高等教育能迎头赶上吧。（如果我去当高校的授课老师，我就和CS144这类课程的授课老师沟通，基本照搬这些名校的授课内容再根据实际情况做一些小改变，简直就是不送包赢）&lt;/p&gt;
+&lt;p&gt;不多废话了，我要去和几位大佬同学商量下一个课程该上啥了。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>MHRD: From NAND to CPU</title>
@@ -34,7 +57,7 @@
 &lt;p&gt;个人认为最后Decoder的test case是有一点问题的，玩游戏的小伙伴到时候可以留意一下。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;最后想说一句，寓教于乐，让学习充满趣味又能确确实实地掌握到有用的知识，这在我看来无疑是教学中的最高境界之一。非常期待游戏制作商号称会出的续作，猜测可能是写流水线之类的。而我的室友也笑眯眯地凑过来给我推荐下一个“副本”了。&lt;/p&gt;
+&lt;p&gt;最后想说，寓教于乐，让学习充满趣味又能确确实实地掌握到有用的知识，这在我看来无疑是教学中的最高境界之一。非常期待游戏制作商号称会出的续作，猜测可能是写流水线之类的。而我的室友也笑眯眯地凑过来给我推荐下一个“副本”了。&lt;/p&gt;
 </description>
     </item>
     

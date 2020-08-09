@@ -28,10 +28,10 @@
   
     
   
-  <meta name="description" content="一款学计算机数字电路的有趣游戏">
+  <meta name="description" content="计算机网络是CS极为基础和重要的一门课，但却一直是我的心病之一，其原因在于我并没有认真地学习过这门课：我对计网的了解基本局限于考研时拿着某本">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://conanhujinming.github.io/post/mhrd/">
+  <link rel="alternate" hreflang="en-us" href="https://conanhujinming.github.io/post/cs144_tcp/">
 
   
 
@@ -218,7 +218,7 @@
   <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="https://conanhujinming.github.io/post/mhrd/">
+  <link rel="canonical" href="https://conanhujinming.github.io/post/cs144_tcp/">
 
   
   
@@ -232,15 +232,15 @@
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="Jinming Hu">
-  <meta property="og:url" content="https://conanhujinming.github.io/post/mhrd/">
-  <meta property="og:title" content="MHRD: From NAND to CPU | Jinming Hu">
-  <meta property="og:description" content="一款学计算机数字电路的有趣游戏"><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:circle]">
+  <meta property="og:url" content="https://conanhujinming.github.io/post/cs144_tcp/">
+  <meta property="og:title" content="CS144: 什么，你学不会TCP？那就来自己写一个吧！ | Jinming Hu">
+  <meta property="og:description" content="计算机网络是CS极为基础和重要的一门课，但却一直是我的心病之一，其原因在于我并没有认真地学习过这门课：我对计网的了解基本局限于考研时拿着某本"><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:circle]">
   <meta property="twitter:image" content="img/map[gravatar:%!s(bool=false) shape:circle]"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2020-07-05T11:23:53&#43;08:00">
+      <meta property="article:published_time" content="2020-08-09T08:48:37&#43;08:00">
     
-    <meta property="article:modified_time" content="2020-07-05T11:23:53&#43;08:00">
+    <meta property="article:modified_time" content="2020-08-09T08:48:37&#43;08:00">
   
 
   
@@ -264,12 +264,12 @@
   "@type": "BlogPosting",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://conanhujinming.github.io/post/mhrd/"
+    "@id": "https://conanhujinming.github.io/post/cs144_tcp/"
   },
-  "headline": "MHRD: From NAND to CPU",
+  "headline": "CS144: 什么，你学不会TCP？那就来自己写一个吧！",
   
-  "datePublished": "2020-07-05T11:23:53+08:00",
-  "dateModified": "2020-07-05T11:23:53+08:00",
+  "datePublished": "2020-08-09T08:48:37+08:00",
+  "dateModified": "2020-08-09T08:48:37+08:00",
   
   "author": {
     "@type": "Person",
@@ -284,7 +284,7 @@
       "url": "https://conanhujinming.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
     }
   },
-  "description": "一款学计算机数字电路的有趣游戏"
+  "description": "计算机网络是CS极为基础和重要的一门课，但却一直是我的心病之一，其原因在于我并没有认真地学习过这门课：我对计网的了解基本局限于考研时拿着某本"
 }
 </script>
 
@@ -302,7 +302,7 @@
 
 
 
-  <title>MHRD: From NAND to CPU | Jinming Hu</title>
+  <title>CS144: 什么，你学不会TCP？那就来自己写一个吧！ | Jinming Hu</title>
 
 </head>
 
@@ -571,7 +571,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>MHRD: From NAND to CPU</h1>
+  <h1>CS144: 什么，你学不会TCP？那就来自己写一个吧！</h1>
 
   
 
@@ -590,7 +590,7 @@
     
       
     
-    Jul 5, 2020
+    Aug 9, 2020
   </span>
   
 
@@ -599,7 +599,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    3 min read
+    4 min read
   </span>
   
 
@@ -635,24 +635,21 @@
   <div class="article-container">
 
     <div class="article-style">
-      <p>几天前下班回家的时候心血来潮，想玩玩单机游戏，但又不知道该玩什么，就问朋友们有没有推荐的游戏。室友 
-立马给我推荐了这款游戏MHRD，说我玩了之后肯定会爱不释手，一玩到底。我问他这游戏是玩啥的，他只是神秘一笑，说玩了就知道了。我对于他的提议向来是言听计从，就装了steam买了这款游戏，怀着好奇的心情打开了它。</p>
-<p>刚打开这个游戏，我就从画面和声音中意识到事情并不简单。游戏的开机画面是一个黑底白字的画面。开始之后，首先跳出来的是“microhard is booting”，随后是ROM的加载提示，与之相伴的是软盘加载的次扎次扎的声音，与夸张的风扇转动声：我眼前仿佛跳出了一台来自上世纪70年代的庞大的机器怪兽。“这什么玩意儿？”我错愕道。随后，游戏加载完成，并提示我是microhard公司的一位工程师，现在公司正计划开发一个名为cpu的组件，公司相信cpu会成为一个具有划时代意义的重要发明。不过目前公司手头上只有一些能模拟NAND电路的基本组件，所以公司需要我从NAND开始，一步一步搭建出AND, NOT, XOR等其他基本组件，再逐渐完成Mux, Demux, PC, RAM, ALU, Decoder等其他更高阶的组件，直至最后完成CPU的开发。</p>
-<p>“我这是玩游戏还是上课呢？”我向室友抱怨。室友嘿嘿一笑，说：“你这种跨专业的人应该好好补一补这些基础知识。我想来想去，感觉也没有比这个游戏更合适更有趣的方式了。不要慌，不懂就问我。”由于已经掏了钱上了贼船，本来只想好吃懒做玩点游戏打发时间的我只好硬着头皮继续玩了下去。</p>
-<p>想不到游戏设计得非常合理有趣，点一下，玩几天，玩得根本停不下来。我按照游戏的指示一步一步走下去，竟然相对顺利地一路过关斩将，甚至直捣黄龙，将最终Boss Decoder和CPU一剑斩于马下。虽然中间有一些组件的设计让我抓耳挠腮、苦思冥想，但经过仔细思考之后还是成功给出了可行的设计方案。每次成功完成一个组件的设计，都会产生不小的成就感。而经过了这一趟精心设计的旅程，也的的确确让我对计算机的底层实现有了更深的理解。</p>
-<p>值得一提的有几件事情：</p>
+      <p>计算机网络是CS极为基础和重要的一门课，但却一直是我的心病之一，其原因在于我并没有认真地学习过这门课：我对计网的了解基本局限于考研时拿着某本国内教材死记硬背的那点知识。这么重要的课程，我却掌握得如此不扎实，这一直让我非常惶恐，所以读研之后也一直有一些想法去补一下。但是自己实在是太懒了，且读研期间也几乎没有接触到什么需要用到相关知识的地方，故而就一直像鸵鸟一样，对自己的菜视而不见。然而学习终究是没有捷径可走的，当初欠下的终归是要还的：这不，我现在的工作内容就有很大一部分是需要与网络打交道。求生欲终究还是战胜了自己的懒惰，我这才终于下定决心补一补这部分的知识。</p>
+<p>如之前的文章所述，我在补这些CS的知识的时候，比较喜欢找一门有视频的名校（通常是四大）课程跟着上一遍。搜了一圈，我发现四大中只有Stanford的
+<a href="https://cs144.github.io/" target="_blank" rel="noopener">CS144</a>是有
+<a href="https://search.bilibili.com/all?keyword=cs144&amp;from_source=nav_search_new" target="_blank" rel="noopener">视频</a>的，虽然这个视频版本是多年前的MOOC版本而非课程录像。除了视频以外，我认为自学课程最重要的一点就是这门课是否有很好的Assignment/Lab。我一看，这CS144的Lab是用C++自己实现一个TCP。就它了！于是就开始了CS144的学习。</p>
+<p>可能是因不适应两位教授的授课风格，看CS144的视频总是让我犯困（我甚至在某个失眠的夜晚打开了CS144的授课视频，然后成功治好了我的失眠），再加上我之前还是多多少少知道一些计网的皮毛知识，我终于决定不看授课视频而直接上手完成Lab。不得不说，Lab的设计还是非常不错的。前5个Lab从byte_stream开始，一步一步地指导你实现出一个<strong>能真实使用的TCP</strong>，总得来说有趣而又有用，且难度也不算很大。不过由于我太懒，再加上中间有一段时间非常忙没时间去写，前后拖了一个月才终于完成了前面几个实现TCP的Lab。后面两个Lab涉及到的知识似乎暂时没什么需求，只能说“下次一定”了。</p>
+<p>夸完了之后，也补充一下我认为CS144 Lab中存在的一些坑点。毕竟这个Lab系列只使用了一届，还不是特别完善，相信之后也会每年根据学生的反馈改进的。坑点大概有以下这些：</p>
 <ol>
-<li>
-<p>每个组件的实现方式是不唯一的，有的实现方式需要的NAND数量多一些，另一些则需要得更少一些。只是给出一个可行方案，和给出最优方案的难度差距是很大的。我虽然已经通关了游戏，但很多组件都不是最优的方案，之后还得再去研究改进。针对每个组件，游戏会告诉你，你的好友中最优的方案用了多少NAND，以及世界上所有玩家最优的方案用了多少NAND。需要注意的是，世界的最优方案的NAND数量很多时候没有参考意义，因为他们是面向test case编程的。</p>
-</li>
-<li>
-<p>有一些组件的设计工作量巨大但又比较枯燥，于是microhard公司雇了个实习生来搞定这些。看到这里的时候我不禁笑出了声：这也太真实了。</p>
-</li>
-<li>
-<p>个人认为最后Decoder的test case是有一点问题的，玩游戏的小伙伴到时候可以留意一下。</p>
-</li>
+<li>有一些设计的选择细节并没有在PDF里给出，我有的时候需要去看test case才会知道Lab希望怎样去设计。不过也许这些内容在上课的时候会提到。另外这也暴露了自学网课的一个问题：没有TA以及同学可以交流。所以大家自学网课的时候也可以找一些小伙伴一起学，搞一个“虚拟课程”甚至是“虚拟大学”。</li>
+<li>Lab2和Lab3的test case不够多，导致错误或者是与Lab期望的设计不符的实现也能通过全部的test case。然后在Lab4里，这些问题会全部暴露出来&hellip;&hellip;结果就是在做Lab4的时候完全不能信任自己在Lab2和Lab3里的相应实现，这样也大大增加了debug难度。</li>
+<li>Lab4里有两个test case即fsm_ack_rst和fsm_ack_rst_relaxed期待的行为是完全相反的。实际上在官方的FAQ页面上给出的状态机是与fsm_ack_rst期待的行为一致，但Lab4默认启用的却是fsm_ack_rst_relaxed&hellip;&hellip;</li>
+<li>官方提供的VirtualBox Image中的GDB是有bug的，在cmake_build_type=Debug生成的binary上不能正确地打断点。在Lab4之前我还能靠肉眼调试，但是Lab4实在是肉眼调不动了，不得不寻求解决方案。后来问了一位之前也做过这个Lab的清华大佬，他告诉我说他用的是LLDB。我就赶紧换了LLDB，这才能愉快的进行调试。顺带一提，这位大佬在GitHub上有自己
+<a href="https://github.com/huangrt01/CS-Notes" target="_blank" rel="noopener">完成这门课程和Lab的笔记</a>，也是值得参考的Orz 我室友后来也来做这个Lab了，据他说开了-O0之后GDB就能正常工作了，但我自己之前尝试的时候这样还是不能正常工作。</li>
 </ol>
-<p>最后想说，寓教于乐，让学习充满趣味又能确确实实地掌握到有用的知识，这在我看来无疑是教学中的最高境界之一。非常期待游戏制作商号称会出的续作，猜测可能是写流水线之类的。而我的室友也笑眯眯地凑过来给我推荐下一个“副本”了。</p>
+<p>不过瑕不掩瑜，这门课程的Lab无疑是非常好的材料。扎实地掌握TCP的最好办法也许就是自己去写一个能用的TCP，写完之后对各种细节就会掌握得扎实很多，对背后的设计思想也会有更深的理解。真是眼红美国名校的课程资源啊，也希望国内的高等教育能迎头赶上吧。（如果我去当高校的授课老师，我就和CS144这类课程的授课老师沟通，基本照搬这些名校的授课内容再根据实际情况做一些小改变，简直就是不送包赢）</p>
+<p>不多废话了，我要去和几位大佬同学商量下一个课程该上啥了。</p>
 
     </div>
 
@@ -675,7 +672,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://conanhujinming.github.io/post/mhrd/&amp;text=MHRD:%20From%20NAND%20to%20CPU" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://conanhujinming.github.io/post/cs144_tcp/&amp;text=CS144:%20%e4%bb%80%e4%b9%88%ef%bc%8c%e4%bd%a0%e5%ad%a6%e4%b8%8d%e4%bc%9aTCP%ef%bc%9f%e9%82%a3%e5%b0%b1%e6%9d%a5%e8%87%aa%e5%b7%b1%e5%86%99%e4%b8%80%e4%b8%aa%e5%90%a7%ef%bc%81" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -688,7 +685,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://conanhujinming.github.io/post/mhrd/&amp;t=MHRD:%20From%20NAND%20to%20CPU" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://conanhujinming.github.io/post/cs144_tcp/&amp;t=CS144:%20%e4%bb%80%e4%b9%88%ef%bc%8c%e4%bd%a0%e5%ad%a6%e4%b8%8d%e4%bc%9aTCP%ef%bc%9f%e9%82%a3%e5%b0%b1%e6%9d%a5%e8%87%aa%e5%b7%b1%e5%86%99%e4%b8%80%e4%b8%aa%e5%90%a7%ef%bc%81" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -701,7 +698,7 @@
       
       
       <li>
-        <a href="mailto:?subject=MHRD:%20From%20NAND%20to%20CPU&amp;body=https://conanhujinming.github.io/post/mhrd/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=CS144:%20%e4%bb%80%e4%b9%88%ef%bc%8c%e4%bd%a0%e5%ad%a6%e4%b8%8d%e4%bc%9aTCP%ef%bc%9f%e9%82%a3%e5%b0%b1%e6%9d%a5%e8%87%aa%e5%b7%b1%e5%86%99%e4%b8%80%e4%b8%aa%e5%90%a7%ef%bc%81&amp;body=https://conanhujinming.github.io/post/cs144_tcp/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -714,7 +711,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://conanhujinming.github.io/post/mhrd/&amp;title=MHRD:%20From%20NAND%20to%20CPU" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://conanhujinming.github.io/post/cs144_tcp/&amp;title=CS144:%20%e4%bb%80%e4%b9%88%ef%bc%8c%e4%bd%a0%e5%ad%a6%e4%b8%8d%e4%bc%9aTCP%ef%bc%9f%e9%82%a3%e5%b0%b1%e6%9d%a5%e8%87%aa%e5%b7%b1%e5%86%99%e4%b8%80%e4%b8%aa%e5%90%a7%ef%bc%81" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -727,7 +724,7 @@
       
       
       <li>
-        <a href="https://web.whatsapp.com/send?text=MHRD:%20From%20NAND%20to%20CPU%20https://conanhujinming.github.io/post/mhrd/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="https://web.whatsapp.com/send?text=CS144:%20%e4%bb%80%e4%b9%88%ef%bc%8c%e4%bd%a0%e5%ad%a6%e4%b8%8d%e4%bc%9aTCP%ef%bc%9f%e9%82%a3%e5%b0%b1%e6%9d%a5%e8%87%aa%e5%b7%b1%e5%86%99%e4%b8%80%e4%b8%aa%e5%90%a7%ef%bc%81%20https://conanhujinming.github.io/post/cs144_tcp/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -740,7 +737,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://conanhujinming.github.io/post/mhrd/&amp;title=MHRD:%20From%20NAND%20to%20CPU" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://conanhujinming.github.io/post/cs144_tcp/&amp;title=CS144:%20%e4%bb%80%e4%b9%88%ef%bc%8c%e4%bd%a0%e5%ad%a6%e4%b8%8d%e4%bc%9aTCP%ef%bc%9f%e9%82%a3%e5%b0%b1%e6%9d%a5%e8%87%aa%e5%b7%b1%e5%86%99%e4%b8%80%e4%b8%aa%e5%90%a7%ef%bc%81" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
