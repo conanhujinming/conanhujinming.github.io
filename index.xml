@@ -5,12 +5,51 @@
     <link>https://conanhujinming.github.io/</link>
       <atom:link href="https://conanhujinming.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Jinming Hu</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 28 Aug 2020 21:06:07 +0800</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 17 Sep 2020 23:20:50 +0800</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Jinming Hu</title>
       <link>https://conanhujinming.github.io/</link>
     </image>
+    
+    <item>
+      <title>二十八画生征友：一起来通关6.S081/6.828吧~</title>
+      <link>https://conanhujinming.github.io/post/mit_6_828_together/</link>
+      <pubDate>Thu, 17 Sep 2020 23:20:50 +0800</pubDate>
+      <guid>https://conanhujinming.github.io/post/mit_6_828_together/</guid>
+      <description>&lt;p&gt;（标题是一个危险的致敬）&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://pdos.csail.mit.edu/6.828/2020/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;6.828 Operating System Engineering&lt;/a&gt;是MIT久负盛名的一门操作系统相关的相关课程。这门课程有多牛呢？举个例子，以陈海波老师为首的上海交通大学IPADS实验室可以说是国内最强的操作系统相关实验室之一，而陈海波老师等人在他们读博的时候（早在2005年左右）就完成了6.828课程的学习，甚至还以6.828的JOS系统为基础开发了Corey操作系统，并发表了一篇ODSI2008论文&lt;em&gt;Corey: An operating system for many cores&lt;/em&gt;，该论文也是陈老师至今引用最高的论文。而后，IPADS老师也基于6.828的资源，在上海交通大学软件学院开设了多年操作系统课程。&lt;/p&gt;
+&lt;p&gt;然而，在此之前，这门课程一直是参杂着操作系统的知识学习与前沿research内容一同教学。这样有一些问题：对于打基础的本科生或低年级研究生，前沿research的研究似乎有些难度过大而又不那么必要，而打扎实基础更为重要一些；对于高年级研究生与博士生，他们又往往早就有扎实的基础，再过一遍这些基础也许会有些浪费时间。因此，MIT今年决定将其拆为两门课程，分别是6.S081(Introduction to Operating System)和6.828(也许是Operating System Research Seminar)，而让两门课程分别适配不同的受众人群。新的6.S081对于意图补基础的同学无疑是一门更为合适与smooth的课程。更重要的是，今年这门课程决定开放课程视频！（大家再也不用看同学偷偷录的山寨视频了）顺带一提，今年是极为特殊的一年，MIT大量开放了课程的视频，如6.824、6.826、6.828等等，这对于广大学习者无疑是一个福音。大家直接在
+&lt;a href=&#34;https://pdos.csail.mit.edu/6.828/2020/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;课程主页&lt;/a&gt;上就能看到全部的课程资源，还包括视频，惊喜不惊喜~~&lt;/p&gt;
+&lt;p&gt;顺便讲一个有趣的八卦。6.S081一位授课教授
+&lt;a href=&#34;https://pdos.csail.mit.edu/~rtm/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Robert Morris&lt;/a&gt;是互联网蠕虫病毒的发明者。当年Morris是康奈尔大学的一名学生，写了个小的实验程序即蠕虫病毒玩，据说他是想用蠕虫病毒“测量互联网的规模”。但是他又怕被抓，就选择了在MIT释放了蠕虫，以掩盖他是来自于康奈尔的事实。结果这个病毒造成了巨大的损伤。Morris受到审判，并被定罪违犯了1986年的《计算机欺诈及滥用法案》（他也是第一个适用于该法案的人）。经过上诉，他被判3年缓刑、400小时社区服务及10,000美元罚金。Morris也许是处于内疚（大雾），后来就去MIT担任教授至今。&lt;/p&gt;
+&lt;p&gt;八卦讲完了，那么来说说我写这篇文章的目的是什么。在我之前的一篇学习CS144的文章中我有提到自学网课的一个大问题是没有TA以及同学可以交流。所以当时建议大家自学网课的时候也可以找一些小伙伴一起学，搞一个“虚拟课程”甚至是“虚拟大学”。这篇文章的目的就是组织一个6.S081 Fall 2020的学习交流群。交流群的目的是供大家互相督促、鼓励，并交流学习经验与心得，以及互相帮助，避开一些lab里存在的坑，大家一起来通关6.S081~换言之，&lt;strong&gt;每一位加群的同学都应该以独立通关6.S081的Lab为目标&lt;/strong&gt;。这里的独立，不是说大家不能交流，而只能一个人埋头苦干；恰恰相反，交流是非常重要的。这里独立指的是：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;不能阅读其他人的代码实现，自己的代码必须自己完成。&lt;/li&gt;
+&lt;li&gt;不能找其他人帮忙debug。&lt;/li&gt;
+&lt;li&gt;可以交流思路、碰到的问题，但不应该提问一些应该自己解决的问题。例如：为啥我过不了这个case呀？有没有人能帮我看一下我这段代码哪里有bug等等。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;为了尽量保证每一位入群的同学都是冲着独立通关6.S081来的，入群有一个简单的条件，即&lt;strong&gt;必须自己先独立完成前两个Lab的内容&lt;/strong&gt;。实际上Lab1和Lab2与后面的Lab相比都比较简单，属于热身性质的lab。我个人认为这样能更好地维护学习交流群的单纯性。&lt;/p&gt;
+&lt;p&gt;另外，为了保证交流群的氛围，这边也简单写一些规则，如果不愿意遵守的同学就算啦：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;不准阴阳怪气他人。&lt;/li&gt;
+&lt;li&gt;不准参考他人代码或请他人debug，应该要独立完成Lab。&lt;/li&gt;
+&lt;li&gt;不准或尽量少无意义地水群，6.S081学习交流群应该供学习交流6.S081使用。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;我注意到前两个Lab里已经有一些坑，这里也给出来，避免大家再次踩坑：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;在开始lab之前，先按照
+&lt;a href=&#34;https://pdos.csail.mit.edu/6.828/2020/tools.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;tools&lt;/a&gt; 配环境。如果是使用ubuntu的话，我个人推荐用ubuntu20，这样可以免去自己配toolchain的痛苦；而如果是更早的ubuntu系统的话，那么需要按照页面上的指点自己build toolchain。另外使用&lt;code&gt;apt-get&lt;/code&gt;安装的QEMU的版本估计是不够新的，如果版本号低于5.1.0，那么也需要自己手动build QEMU. 最后验证安装的时候，如果不是自己手动build的toolchain的话，可能不是按照官方说的用&lt;code&gt;riscv64-unknown-elf-gcc&lt;/code&gt;之类的，而是其他的一些命令，具体可以在&lt;code&gt;/usr/bin&lt;/code&gt;或者&lt;code&gt;/usr/local/bin&lt;/code&gt; 下查看 。对于验证安装，我个人建议先确定qemu版本，再尝试在xv6运行&lt;code&gt;make qemu&lt;/code&gt;，如果能够正常进入，应该就没有问题了。&lt;/li&gt;
+&lt;li&gt;之后阅读
+&lt;a href=&#34;https://pdos.csail.mit.edu/6.828/2020/labs/guidance.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;guidance&lt;/a&gt; 注意一个坑点是&lt;code&gt;make qemu-gdb&lt;/code&gt;的部分，在另一个窗口跑&lt;code&gt;gdb&lt;/code&gt;或者&lt;code&gt;riscv64-linux-gnu-gdb&lt;/code&gt;可能都不一定有用，也许是&lt;code&gt;gdb-multiarch&lt;/code&gt;或者是 &lt;code&gt;riscv64-unknown-elf-gdb&lt;/code&gt; 具体同样可在&lt;code&gt;/usr/bin&lt;/code&gt;或者&lt;code&gt;/usr/local/bin &lt;/code&gt;下查看。可以自己试试哪个会work&amp;gt;_&amp;lt;&lt;/li&gt;
+&lt;li&gt;如果你要用xv6的某些自带的函数，发现它们不像你想得那样工作，那么请大胆地去看源码，也许它们的实现的behavior和标准库的是不一样的&amp;gt;_&amp;lt; 并且，要敢于而且主动地去看xv6的源码，甚至可以说这些Lab的目的就是帮助你熟悉了解xv6的源码的。&lt;/li&gt;
+&lt;li&gt;如果你的机器（像我一样）很烂，在某些case上可能会碰到timeout的问题（纯粹是因为机器太烂），那么可以把gradelib里默认的timeout调大一些&amp;hellip;&amp;hellip;&lt;/li&gt;
+&lt;li&gt;想到其他的坑点会再补充。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;好的，那么我就先写到这里，感兴趣的同学请独立完成前两个Lab之后加群交流~**群号为603579009，加群的时候请附上自己完成前两个Lab的github repo地址~~**谢谢大家啦&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>自学CS路线、资源推荐</title>
