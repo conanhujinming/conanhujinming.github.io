@@ -5,12 +5,42 @@
     <link>https://conanhujinming.github.io/post/</link>
       <atom:link href="https://conanhujinming.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 17 Dec 2020 11:26:08 +0800</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 17 Dec 2020 13:15:25 +0800</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Posts</title>
       <link>https://conanhujinming.github.io/post/</link>
     </image>
+    
+    <item>
+      <title>MIT 6.042J 计算机中的数学：数学好玩</title>
+      <link>https://conanhujinming.github.io/post/mit_6_042j_csmath/</link>
+      <pubDate>Thu, 17 Dec 2020 13:15:25 +0800</pubDate>
+      <guid>https://conanhujinming.github.io/post/mit_6_042j_csmath/</guid>
+      <description>&lt;p&gt;接上次的文章，这次介绍的是 
+&lt;a href=&#34;https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MIT 6.042J
+Mathematics for Computer Science&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;也许可以翻译成计算机中的数学，或者计算机应用数学，其内容与一般说的离散数学比较接近。&lt;/p&gt;
+&lt;p&gt;在介绍这门课之前，我先讲讲标题的故事，这个故事是关于数学大师陈省身先生的。2002年8月的国际数学家大会(ICM2002)在北京举行，时年91岁高龄的陈省身先生也参加了这次大会。大会期间，大会的主办方邀请陈省身先生题一句词送一句话给当时参会的少年儿童，分享自己看待数学的观点，并激励大家。陈省身先生没有多想，就在纸上一挥而就了四个字：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://conanhujinming.github.io/img/math_is_fun.jpg&#34; alt=&#34;math&#34;&gt;&lt;/p&gt;
+&lt;p&gt;陈省身先生认为，这是最能代表他对数学的看法的四个字。&lt;/p&gt;
+&lt;p&gt;然而不幸的是，在国内现在的数学教育体系中，同学们往往感受不到数学的乐趣。无论是教材、还是课堂，数学课似乎总是”莫名其妙提出某个定理-&amp;gt;证明之-&amp;gt;莫名其妙提出下一个定理-&amp;gt;证明之“这样一种循环，让人觉得枯燥乏味。这样的教学结果，会让同学很多时候只能死记硬背一些定理、证明等等，而不能形成自己对数学的理解，更不用说是自己的数学体系了。结果，不仅数学学得不扎实，还可能会失去对数学的兴趣，甚至是对数学产生恐惧。然而数学不仅仅是一门学科，还是一个非常重要的工具。学不好数学，掌握不好这门工具，说是贻害无穷也不足为过。&lt;/p&gt;
+&lt;p&gt;说回标题，我个人认为，数学，或者至少是基础的数学（如微积分、线性代数、概率论与数理统计、离散数学等），是可以而且教得非常好玩的。当然，这是一件很难做到的事情，比如说我自己就没有在现实中听过这样的课程。因此我个人对于一门数学课的最高评价，就是”这门课真好玩“。&lt;strong&gt;这次推荐的这门课程MIT 6.042J，在我看来就是一门好玩的课程&lt;/strong&gt;，甚至可以说是我最喜欢的数学课程。&lt;/p&gt;
+&lt;p&gt;这门课程主要讲述了计算机中常用的一些数学知识，包括归纳演绎、集合论、数论、图论、计数、概率论、递归等等，包含的内容非常多。更重要的是，授课教授Tom Leighton利用非常高超的授课技巧、多种多样的授课道具和精巧的知识组织，使得这门课程的学习变得有趣又简单。这里举一个我印象深刻的例子。有一次课是讲级数。一开始，教授拿出了一些同等大小的木块，然后让学生们从讲台上的边缘开始叠小木块，使得叠起来的小木块能够尽量远地离开讲台，同时又不能翻下去。并且，教授让学生们和TA团队比赛，看谁搭得远，如果学生更远，他就输给学生100美元。最后的结果是学生团队和TA团队搭建的木块离讲台边缘同样远。这之后，教授开始分析这个数学模型，最后利用级数来证明，木块能够离开讲台的最远距离是一个很小的定值。这样的数学授课形式新颖又有趣，让人印象深刻。而这样的课堂在这门课程中比比皆是，真是让人叹服。&lt;/p&gt;
+&lt;p&gt;除了这一点以外，我从这门课程中学会的非常重要的一点是数学证明时的思维路径。举一个我第一次听到的时候觉得惊为天人的数学证明的例子。组合数中有一个定理是&lt;/p&gt;
+&lt;p&gt;$$
+C_n^k=C_{n-1}^{k-1}+C_{n-1}^{k}
+$$
+国内的教学一般是怎么去证明这个公式的呢？就是拆开，各种化简，最后证明等号左右两边相等。完事证完了之后，并没有觉得自己学到了什么，而且下次要用还会忘了这个公式的形式，还得去翻书。Tom Leighton在这门课上是怎么证明这个公式的呢？非常简单。我们要从$n$个物体中选$k$个物体，假如我们任意指定一个物体，那么从$n$个物体中选$k$个物体，则可以分成两种情况：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;选这个物体。那么我们就需要从剩下的$n-1$个物体中选$k-1$个出来。所以有$C_{n-1}^{k-1}$种选法。&lt;/li&gt;
+&lt;li&gt;不选这个物体。那么我们就需要从剩下的$n-1$个物体中选$k$个出来。所以有$C_{n-1}^{k}$种选法。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;所以，从$n$个物体中选$k$个物体，就是这两种情况的选法之和，证毕。Orz&lt;/p&gt;
+&lt;p&gt;除了这类有趣的证明之外，我还从Tom Leighton身上学到的关于证明的一点是：&lt;strong&gt;数学证明在看公式推导的时候，一定要知道推导的目的是什么&lt;/strong&gt;。通常来说，推导的时候都是带着motivation（动机）去推导的，希望把形式转成某个样子（比如我们更容易解的一种形式），而中间的各种变化，都是在为这个目的服务。&lt;/p&gt;
+&lt;p&gt;总之，我认为这门课程是一门非常好玩又非常有用的课程，强力推荐大家学习这种好玩的数学课，不仅能够扎实数学基础，更能培养对数学的兴趣。不过美中不足的是，Tom Leighton似乎比较忙，所以有接近1/3的课是他当时的博士生TA来代上。这位博士生上得就一言难尽了&amp;hellip;&amp;hellip;最后导致他上得部分我都直接去看教材了&amp;hellip;&amp;hellip;希望以后会有Tom Leighton自己一个人上课的录像公开出来吧。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>MIT 18.06：线性代数易懂且有趣</title>
