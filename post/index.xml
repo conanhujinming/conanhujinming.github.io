@@ -5,12 +5,25 @@
     <link>https://conanhujinming.github.io/post/</link>
       <atom:link href="https://conanhujinming.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 20 Sep 2020 14:18:15 +0800</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 17 Dec 2020 11:26:08 +0800</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Posts</title>
       <link>https://conanhujinming.github.io/post/</link>
     </image>
+    
+    <item>
+      <title>MIT 18.06：线性代数易懂且有趣</title>
+      <link>https://conanhujinming.github.io/post/mit_18_06_linalg/</link>
+      <pubDate>Thu, 17 Dec 2020 11:26:08 +0800</pubDate>
+      <guid>https://conanhujinming.github.io/post/mit_18_06_linalg/</guid>
+      <description>&lt;p&gt;今天在给同学们讲东西的时候，发现他们之前没学过矩阵乘法的四种表述形式（或者说四种观点？），于是给大家简单地讲了一下这四种观点。其实矩阵乘法的不同视角是非常有用的，尤其是行组合的观点和列组合的观点，不仅在很多公式推导的时候非常好用，而且也更能帮助大家从更本质地角度来理解矩阵乘法的意义。&lt;/p&gt;
+&lt;p&gt;回想起来，国内多数学校多数老师的线性代数的教学我认为是存在非常大的问题的（这样是不是有点太一棍子打死所有人了）。从这门课程的教材中就可见一斑。国内的教材常常从行列式开始讲起，让人一头雾水地栽进疯狂计算的大坑。完事算了半天，也不知道行列式这玩意儿的意义究竟是啥，只知道好像可以用来按照某种机械地方式解方程。之后呢，教材就从行列式开始“引入”矩阵，然后开始给一些乱七八糟的定理和结论，什么伴随矩阵啥的。学生们则根本抓不住要点，不知道这些东西的意义是什么，有什么作用？学得是一头雾水（当然我怀疑很多老师自己也是一头雾水）。最后机械地把整本书学下来，但仍然感觉抓不住这门课的精髓，只觉得数学好难好抽象好难懂好难学啊。考试之前突记刷刷题背背定理证明啥的，也能考个不错的分数，然后就将其抛之脑后了。结果到了大二大三后续课程的学习中，甚至是到了研究生阶段的学习过程中，却往往发现这玩意儿无处不在，但自己又常常看不懂各种推导，痛苦得不行。归根结底，我觉得这种现象还是由国内的教学问题所引起的。&lt;/p&gt;
+&lt;p&gt;在这种情况下，&lt;strong&gt;我极为推荐大家用一门课程来正本清源一下线性代数：
+&lt;a href=&#34;https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MIT的18.06&lt;/a&gt;&lt;/strong&gt;。这门课由数学家Gilbert Strang讲授。Gilbert Strang的讲授非常清晰且富有insight，绝对能让你对线性代数的理解焕然一新。我印象最深刻的就是矩阵乘法的四种形式，以及矩阵的四种空间了。学了之后，感觉线性代数并不晦涩难懂，反而变得具体有意义且有趣了。按我自己学习的经验来看，这门课的学习对很多其他课程的帮助绝对可以说是让我受益无穷。值得一提的是Gilbert Strang教授同样是一位学术成就很高的数学家，然而早已功成名就的他，至今仍以接近80岁的高龄在教学一线上讲课，仍然每年执教这门课程，并在努力改进课程与教材内容。相比之下，国内的一些学校无论是课程质量本身，还是部分老师对待教学的态度，也许仍然需要好好追赶啊。师者，所以传道受业解惑也。所谓大学，当教书育人、为学生传授知识与帮助学生塑造健全的人格与价值观。一味地求仕创薪可不行啊。&lt;/p&gt;
+&lt;p&gt;附：关于这门课程，知乎上已经有了很多推荐和讨论了。去年清华大学将线性代数教材换成了Strang写的18.06的教材在知乎上还引起了大量讨论。其实在此之前，就有一些国内的老师（如北大、复旦、上交的部分老师）已经在用这本教材上课了。对于清华的这种行为，我只能说，请加大力度。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>关于浙大动科女博士自杀事件的感想</title>
