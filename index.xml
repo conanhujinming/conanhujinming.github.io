@@ -5,12 +5,68 @@
     <link>https://conanhujinming.github.io/</link>
       <atom:link href="https://conanhujinming.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Jinming Hu</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 03 Apr 2021 20:37:10 +0800</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 20 Apr 2021 22:14:34 +0800</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Jinming Hu</title>
       <link>https://conanhujinming.github.io/</link>
     </image>
+    
+    <item>
+      <title>CMU 15-445：知名教授历时多年打磨，数据库神级课程限时免费！</title>
+      <link>https://conanhujinming.github.io/post/cmu_15_445_intro_to_db/</link>
+      <pubDate>Tue, 20 Apr 2021 22:14:34 +0800</pubDate>
+      <guid>https://conanhujinming.github.io/post/cmu_15_445_intro_to_db/</guid>
+      <description>&lt;p&gt;本文原标题为《一起来通关CMU 15-445数据库系统导论吧~》。前几日深刻学习了某些卖课广告的风格，故想出了这个标题。（受启发于@迟先生的
+&lt;a href=&#34;https://zhuanlan.zhihu.com/p/348225926&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;这篇文章&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://15445.courses.cs.cmu.edu/fall2020/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;15-445 Introduction to Database System&lt;/a&gt;可能是数据库领域最出名的一门课程。这主要是因为是这门课的授课老师
+&lt;a href=&#34;http://www.cs.cmu.edu/~pavlo/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Andy Pavlo&lt;/a&gt;多年来一直坚持将这门课几乎所有的资源都开放出来供全世界所有对数据库感兴趣的人学习。虽然在2020年由于一些政策的原因，Andy没能将授课视频公开出来，但是仍然可以轻易地在
+&lt;a href=&#34;https://search.bilibili.com/all?keyword=15-445&amp;amp;from_source=webtop_search&amp;amp;spm_id_from=333.851&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;B站上&lt;/a&gt;或者
+&lt;a href=&#34;https://www.youtube.com/watch?v=oeYBdghaIjc&amp;amp;list=PLSE8ODhjZXjbohkNBWQs_otTrBTrjyohi&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Youtube上&lt;/a&gt;找到这门课2019年的全套授课视频。而且，Andy还提供了2020年project在GradeScope上的评测接口，
+&lt;a href=&#34;https://15445.courses.cs.cmu.edu/fall2020/faq.html#q5&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;详情见此&lt;/a&gt;。因此，即便是自学的同学，也几乎可以完全享受到这门课除了助教以外的所有资源，这对于数据库爱好者和学习者来说无疑是无价之宝~ 这里也向Andy多年来对数据库教育的贡献表示最崇高的敬意Orz&lt;/p&gt;
+&lt;p&gt;这里顺带讲一讲Andy的八卦。Andy可以说是计算机知名教授中最有梗的人之一，人称搞事大王。他的梗太多了，以至于这里不得不分列几点：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Andy的课程有自己的BGM，甚至还有专门的DJ。这个大家去看视频就会见识到了。&lt;/li&gt;
+&lt;li&gt;Andy是一个乐队武当帮的超级粉丝。他在第一节课最后说了一大堆奇怪的话，大意是“对于你们来说，这学期最重要的是知道A、B、C、D、E这些人”。一开始我听了之后感觉莫名其妙，后来才知道这些人都是武当帮的成员。亮点来了。期末的时候，Andy在试卷上出了一道题，内容是写出这个乐队成员的名字，分值是100分，全部写出来才能拿到（终于知道为什么认识这些人是最重要的了LOL)。然后全班没有一个人写对的。Andy为此还专门发了一条推特：“这是我教学生涯中最尴尬的一幕，竟然没有一个人答对！“&lt;/li&gt;
+&lt;li&gt;Andy在课上说（翻译）：我告诉你们，这世上我只在乎两件事情，第一是我的老婆，第二是数据库，其他的我一点都不在意！&lt;/li&gt;
+&lt;li&gt;Andy在学期中间让学生投票决定他的新发型。&lt;/li&gt;
+&lt;li&gt;&amp;hellip;&amp;hellip;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;应该说，Andy不仅在学术和教育领域有着极高的成就，在玩梗上也是独树一帜。&lt;/p&gt;
+&lt;p&gt;八卦讲完了，那么回到正题，这篇文章的目的和之前的系列文章一样，都是号召大家组队刷课。我个人认为15-445是一门比6.S081更需要组队刷的课，因为这门课的测试用例是没有开放给学生的，而且这门课的project由于每年都是新出的，所以在文档描述方面以及设计方面不可避免地不如6.S081那样历经多年打磨的lab成熟，而自学的话又没有助教可以询问，所以很容易陷入一些没意义的坑而浪费大量时间。同样，&lt;strong&gt;每一位加群的同学都应该以独立通关15-445的project为目标&lt;/strong&gt;。这里的独立，不是说大家不能交流，而只能一个人埋头苦干；恰恰相反，交流是非常重要的。这里独立指的是：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;不能阅读其他人的代码实现，自己的代码必须自己完成。&lt;/li&gt;
+&lt;li&gt;不能找其他人帮忙debug。&lt;/li&gt;
+&lt;li&gt;可以交流思路、碰到的问题，但不应该提问一些应该自己解决的问题。例如：有没有人能帮我看一下我这段代码哪里有bug等等。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;为了尽量保证每一位入群的同学都是冲着独立通关15-445来的，入群有一个简单的条件，即&lt;strong&gt;必须自己先独立完成第一个project，而第二个project至少要拿到80%以上的分数&lt;/strong&gt;。实际上project0（c++ primer)和project1(buffer pool manager)与后面的project相比都比较简单，属于热身性质的project。我个人认为这样的入群条件能更好地维护学习交流群的单纯性。&lt;/p&gt;
+&lt;p&gt;另外，为了保证交流群的氛围，这边也简单写一些规则，如果不愿意遵守的同学就算啦：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;请不要阴阳怪气他人。&lt;/li&gt;
+&lt;li&gt;请不要参考他人代码或请他人debug，应该要独立完成Lab。&lt;/li&gt;
+&lt;li&gt;请不要或尽量少无意义地水群，15-445学习交流群应该供学习交流15-445使用。&lt;/li&gt;
+&lt;li&gt;欢迎大家在群里提问，**但提问者在获得了满意的回答之后，必须将回答自觉地整理到群内提供的piazza页面，以方便后来的学习者。**因为之前6.S081群里面很多同学光提问不整理，导致有很多重复的提问，所以这次专门规定这一点。&lt;strong&gt;如果不主动整理的话，将会被踢出群&lt;/strong&gt;&amp;gt;_&amp;lt;&lt;/li&gt;
+&lt;li&gt;另外强调一下，&lt;strong&gt;请遵守Andy的要求，不要公开自己的作业代码，如放在GitHub上&lt;/strong&gt;。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;之前不熟悉C++的同学，可能做project0会遇到一些困难，因此这里提一下这个project需要了解的C++知识：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;类与继承&lt;/li&gt;
+&lt;li&gt;虚函数&lt;/li&gt;
+&lt;li&gt;模板&lt;/li&gt;
+&lt;li&gt;stl里的智能指针，这里的话特别是unique_ptr&lt;/li&gt;
+&lt;li&gt;std::move语法&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;我注意到project1的一个坑，这里也给出来，避免大家再次踩坑：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;UnpinPageImpl&lt;/code&gt;里如果&lt;code&gt;page_id&lt;/code&gt;不在&lt;code&gt;page_table&lt;/code&gt;，那么要&lt;code&gt;return true&lt;/code&gt;而不是&lt;code&gt;false&lt;/code&gt;。实际上这个函数的描述是正确的，但我个人认为这个行为有点反我的直觉。&lt;/li&gt;
+&lt;li&gt;想到其他的坑点会再补充。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;好的，那么我就先写到这里，感兴趣的同学请达到入群要求之后加群交流~&lt;strong&gt;群号为878405016，加群的时候请附上自己在gradescope上的leaderboard name~~并且在加群之后的24小时内主动把截图发给群主，否则将会被踢出群&amp;gt;_&amp;lt;&lt;/strong&gt; 这边也强烈建议大家加一下课程的
+&lt;a href=&#34;https://discord.gg/YF7dMCg&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Discord channel&lt;/a&gt;，里面也有很多很好的讨论~&lt;/p&gt;
+&lt;p&gt;谢谢大家啦~~&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>（转）OPTO的奋斗史：从中专到伯克利PhD</title>
