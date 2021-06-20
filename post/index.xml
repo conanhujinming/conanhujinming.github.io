@@ -5,12 +5,66 @@
     <link>https://conanhujinming.github.io/post/</link>
       <atom:link href="https://conanhujinming.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 20 Jun 2021 21:19:37 +0800</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 20 Jun 2021 21:46:13 +0800</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Posts</title>
       <link>https://conanhujinming.github.io/post/</link>
     </image>
+    
+    <item>
+      <title>名校公开课程评价项目</title>
+      <link>https://conanhujinming.github.io/post/comments_for_awesome_courses/</link>
+      <pubDate>Sun, 20 Jun 2021 21:46:13 +0800</pubDate>
+      <guid>https://conanhujinming.github.io/post/comments_for_awesome_courses/</guid>
+      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+&lt;p&gt;近几年来，越来越多的名校课程选择公开课程的资源供大家学习。学习这些课程不仅能够让我们很好地学习和掌握知识，更能培养我们的学习兴趣和学习能力。公开的资源包括且不限于授课录像、课件（slide）、课程阅读资料（reading）、课程作业（lab）、自动评测系统（autograder）、期中期末试卷等等。因此，我们很幸运地能够免费地享受到这些最顶级的教育资源。另一方面，国内本科阶段的大部分课程的质量一言难尽，这也让我们更需要使用这些顶级的公开课程来学习知识。&lt;/p&gt;
+&lt;p&gt;我在过去的数年间就大大受益于这些公开的课程，前前后后自学了有几十门各种各样的课程，受益无穷。也因此，我也一直在不遗余力地推广我所学过的优质课程。在学习课程的过程中，我发现自学这些课程终究还是存在一些困难，如：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;有多所名校公开了某门课程的资源，那么该用哪门课程学习呢？它们相互比较各有什么优缺点呢？&lt;/li&gt;
+&lt;li&gt;我想学一门课程，但是这门课程的难度如何呢？适合现阶段的我吗？&lt;/li&gt;
+&lt;li&gt;这门课程公开的资源有哪些呢？是否有视频呢？是否有自动评测系统呢？&lt;/li&gt;
+&lt;li&gt;自己完成作业的时候常常碰到很多坑，又没有助教TA可以询问这些坑，导致常常在一些没意义的地方浪费大量时间。如果有前人总结出来有哪些坑、如何绕过就好了&amp;hellip;&amp;hellip;&lt;/li&gt;
+&lt;li&gt;学这门课之前，需要有哪些前置课程呢？这门课学完之后，又有哪些合适的进阶课程可以学习呢？&lt;/li&gt;
+&lt;li&gt;这门课程的授课质量如何呢？值得花时间去好好观看吗？&lt;/li&gt;
+&lt;li&gt;这门课有没有非官方的优秀资源呢？（如课堂内容的中文翻译）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&amp;hellip;&amp;hellip;.&lt;/p&gt;
+&lt;p&gt;正是因为有这些问题存在，我在写文章的时候往往也力求能给出这些问题的回答，帮助后人能够更高效更合理地去学习这些课程资源。然而写文章终究还是太散乱了，且一个人的力量终究是有限的。受启发于
+&lt;a href=&#34;https://zhuanlan.zhihu.com/p/253232863&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CS公开课程学习群&lt;/a&gt;一位同学的建议与
+&lt;a href=&#34;https://github.com/QSCTech/zju-icicles&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;浙江大学课程攻略共享计划&lt;/a&gt;，我们创立了这个项目，来整合大家对于高质量公开课程的评价、总结、与建议等等，期望这些评价能对后来的同学在选择、学习课程的时候能有一些帮助。&lt;/p&gt;
+&lt;h2 id=&#34;特性&#34;&gt;特性&lt;/h2&gt;
+&lt;p&gt;本项目的目标是收录以下内容：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;课程资源链接&lt;/li&gt;
+&lt;li&gt;是否有视频&lt;/li&gt;
+&lt;li&gt;有哪些作业(homework)、实验(lab/assignment)&lt;/li&gt;
+&lt;li&gt;是否有自动测评程序(autograder)&lt;/li&gt;
+&lt;li&gt;课程简介，包括前置课程知识，适合哪个阶段学习等等&lt;/li&gt;
+&lt;li&gt;课程评价，包括难度、有趣程度、讲课质量、作业难度与质量等等&lt;/li&gt;
+&lt;li&gt;非官方的优质课程资源链接（如笔记、课程内容翻译等等）&lt;/li&gt;
+&lt;li&gt;后续课程推荐&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;等等。由于一门课程可能会有多个评价，大家可以在提供个人评价的时候附上自己的相关信息（如ID或主页）。&lt;/p&gt;
+&lt;h2 id=&#34;贡献&#34;&gt;贡献&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;欢迎贡献！&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Issue、PR、纠错、资料、攻略，各种欢迎！&lt;/p&gt;
+&lt;p&gt;来自大家的关注、维护和贡献，才是让这个项目质量越来越好的动力~&lt;/p&gt;
+&lt;h2 id=&#34;警告&#34;&gt;警告&lt;/h2&gt;
+&lt;p&gt;下列内容为不适合上传的内容。如果你认为缺少这些资料将会影响资源的完整性，请优先考虑放在校内资源平台，或联系你的教师并由教师发布。建议你撰写一个 README 文档并放置一些链接或指引文字来帮助找到这些资源。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;盗版电子书/付费电子书&lt;/li&gt;
+&lt;li&gt;盗版/破解版/绿色版付费软件及其安装包&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;如果你认为本仓库的一些文件侵犯了您的权益，请 
+&lt;a href=&#34;jinminghu233@qq.com&#34;&gt;向我们发送邮件&lt;/a&gt; 。我们将会从仓库中彻底清除这些文件。&lt;/p&gt;
+&lt;h2 id=&#34;项目现状&#34;&gt;项目现状&lt;/h2&gt;
+&lt;p&gt;从昨晚发起项目，到现在已经有10多门名校课程的评价了，其实已经覆盖了大量计算机的基础课程了，欢迎大家关注与贡献！&lt;/p&gt;
+&lt;h2 id=&#34;致谢&#34;&gt;致谢&lt;/h2&gt;
+&lt;p&gt;感谢提出这个想法的同学@itwangashao，同时本项目大量参考了
+&lt;a href=&#34;https://github.com/QSCTech/zju-icicles&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;浙江大学课程攻略共享计划&lt;/a&gt;，一并感谢~&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>系统论文阅读研讨会完结撒花与总结</title>
@@ -21,7 +75,7 @@
 &lt;a href=&#34;https://zhuanlan.zhihu.com/p/347150916&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;详情见此&lt;/a&gt;。一开始我们还有些担心怕聚不起足够的同学来举行这次活动，但后来我们惊讶地发现小伙伴们学习的热情十分之高，以至于我们不仅没几天就组起了开始计划的32人，甚至很快就显著地超过了这个人数。也因此，我们将原计划的8周的研讨会延长到了15周，前前后后涉及的paper大概有30多篇。同时让我们还略感惊讶的是，许多参与活动的同学水平非常得高，甚至有不少同学以一作身份在系统相关领域的顶级会议（如OSDI, SIGMOD, VLDB, ASPLOS等等）上发表了数篇论文，也有不少同学是各大名校的在读博士生或准博士生，当然像我这样的普通的系统学习者也不在少数。而大家都很认真地准备自己的presentation，保证了本次活动的高质量举行。总之，这次活动大获成功，相信认真参加活动的各位同学应该也觉得有所收获。&lt;/p&gt;
 &lt;p&gt;15周是一段很长的时间，且研讨会撞上春节、劳动节这样的节假日的时候都会暂停一周，所以这次活动前后横跨了几乎有半年之久。这样长的时间里，每周都要去阅读论文准备研讨会，并参与研讨会的交流与讨论，这不是一件容易坚持下来的事情。我个人是从头到尾每周的活动都参加，并且每次活动之前都认真准备（谁让我是大部分场次的主持人呢&amp;gt;_&amp;lt;），有时候真的非常忙的时候，还得费劲挤出时间来准备研讨会，我当时还和朋友们吐槽“这活动咋还没结束”。不过吐槽归吐槽，这样每期的认真准备也大大开阔了我这个系统领域初学者的视野，学到了非常多的东西，这里也要感谢各位参与的同学的付出Orz&lt;/p&gt;
 &lt;p&gt;这次活动的成功，我想也一定程度上验证了这种学习形式的有效性，我们也鼓励其他同学组织类似的活动来帮助各自的学习~&lt;/p&gt;
-&lt;p&gt;最后，也是最重要的是，本次活动的所有资源都已开放在网上，包括每期的阅读资料、录像、课件等等，
+&lt;p&gt;最后，也是最重要的是，本次活动的所有资源都已开放在网上，包括每期的阅读资料、录像、课件等等，涉及的内容从FPGA到操作系统内核再到虚拟化, 从分布式系统到机器学习系统再到系统中的机器学习,还包括程序自动分析、计算机网络、LSMT、新硬件、serverless等等，可以说覆盖的内容非常得广，具体资源
 &lt;a href=&#34;https://learn-sys.github.io/cn/reading/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;详见此处&lt;/a&gt;，且录像都是中文的。也希望我们公开的这些资源能帮助到各位系统领域的学习者，为中文社区做一份贡献~&lt;/p&gt;
 </description>
     </item>
