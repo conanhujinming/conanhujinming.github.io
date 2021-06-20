@@ -5,12 +5,26 @@
     <link>https://conanhujinming.github.io/</link>
       <atom:link href="https://conanhujinming.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Jinming Hu</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 30 May 2021 22:40:09 +0800</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 20 Jun 2021 21:19:37 +0800</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Jinming Hu</title>
       <link>https://conanhujinming.github.io/</link>
     </image>
+    
+    <item>
+      <title>系统论文阅读研讨会完结撒花与总结</title>
+      <link>https://conanhujinming.github.io/post/paper_reading_seminar_summary/</link>
+      <pubDate>Sun, 20 Jun 2021 21:19:37 +0800</pubDate>
+      <guid>https://conanhujinming.github.io/post/paper_reading_seminar_summary/</guid>
+      <description>&lt;p&gt;之前我们自发地组织了一次系统论文阅读研讨会，
+&lt;a href=&#34;https://zhuanlan.zhihu.com/p/347150916&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;详情见此&lt;/a&gt;。一开始我们还有些担心怕聚不起足够的同学来举行这次活动，但后来我们惊讶地发现小伙伴们学习的热情十分之高，以至于我们不仅没几天就组起了开始计划的32人，甚至很快就显著地超过了这个人数。也因此，我们将原计划的8周的研讨会延长到了15周，前前后后涉及的paper大概有30多篇。同时让我们还略感惊讶的是，许多参与活动的同学水平非常得高，甚至有不少同学以一作身份在系统相关领域的顶级会议（如OSDI, SIGMOD, VLDB, ASPLOS等等）上发表了数篇论文，也有不少同学是各大名校的在读博士生或准博士生，当然像我这样的普通的系统学习者也不在少数。而大家都很认真地准备自己的presentation，保证了本次活动的高质量举行。总之，这次活动大获成功，相信认真参加活动的各位同学应该也觉得有所收获。&lt;/p&gt;
+&lt;p&gt;15周是一段很长的时间，且研讨会撞上春节、劳动节这样的节假日的时候都会暂停一周，所以这次活动前后横跨了几乎有半年之久。这样长的时间里，每周都要去阅读论文准备研讨会，并参与研讨会的交流与讨论，这不是一件容易坚持下来的事情。我个人是从头到尾每周的活动都参加，并且每次活动之前都认真准备（谁让我是大部分场次的主持人呢&amp;gt;_&amp;lt;），有时候真的非常忙的时候，还得费劲挤出时间来准备研讨会，我当时还和朋友们吐槽“这活动咋还没结束”。不过吐槽归吐槽，这样每期的认真准备也大大开阔了我这个系统领域初学者的视野，学到了非常多的东西，这里也要感谢各位参与的同学的付出Orz&lt;/p&gt;
+&lt;p&gt;这次活动的成功，我想也一定程度上验证了这种学习形式的有效性，我们也鼓励其他同学组织类似的活动来帮助各自的学习~&lt;/p&gt;
+&lt;p&gt;最后，也是最重要的是，本次活动的所有资源都已开放在网上，包括每期的阅读资料、录像、课件等等，
+&lt;a href=&#34;https://learn-sys.github.io/cn/reading/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;详见此处&lt;/a&gt;，且录像都是中文的。也希望我们公开的这些资源能帮助到各位系统领域的学习者，为中文社区做一份贡献~&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>硕士毕业半年的茫茫社招路</title>
