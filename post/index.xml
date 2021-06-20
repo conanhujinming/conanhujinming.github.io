@@ -32,7 +32,9 @@
 &lt;p&gt;&amp;hellip;&amp;hellip;.&lt;/p&gt;
 &lt;p&gt;正是因为有这些问题存在，我在写文章的时候往往也力求能给出这些问题的回答，帮助后人能够更高效更合理地去学习这些课程资源。然而写文章终究还是太散乱了，且一个人的力量终究是有限的。受启发于
 &lt;a href=&#34;https://zhuanlan.zhihu.com/p/253232863&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CS公开课程学习群&lt;/a&gt;一位同学的建议与
-&lt;a href=&#34;https://github.com/QSCTech/zju-icicles&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;浙江大学课程攻略共享计划&lt;/a&gt;，我们创立了这个项目，来整合大家对于高质量公开课程的评价、总结、与建议等等，期望这些评价能对后来的同学在选择、学习课程的时候能有一些帮助。&lt;/p&gt;
+&lt;a href=&#34;https://github.com/QSCTech/zju-icicles&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;浙江大学课程攻略共享计划&lt;/a&gt;，我们创立了
+&lt;a href=&#34;https://github.com/conanhujinming/comments-for-awesome-courses&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;这个项目&lt;/a&gt;，
+&lt;a href=&#34;https://conanhujinming.github.io/comments-for-awesome-courses/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;对应的网站在这里&lt;/a&gt;，意在整合大家对于高质量公开课程的评价、总结、与建议等等，期望这些评价能对后来的同学在选择、学习课程的时候能有一些帮助。&lt;/p&gt;
 &lt;h2 id=&#34;特性&#34;&gt;特性&lt;/h2&gt;
 &lt;p&gt;本项目的目标是收录以下内容：&lt;/p&gt;
 &lt;ul&gt;
@@ -60,6 +62,9 @@
 &lt;a href=&#34;jinminghu233@qq.com&#34;&gt;向我们发送邮件&lt;/a&gt; 。我们将会从仓库中彻底清除这些文件。&lt;/p&gt;
 &lt;h2 id=&#34;项目现状&#34;&gt;项目现状&lt;/h2&gt;
 &lt;p&gt;从昨晚发起项目，到现在已经有10多门名校课程的评价了，其实已经覆盖了大量计算机的基础课程了，欢迎大家关注与贡献！&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://github.com/conanhujinming/comments-for-awesome-courses&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;项目地址在此&lt;/a&gt;，
+&lt;a href=&#34;https://conanhujinming.github.io/comments-for-awesome-courses/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;对应的网站在此&lt;/a&gt;。&lt;/p&gt;
 &lt;h2 id=&#34;致谢&#34;&gt;致谢&lt;/h2&gt;
 &lt;p&gt;感谢提出这个想法的同学@itwangashao，同时本项目大量参考了
 &lt;a href=&#34;https://github.com/QSCTech/zju-icicles&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;浙江大学课程攻略共享计划&lt;/a&gt;，一并感谢~&lt;/p&gt;
