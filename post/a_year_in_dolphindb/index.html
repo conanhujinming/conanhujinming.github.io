@@ -1,0 +1,1018 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.7.0">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Jinming Hu">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="今天突发奇想，看了下我在DolphinDB智臾科技入职的时间，看到是2021年3月3日，算了算距今刚好一年零几天，遂写篇文章，作为对过去一年">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://conanhujinming.github.io/post/a_year_in_dolphindb/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#3f51b5">
+  
+
+  
+  
+  
+  <script src="/js/mathjax-config.js"></script>
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
+
+
+
+
+  
+
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
+
+  <link rel="canonical" href="https://conanhujinming.github.io/post/a_year_in_dolphindb/">
+
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="og:site_name" content="Jinming Hu">
+  <meta property="og:url" content="https://conanhujinming.github.io/post/a_year_in_dolphindb/">
+  <meta property="og:title" content="在DolphinDB智臾科技工作的这一年 | Jinming Hu">
+  <meta property="og:description" content="今天突发奇想，看了下我在DolphinDB智臾科技入职的时间，看到是2021年3月3日，算了算距今刚好一年零几天，遂写篇文章，作为对过去一年"><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:circle]">
+  <meta property="twitter:image" content="img/map[gravatar:%!s(bool=false) shape:circle]"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2022-03-08T22:34:17&#43;08:00">
+    
+    <meta property="article:modified_time" content="2022-03-08T22:34:17&#43;08:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://conanhujinming.github.io/post/a_year_in_dolphindb/"
+  },
+  "headline": "在DolphinDB智臾科技工作的这一年",
+  
+  "datePublished": "2022-03-08T22:34:17+08:00",
+  "dateModified": "2022-03-08T22:34:17+08:00",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Jinming Hu"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Jinming Hu",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://conanhujinming.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
+    }
+  },
+  "description": "今天突发奇想，看了下我在DolphinDB智臾科技入职的时间，看到是2021年3月3日，算了算距今刚好一年零几天，遂写篇文章，作为对过去一年"
+}
+</script>
+
+  
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>在DolphinDB智臾科技工作的这一年 | Jinming Hu</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">Jinming Hu</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">Jinming Hu</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#experience"><span>Experience</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Posts</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#projects"><span>Projects</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      <li class="nav-item">
+        <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>在DolphinDB智臾科技工作的这一年</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Mar 8, 2022
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    9 min read
+  </span>
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <p>今天突发奇想，看了下我在DolphinDB智臾科技入职的时间，看到是2021年3月3日，算了算距今刚好一年零几天，遂写篇文章，作为对过去一年工作的总结，同时展望一下未来一年的工作计划。在工业界工作，工作内容往往由一个个项目组成，故这篇文章也借一个个我在DolphinDB主导或者参与的几个比较大的项目，来总结我过去这一年的工作。</p>
+<h2 id="新的存储引擎tsdbtime-series-database">新的存储引擎TSDB(Time Series DataBase)</h2>
+<p>新加入公司的第一个项目是与@无敌大饺子一起开发一个新的存储引擎TSDB。这里首先要讲讲为什么要开发一个新的存储引擎，以及这个存储引擎是做什么的。DolphinDB原先是有一款存储引擎的，叫OLAP。OLAP的设计比较简单，基本上就是按列存储，每个文件是表格的一个列，数据写入时的顺序即为数据存储的顺序。这样设计的好处是当列并不是很多的时候写入非常快：只需要在每个列文件上进行追加写即可。同时（当列并不是很多的时候）如果要对表格数据进行大规模的分析（例如策略回测）的效率也比较高。但是随着DolphinDB的应用场景在拓宽，OLAP的存储引擎逐渐碰到了一些问题。其中最大的问题就是在物联网中的点查需求。这里又需要简单介绍一下物联网的时序数据库应用场景是一个怎么样的场景。物联网通常的应用场景都相当简单，会有大量的设备（如几十万，甚至上千万的设备）接入数据库，例如一个省份的电表。每个设备每隔一段（固定的）时间（如一秒）会产生一条数据。<strong>而用户对数据的最主要的需求是去查某个或少数几个设备在给定时间段内的数据</strong>，这样的需求我们称之为点查。在我们试图将DolphinDB应用到物联网的场景时，OLAP存储引擎遇到了困难，这个困难就是点查效率的低下。具体地说，对于OLAP引擎，由于存储数据的顺序即为数据写入的顺序，而对于同一个设备来说，它的数据在写入的时候往往是分散在表格的各个位置的。例如，假设数据库总共有3个设备接入，数据写入的顺序往往是先写入1号设备的第1秒的数据，再写入2、3号设备的第1秒的数据，然后再写入1号设备的第2秒的数据，再写入2、3号设备第2秒的数据，以此类推。很显然，如果数据的存储顺序与写入顺序是一致的，那么假如我们要查询1号设备的数据，就需要遍历整个列文件才能找到所有1号设备的数据，这样的效率是相当低下的。设想如果有1000万个设备，而查询1个设备的数据就需要访问所有的数据，这个效率自然是不会高的。当然，实际情况没有这么糟，DolphinDB有完善的分布式表分区机制（具体可以可以参考
+<a href="https://github.com/dolphindb/Tutorials_CN/blob/master/database.md" target="_blank" rel="noopener">这篇文章</a>），使得一个分区的设备数不会太多，但即便如此，在OLAP引擎中进行点查，也往往需要几百毫秒的延时。而TSDB就是一款我们为了解决这个核心的点查问题而设计出来的存储引擎，我们期望它的点查效率能够低至几十毫秒，甚至是几个毫秒。</p>
+<p>TSDB的设计是我和@无敌大饺子以及公司的两位领导Davis和大飞哥一起讨论得出的。设计的思路也不复杂：<strong>既然OLAP中点查效率的低下是由于同一个设备的数据是散落在文件四处的，那简单，我们TSDB中就将同一个设备的数据连续存储在一块就可以了</strong>。这很自然地就需要将写入数据进行排序，在结合其他的一些实际需求，我们很自然地引用了LSMT(Log Structured Merge Tree)架构作为TSDB的设计基础。关于TSDB设计的详细介绍可以参考我和@无敌大饺子之前的一个
+<a href="https://www.bilibili.com/video/BV1V54y1p7vX?from=search&amp;seid=11666148510380071180&amp;spm_id_from=333.337.0.0" target="_blank" rel="noopener">直播录像</a>，我这里就不展开介绍了。在设计完之后，我们进行了任务分工，我负责存储引擎的读取、计算部分，@无敌大饺子负责存储引擎数据的写入部分，大飞哥负责存储引擎的WAL和recovery模块。我们大约花了一个月的时间给出了第一个内部测试的beta版本，后面又陆陆续续地花了一些时间来加入一些新的功能如数据自动去重、增加列、支持blob类型，以及修复系统中存在的bug。在我加入公司的第三个月，我们终于决定将这个存储引擎推出供客户使用。</p>
+<p>TSDB这个项目对我来说意义非凡。首先，这是我第一个参与甚至是主导的数据库相关的项目，我借此机会学了众多数据库的知识。其次，这是我第一次参与的复杂的大型项目。之前在前东家也有进行过交易系统的开发，但说实话，那样的项目我觉得称不上大型与复杂，虽然也有很多的代码量，但主要也就是业务逻辑的堆积。TSDB不一样，它中间有大量的状态需要维护，完完全全是一个复杂的系统，想要让它稳定的运行并不容易。而且TSDB大量地涉及到与计算机系统底层打交道，而且我负责的是数据查询与计算部分，性能的重要性不言而喻，我借此机会学会了诸多的性能优化技巧，如leaky buffer, 尽量减少内存拷贝，合理规划读盘的顺序，避免多线程对磁头的争抢等等等等。最后，我们在一个真实的物联网数据集上进行了TSDB与其他数据库的性能对比评测。这个数据集有两百万个设备，我们使用了三台机器组成的集群来进行评测，主要对比了物联网领域常用的数据库在点查方面与TSDB的性能比较。下图给出我们的实验结果：</p>
+<p><img src="C:%5CUsers%5Cjinming%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220308232255885.png" alt="image-20220308232255885"></p>
+<p>可以看到，TSDB的点查性能显著优于在物联网中以点查性能著称的ClickHouse与TDEngine。能够做到这一点，毫无疑问TSDB是一个成功的项目，也让我为之自豪。</p>
+<h2 id="分布式join">分布式join</h2>
+<p>这是我独立完成的一个项目。具体地说，之前的DolphinDB在分布式join方面只支持同数据库下相同分区方式的分布式表做join，且join的列必须全部为分区列。这显然是有较大局限性的。我的方案也很简单，就是对数据进行re-shuffle(或称re-hash)。若join列为左表的分区列，则我们将右表的数据进行re-shuffle，使得re-shuffle后的数据也按join列进行分区，且将左表与右表相同分区方式的子表存储于同一节点上，这样就可以实现将整个分布式join分解为每个节点上的join，最后再将join的结果合并到一块去。类似的，若join列为右表的分区列，则我们将左表的数据进行re-shuffle。倘若join列既不是左表的分区列，又不是右表的分区列，则这是最糟情况，这种情况下会涉及到大量的数据移动，需要将左表和右表的数据都按join列进行re-shuffle，再进行join操作。</p>
+<p>这个项目从设计到开发完成总共花了大约两周的时间，作为第一个我独立完成的项目，我还是比较满意的。</p>
+<h2 id="在线机器学习online-machine-learning">在线机器学习(online machine learning)</h2>
+<p>这是一个我至今尚未完成的项目。这个项目的背景大概是这样的：现在机器学习非常火热，应用的场景很多，DolphinDB当然也是支持机器学习模型的训练和预测的。然而，目前DolphinDB仅支持先训练机器学习模型，再部署机器学习模型这一批数据处理的范式，而不支持在线地根据最新的数据来更新模型。所以在线机器学习这个项目自然就是想支持在线地根据最新的数据来更新模型。由于我之前对机器学习和机器学习系统，所以我很快地就给出了这个项目的设计方案。再由于我一直有其他优先级更高的任务要做，所以我一直试图找一位实习生或者正式工的同学来按照我的设计方案完成这个项目。无奈直到今天还没寻到相应的同学。如果有同学对这个项目感兴趣，请一定要联系我&gt;_&lt;</p>
+<h2 id="内存oltp存储引擎">内存OLTP存储引擎</h2>
+<p>这个项目其实我参与不多。在9月份之前，这个项目是由@无敌大饺子牵头在设计与实现，后来他去MIT读PhD去了，就由我们的实习生同学@river接过了实现的大旗，并完成了大部分的代码编写，其他一些同学如实习生hj同学完成了B+树的代码实现，实习生@olaoo 实现了logging模块等。这个项目的背景很简单，我们的很多金融客户有内存OLTP数据库的需求，如金融的交易场景等，而DolphinDB其他的存储引擎都是OLAP的，对于高频的删除、修改、更新的支持有限。这个项目的最大的复杂度来源于二级索引的支持和MVCC的支持，尤其当这二者结合到一块去之后，事务的处理将会变得非常复杂。其实我本来也想深度参与这个项目的，但无奈个人精力有限，又不愿意加班，所以最后只能是摸鱼划水了一波。目前这个项目的单机版已经初具雏形了，在性能调优阶段；而之后我们将会开始进行这个项目的分布式版本，这则会有新的挑战：现有的2PC等框架都太重了，性能不够优秀，如何高效地支持分布式事务，以及分布式场景下如何支持二级索引等等。对这个项目感兴趣的同学，可以联系我&gt;_&lt;</p>
+<h2 id="python-parser">Python Parser</h2>
+<p>这个项目实际上我完全没有参与，是由我的好友jc与公司CEO/CTO Davis一直在牵头设计与实现的。具体地说，为了提供更强大更灵活的计算能力，DolphinDB提供了一门自带的编程语言DolphinDB Script，其语法类似于Python与SQL的结合。使用这门编程语言，用户就可以在数据库中方便而高效地完成各种复杂的计算操作。然而，语法类似Python，也终究不是Python，用户仍然有一定的学习成本；更重要的是，在数据分析领域，Python的两大重量级的包numpy和pandas早已深入人心，大家已经习惯了它们的操作语法与方便性。Python Parser这个项目，<strong>目标就是让DolphinDB原生地支持使用Python来管理存储与计算，这样用户的学习成本就可以降至最低，而且Python Parser还将原生地支持numpy和pandas的操作</strong>。具体地说，我们自行在DolphinDB内部实现了一个Python的解释器，而且这个解释器将没有GIL的束缚，计算性能会非常出色。我们将在今年三月底四月初推出第一个beta版本的Python Parser，但之后仍然有非常多的工作需要做。对这个项目感兴趣的同学，可以联系我&gt;_&lt;</p>
+<p>总结完了过去一年里我参与、主导的一系列较大的项目，下面我将简单介绍我们未来一段时间内打算做的项目，欢迎对这些项目感兴趣的同学加入我们。大家也可以看到，在我们公司，即便是实习生也可以承担重任，所以不用担心自己资历不深而无法参与到核心的项目~</p>
+<h2 id="分布式内存oltp数据库">分布式内存OLTP数据库</h2>
+<p>这个在前面我已经介绍过了，这里就不详细介绍了。</p>
+<h2 id="python-parser-1">Python Parser</h2>
+<p>同样，在前面已经介绍过了，这里就不赘述了。</p>
+<h2 id="流式数据库">流式数据库</h2>
+<p>DolphinDB已经有一个非常强大的流计算引擎了。然而目前的流计算引擎的管理和运维还比较麻烦。之后我们计划实现一个流式数据库，能够方便地进行流计算的管理和运维，并支持自动化的流式复杂指标计算。</p>
+<h2 id="基于k8s和容器的自动化部署">基于k8S和容器的自动化部署</h2>
+<p>目前DolphinDB的部署和升级还比较麻烦。我们目前已经在开发基于k8S和容器的自动化部署，未来希望能够继续强化这项功能。</p>
+<h2 id="新硬件的支持">新硬件的支持</h2>
+<p>过去的数年内涌现了众多的新的硬件，如NVM, Infinity Band, RDMA, 高性能的GPU等，然而却鲜有将这些新硬件融入到数据库内的。我们计划未来一段时间内探索如何将这些新硬件与数据库结合，以进一步地提高数据库的性能。</p>
+<p>对以上任一项目感兴趣的同学都可联系我~</p>
+<h2 id="总结">总结</h2>
+<p>过去的一年里，我在DolphinDB按照自己期望的方式成长了很多。希望在接下来的一年里，我能够继续这样的成长。</p>
+
+    </div>
+
+    
+
+
+
+
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://conanhujinming.github.io/post/a_year_in_dolphindb/&amp;text=%e5%9c%a8DolphinDB%e6%99%ba%e8%87%be%e7%a7%91%e6%8a%80%e5%b7%a5%e4%bd%9c%e7%9a%84%e8%bf%99%e4%b8%80%e5%b9%b4" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://conanhujinming.github.io/post/a_year_in_dolphindb/&amp;t=%e5%9c%a8DolphinDB%e6%99%ba%e8%87%be%e7%a7%91%e6%8a%80%e5%b7%a5%e4%bd%9c%e7%9a%84%e8%bf%99%e4%b8%80%e5%b9%b4" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=%e5%9c%a8DolphinDB%e6%99%ba%e8%87%be%e7%a7%91%e6%8a%80%e5%b7%a5%e4%bd%9c%e7%9a%84%e8%bf%99%e4%b8%80%e5%b9%b4&amp;body=https://conanhujinming.github.io/post/a_year_in_dolphindb/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://conanhujinming.github.io/post/a_year_in_dolphindb/&amp;title=%e5%9c%a8DolphinDB%e6%99%ba%e8%87%be%e7%a7%91%e6%8a%80%e5%b7%a5%e4%bd%9c%e7%9a%84%e8%bf%99%e4%b8%80%e5%b9%b4" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=%e5%9c%a8DolphinDB%e6%99%ba%e8%87%be%e7%a7%91%e6%8a%80%e5%b7%a5%e4%bd%9c%e7%9a%84%e8%bf%99%e4%b8%80%e5%b9%b4%20https://conanhujinming.github.io/post/a_year_in_dolphindb/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://conanhujinming.github.io/post/a_year_in_dolphindb/&amp;title=%e5%9c%a8DolphinDB%e6%99%ba%e8%87%be%e7%a7%91%e6%8a%80%e5%b7%a5%e4%bd%9c%e7%9a%84%e8%bf%99%e4%b8%80%e5%b9%b4" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hubd2169f75411e26c6f08e041cf104953_98411_270x270_fill_q90_lanczos_center.jpg" alt="Avatar">
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://conanhujinming.github.io/">Jinming Hu</a></h5>
+      <h6 class="card-subtitle">Software Engineer</h6>
+      <p class="card-text">My research interests include machine learning, data mining, deep learning, computer vision, operating system, and database.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:jinminghu233@qq.com" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/conanhujinming" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  </div>
+</article>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js" integrity="sha256-1zu+3BnLYV9LdiY85uXMzii3bdrkelyp37e0ZyTAQh0=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/languages/r.min.js"></script>
+        
+      
+
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js" integrity="sha256-EErZamuLefUnbMBQbsEqu1USa+btR2oIlCpBJbyD4/g=" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    <script>const isSiteThemeDark = false;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.a8d7005002cb4a052fd6d721e83df9ba.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" class="back-to-top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
