@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shuai Zhao | Jinming Hu</title>
+    <link>http://localhost:1313/authors/shuai-zhao/</link>
+      <atom:link href="http://localhost:1313/authors/shuai-zhao/index.xml" rel="self" type="application/rss+xml" />
+    <description>Shuai Zhao</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jul 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:square]</url>
+      <title>Shuai Zhao</title>
+      <link>http://localhost:1313/authors/shuai-zhao/</link>
+    </image>
+    
+    <item>
+      <title>Accelerate cnns from three dimensions: A comprehensive pruning framework</title>
+      <link>http://localhost:1313/publication/accelerate-cnns/</link>
+      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/accelerate-cnns/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Es-net: Erasing salient parts to learn more in re-identification</title>
+      <link>http://localhost:1313/publication/es-net/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/es-net/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DBP: Discrimination based block-level pruning for deep model acceleration</title>
+      <link>http://localhost:1313/publication/dbp-pruning/</link>
+      <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/dbp-pruning/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>英文写作 | Jinming Hu</title>
-    <link>https://conanhujinming.github.io/tags/%E8%8B%B1%E6%96%87%E5%86%99%E4%BD%9C/</link>
-      <atom:link href="https://conanhujinming.github.io/tags/%E8%8B%B1%E6%96%87%E5%86%99%E4%BD%9C/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/tags/%E8%8B%B1%E6%96%87%E5%86%99%E4%BD%9C/</link>
+      <atom:link href="http://localhost:1313/tags/%E8%8B%B1%E6%96%87%E5%86%99%E4%BD%9C/index.xml" rel="self" type="application/rss+xml" />
     <description>英文写作</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 06 Mar 2020 21:10:32 +0800</lastBuildDate>
     <image>
-      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <url>img/map[gravatar:%!s(bool=false) shape:square]</url>
       <title>英文写作</title>
-      <link>https://conanhujinming.github.io/tags/%E8%8B%B1%E6%96%87%E5%86%99%E4%BD%9C/</link>
+      <link>http://localhost:1313/tags/%E8%8B%B1%E6%96%87%E5%86%99%E4%BD%9C/</link>
     </image>
     
     <item>
       <title>写作的7C法则</title>
-      <link>https://conanhujinming.github.io/post/paper_writing/</link>
+      <link>http://localhost:1313/post/paper_writing/</link>
       <pubDate>Fri, 06 Mar 2020 21:10:32 +0800</pubDate>
-      <guid>https://conanhujinming.github.io/post/paper_writing/</guid>
+      <guid>http://localhost:1313/post/paper_writing/</guid>
       <description>&lt;p&gt;这两天有同学和我一起讨论在写作中需要注意的事项，我们总结出了七个简单的写作法则。注意我们讨论的主要是议论文、科技文写作；而抒情记叙散文等可能会有不同的原则。我们将下面七个简单的法则概括为7C法则。&lt;/p&gt;
 &lt;h2 id=&#34;concrete-and-concise-具体而简短有力&#34;&gt;Concrete and Concise 具体而简短有力&lt;/h2&gt;
-&lt;p&gt;文章的内容要具体，文字要言之有物，不能泛泛而谈。这个内容指的不仅仅是文章的主旨，还包括每个段落，每个句子，甚至每个词。有同学举了一个很好的例子，例如&amp;quot;do the construction&amp;rdquo;，这里的do就是一个无意义的词，不如直接用动词&amp;quot;construct&amp;rdquo;。&lt;/p&gt;
+&lt;p&gt;文章的内容要具体，文字要言之有物，不能泛泛而谈。这个内容指的不仅仅是文章的主旨，还包括每个段落，每个句子，甚至每个词。有同学举了一个很好的例子，例如&amp;quot;do the construction&amp;quot;，这里的do就是一个无意义的词，不如直接用动词&amp;quot;construct&amp;quot;。&lt;/p&gt;
 &lt;p&gt;同样，写作的文字要简短有力，所有文字均为文章主旨服务，这与内容具体（以及下文提到的cohesion)往往是一致的。&lt;/p&gt;
 &lt;h2 id=&#34;cohesion-内聚性&#34;&gt;Cohesion 内聚性&lt;/h2&gt;
 &lt;p&gt;文章要有内聚性，即每个段落都是为文章主旨所服务的。段落要有内聚性，每个段落应该只有一个主旨，且一个段落的主旨往往在开头，即topic sentence，而之后的句子均要为此服务。每个句子也应该有内聚性，例如一个句子不应该讲述两件不同的事情，除非有意为之。&lt;/p&gt;

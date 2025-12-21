@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2 | Jinming Hu</title>
+    <link>http://localhost:1313/publication_types/2/</link>
+      <atom:link href="http://localhost:1313/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
+    <description>2</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:square]</url>
+      <title>2</title>
+      <link>http://localhost:1313/publication_types/2/</link>
+    </image>
+    
+    <item>
+      <title>Practical db-os co-design with privileged kernel bypass</title>
+      <link>http://localhost:1313/publication/practical-db-os-codesign/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/practical-db-os-codesign/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Complementary pseudo labels for unsupervised domain adaptation on person re-identification</title>
+      <link>http://localhost:1313/publication/complementary-pseudo-labels/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/complementary-pseudo-labels/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Es-net: Erasing salient parts to learn more in re-identification</title>
+      <link>http://localhost:1313/publication/es-net/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/es-net/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

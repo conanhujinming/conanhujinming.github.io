@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Xinjing Zhou | Jinming Hu</title>
+    <link>http://localhost:1313/authors/xinjing-zhou/</link>
+      <atom:link href="http://localhost:1313/authors/xinjing-zhou/index.xml" rel="self" type="application/rss+xml" />
+    <description>Xinjing Zhou</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:square]</url>
+      <title>Xinjing Zhou</title>
+      <link>http://localhost:1313/authors/xinjing-zhou/</link>
+    </image>
+    
+    <item>
+      <title>Practical db-os co-design with privileged kernel bypass</title>
+      <link>http://localhost:1313/publication/practical-db-os-codesign/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/practical-db-os-codesign/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

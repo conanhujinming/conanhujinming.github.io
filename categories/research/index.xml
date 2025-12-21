@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Research | Jinming Hu</title>
+    <link>http://localhost:1313/categories/research/</link>
+      <atom:link href="http://localhost:1313/categories/research/index.xml" rel="self" type="application/rss+xml" />
+    <description>Research</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 21 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:square]</url>
+      <title>Research</title>
+      <link>http://localhost:1313/categories/research/</link>
+    </image>
+    
+    <item>
+      <title>The Computational Event Horizon: The Universal Quantifier Trap</title>
+      <link>http://localhost:1313/post/computational-event-horizon/</link>
+      <pubDate>Sun, 21 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/computational-event-horizon/</guid>
+      <description>&lt;p&gt;Why have we solved the Poincaré Conjecture but not Navier-Stokes? Why does the Riemann Hypothesis feel &amp;quot;true&amp;quot; while $P$ vs $NP$ feels &amp;quot;impossible&amp;quot;?&lt;/p&gt;
+&lt;p&gt;We posit that mathematical problems exist on a spectrum of &lt;strong&gt;Simulational Capacity&lt;/strong&gt;.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Class I (Structural):&lt;/strong&gt; Systems governed by rigid symmetries or smoothing operators. The evolution of the system destroys distinct information states, collapsing the phase space into a predictable manifold.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Class II (Simulational):&lt;/strong&gt; Systems capable of encoding arbitrary Boolean logic and unbounded memory. These are effectively &amp;quot;fluid computers&amp;quot; where the system&amp;rsquo;s evolution is computationally irreducible.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Our central thesis is logic-theoretic: &lt;em&gt;One cannot prove a Universal Statement ($\forall x, P(x)$) if the domain $x$ contains an embedded Turing Complete subspace.&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&#34;class-i-the-domain-of-structure&#34;&gt;Class I: The Domain of Structure&lt;/h2&gt;
+&lt;p&gt;Class I problems inhabit structures where information is either conserved (symmetry) or destroyed (smoothing).&lt;/p&gt;
+&lt;h3 id=&#34;the-poincaré-conjecture-solved&#34;&gt;The Poincaré Conjecture (Solved)&lt;/h3&gt;
+&lt;p&gt;Perelman&amp;rsquo;s proof utilizing Ricci Flow ($\partial_t g_{ij} = -2 R_{ij}$) is the archetype of Class I. Physically, this is a heat equation. Diffusion increases entropy and erases &amp;quot;memory.&amp;quot;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Principle (Information Destruction):&lt;/strong&gt; A diffusive flow smoothes out arbitrary topological complexity. It destroys the distinct, stable states required for bit transitions. Because the flow &amp;quot;forgets&amp;quot; the microscopic details of the initial metric, the final state is topologically simple ($S^3$). The proof succeeds because the system naturally compresses itself.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;the-riemann-hypothesis-rh&#34;&gt;The Riemann Hypothesis (RH)&lt;/h3&gt;
+&lt;p&gt;While unsolved, RH is likely Class I. By the Hilbert-Pólya conjecture, the zeros of $\zeta(s)$ correspond to eigenvalues of a self-adjoint operator in a chaotic quantum system.&lt;/p&gt;
+&lt;p&gt;Unlike a general computer which can halt at arbitrary times, the spectrum of physical operators exhibits &amp;quot;rigidity&amp;quot; (GUE statistics). The system lacks the degrees of freedom to encode a logical paradox (like the Halting Problem) into the distribution of primes.&lt;/p&gt;
+&lt;h2 id=&#34;class-ii-the-domain-of-simulation&#34;&gt;Class II: The Domain of Simulation&lt;/h2&gt;
+&lt;p&gt;We define Class II problems as those defined on substrates rich enough to support &lt;strong&gt;Universal Computation&lt;/strong&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;The Universality Hypothesis:&lt;/strong&gt; If a dynamical system $\Psi$ is Turing-complete, then determining its global asymptotic stability entails solving the Halting Problem for all possible programs.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;navier-stokes-ns&#34;&gt;Navier-Stokes (NS)&lt;/h3&gt;
+&lt;p&gt;The non-linearity of the inertial term $(u \cdot \nabla)u$ allows for constructive interference of vortices. Tao has suggested that Euler and NS equations might be capable of simulating a von Neumann machine.&lt;/p&gt;
+&lt;p&gt;If a fluid can &amp;quot;compute,&amp;quot; then the initial velocity field $u_0(x)$ acts as the &amp;quot;software&amp;quot; (input tape). To prove Global Regularity, one must prove that &lt;em&gt;no&lt;/em&gt; software causes the machine to crash (blow up).&lt;/p&gt;
+&lt;h3 id=&#34;p-vs-np&#34;&gt;$P$ vs $NP$&lt;/h3&gt;
+&lt;p&gt;This is the archetype of Class II. Disproving $P \neq NP$ would require finding a polynomial algorithm that compresses the search space of &lt;em&gt;all&lt;/em&gt; boolean circuits.&lt;/p&gt;
+&lt;p&gt;The &lt;em&gt;Natural Proofs&lt;/em&gt; barrier implies that current methods fail because they cannot distinguish &amp;quot;hard&amp;quot; pseudo-random functions from truly random ones. In our framework: the &amp;quot;hardness&amp;quot; of $NP$ problems comes from their incompressibility.&lt;/p&gt;
+&lt;h2 id=&#34;the-universal-quantifier-trap&#34;&gt;The Universal Quantifier Trap&lt;/h2&gt;
+&lt;p&gt;Here we formalize why Class II problems are likely independent of $ZFC$. The obstruction is not that &lt;em&gt;all&lt;/em&gt; inputs are hard, but that &lt;em&gt;some&lt;/em&gt; inputs act as undecidable logic gates.&lt;/p&gt;
+&lt;h3 id=&#34;the-logical-structure-of-the-problems&#34;&gt;The Logical Structure of the Problems&lt;/h3&gt;
+&lt;p&gt;The Millennium Problems are framed as Universal Statements:
+$$ \forall x \in \mathcal{S}, \quad \Phi(x) \text{ holds.} $$
+Where $\mathcal{S}$ is the set of all initial conditions (fluids) or all languages (complexity).&lt;/p&gt;
+&lt;h3 id=&#34;embedding-turing-machines&#34;&gt;Embedding Turing Machines&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;The Embeddability Lemma:&lt;/strong&gt; Let $\mathcal{S}$ be the domain of a Class II system. Because the system is Turing Complete, there exists an injective mapping $\Gamma: \mathbb{N} \to \mathcal{S}$ such that for any Turing Machine $M_n$, there exists a corresponding initial state $x_n = \Gamma(n) \in \mathcal{S}$ that simulates $M_n$.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;For Navier-Stokes, $x_n$ would be a highly complex, geometrically precise arrangement of vortices designed to execute logic operations.&lt;/p&gt;
+&lt;h3 id=&#34;the-undecidability-mechanism&#34;&gt;The Undecidability Mechanism&lt;/h3&gt;
+&lt;p&gt;Let the property $\Phi(x)$ be &amp;quot;The solution remains regular/bounded for all time.&amp;quot; In the context of the embedded simulation, a &amp;quot;singularity&amp;quot; (blow-up) corresponds to the machine reaching a specific &amp;quot;Halt&amp;quot; state.&lt;/p&gt;
+&lt;p&gt;Thus:
+$$ \Phi(x_n) \text{ is False} \iff M_n \text{ Halts.} $$&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;The Quantifier Obstruction Theorem:&lt;/strong&gt; The statement &amp;quot;$\forall x \in \mathcal{S}, \Phi(x)$&amp;quot; implies &amp;quot;$\forall n, M_n \text{ does not Halt}$&amp;quot; (assuming we are testing for non-blowup). However, the set of indices $n$ for which $M_n$ halts is recursively enumerable but not recursive. There exist indices $k$ such that the statement &amp;quot;$M_k$ does not Halt&amp;quot; is undecidable in $ZFC$ (Gödel/Turing).&lt;/p&gt;
+&lt;p&gt;Therefore, the truth value of $\Phi(x_k)$ is undecidable. Since the Universal Statement requires $\Phi(x)$ to be true for &lt;strong&gt;all&lt;/strong&gt; $x$, and we cannot determine the truth for $x_k$, the Universal Statement cannot be proven.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;Remark: It does not matter if the &amp;quot;rogue&amp;quot; inputs $x_k$ are rare (measure zero). In a logical proof, a single counter-example falsifies the theorem. If the existence of that counter-example is undecidable, the theorem is independent.&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;The Millennium Prize problems are not merely difficult; they are categorized by their logical compressibility.&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Problem&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Mechanism&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Status&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Poincaré&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Info. Destruction&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Class I (Provable)&lt;/strong&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Riemann Hyp.&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Spectral Rigidity&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Class I (Provable)&lt;/strong&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Navier-Stokes&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Universal Sim.&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Class II (Indep.)&lt;/strong&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;$P$ vs $NP$&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Circuit Univ.&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Class II (Indep.)&lt;/strong&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;For Class II problems, we are not hitting a lack of technique; we are hitting the &lt;strong&gt;Computational Event Horizon&lt;/strong&gt;. The domain of inputs contains embedded logical paradoxes. To prove the theorem, one would have to resolve the Halting Problem. Thus, the answers lie beyond the reach of finite axiomatic systems.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;This post is based on my recent paper: 
+&lt;a href=&#34;http://localhost:1313/publication/computational-event-horizon/&#34;&gt;The Computational Event Horizon&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

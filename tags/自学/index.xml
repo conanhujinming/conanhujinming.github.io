@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>自学 | Jinming Hu</title>
-    <link>https://conanhujinming.github.io/tags/%E8%87%AA%E5%AD%A6/</link>
-      <atom:link href="https://conanhujinming.github.io/tags/%E8%87%AA%E5%AD%A6/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/tags/%E8%87%AA%E5%AD%A6/</link>
+      <atom:link href="http://localhost:1313/tags/%E8%87%AA%E5%AD%A6/index.xml" rel="self" type="application/rss+xml" />
     <description>自学</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 22 May 2020 17:39:23 +0800</lastBuildDate>
     <image>
-      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <url>img/map[gravatar:%!s(bool=false) shape:square]</url>
       <title>自学</title>
-      <link>https://conanhujinming.github.io/tags/%E8%87%AA%E5%AD%A6/</link>
+      <link>http://localhost:1313/tags/%E8%87%AA%E5%AD%A6/</link>
     </image>
     
     <item>
       <title>自学英语的经验分享</title>
-      <link>https://conanhujinming.github.io/post/learn_english/</link>
+      <link>http://localhost:1313/post/learn_english/</link>
       <pubDate>Fri, 22 May 2020 17:39:23 +0800</pubDate>
-      <guid>https://conanhujinming.github.io/post/learn_english/</guid>
+      <guid>http://localhost:1313/post/learn_english/</guid>
       <description>&lt;p&gt;本文较长，大约会有万字左右，这里提供一个目录给大家各取所需~&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;

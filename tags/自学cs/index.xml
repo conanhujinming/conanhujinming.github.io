@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>自学CS | Jinming Hu</title>
-    <link>https://conanhujinming.github.io/tags/%E8%87%AA%E5%AD%A6cs/</link>
-      <atom:link href="https://conanhujinming.github.io/tags/%E8%87%AA%E5%AD%A6cs/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/tags/%E8%87%AA%E5%AD%A6cs/</link>
+      <atom:link href="http://localhost:1313/tags/%E8%87%AA%E5%AD%A6cs/index.xml" rel="self" type="application/rss+xml" />
     <description>自学CS</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 27 Feb 2020 16:42:57 +0800</lastBuildDate>
     <image>
-      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <url>img/map[gravatar:%!s(bool=false) shape:square]</url>
       <title>自学CS</title>
-      <link>https://conanhujinming.github.io/tags/%E8%87%AA%E5%AD%A6cs/</link>
+      <link>http://localhost:1313/tags/%E8%87%AA%E5%AD%A6cs/</link>
     </image>
     
     <item>
       <title>19CS小硕校招面试心得与自学CS经验及找工作分享</title>
-      <link>https://conanhujinming.github.io/post/tips_for_interview/</link>
+      <link>http://localhost:1313/post/tips_for_interview/</link>
       <pubDate>Thu, 27 Feb 2020 16:42:57 +0800</pubDate>
-      <guid>https://conanhujinming.github.io/post/tips_for_interview/</guid>
+      <guid>http://localhost:1313/post/tips_for_interview/</guid>
       <description>&lt;h1 id=&#34;写在20年初的校招面试心得与自学cs经验及找工作分享&#34;&gt;写在20年初的校招面试心得与自学CS经验及找工作分享&lt;/h1&gt;
 &lt;p&gt;我于大三（15年下旬）开始自学CS，并在去年（19年）参加了校招的实习与春招，很幸运地拿到了10来家公司的offer。在这里分享一下自己总结的面试心得与技巧、自学CS的方法与资料、自学CS的历程以及找工作的历程。当然，本人水平有限，且观点局限于个人经历，故有些说法难免会有不妥甚至不正确，欢迎指正。&lt;/p&gt;
 &lt;p&gt;全文接近4万字，可以根据目录各取所需。&lt;/p&gt;

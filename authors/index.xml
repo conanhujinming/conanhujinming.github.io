@@ -2,27 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors | Jinming Hu</title>
-    <link>https://conanhujinming.github.io/authors/</link>
-      <atom:link href="https://conanhujinming.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/authors/</link>
+      <atom:link href="http://localhost:1313/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 21 Dec 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <url>img/map[gravatar:%!s(bool=false) shape:square]</url>
       <title>Authors</title>
-      <link>https://conanhujinming.github.io/authors/</link>
+      <link>http://localhost:1313/authors/</link>
     </image>
-    
-    <item>
-      <title></title>
-      <link>https://conanhujinming.github.io/authors/admin/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://conanhujinming.github.io/authors/admin/</guid>
-      <description>&lt;p&gt;I am now a software engineer @
-&lt;a href=&#34;http://dolphindb.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DolphinDB Inc&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;I graduated as a master student of artificial intelligence from the Zhejiang University CAD&amp;amp;CG National Key Lab ZJULearning Group. I was very fortunate to be advised by 
-&lt;a href=&#34;http://dengcai.zjulearning.org.cn/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prof. Deng Cai&lt;/a&gt;. My research includes machine learning, data mining, deep learning, computer vision, operating system, system programming, and database. I have worked as a system developer in Optiver Shanghai and have interned as a machine learning engineer in Hangzhou FABU and Google.&lt;/p&gt;
-</description>
-    </item>
     
   </channel>
 </rss>
