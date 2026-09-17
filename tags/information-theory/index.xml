@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Information Theory | Jinming Hu</title><link>https://conanhujinming.github.io/tags/information-theory/</link><atom:link href="https://conanhujinming.github.io/tags/information-theory/index.xml" rel="self" type="application/rss+xml"/><description>Information Theory</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><lastBuildDate>Thu, 19 Feb 2026 00:00:00 +0000</lastBuildDate><image><url>img/map[gravatar:%!s(bool=false) shape:square]</url><title>Information Theory</title><link>https://conanhujinming.github.io/tags/information-theory/</link></image><item><title>信息带宽：相对论与量子力学的逻辑必然性</title><link>https://conanhujinming.github.io/post/informational-foundation-of-physical-reality/</link><pubDate>Thu, 19 Feb 2026 00:00:00 +0000</pubDate><guid>https://conanhujinming.github.io/post/informational-foundation-of-physical-reality/</guid><description>&lt;p>最近重写了之前那篇关于信息有限性的论文。新版的核心变化是引入了一个新的基本常数 &lt;em>i&lt;/em>（Information Maximum Transfer Speed，信息最大传输速度），并给出了一个可实验检验的预测。以下是论文的主要内容。&lt;/p>
+&lt;h3 id="基础公理信息有限性">基础公理：信息有限性&lt;/h3>
+&lt;p>论文的起点不变：宇宙中任何物理系统所包含的信息量，必须是有限的。任何允许信息量趋于无穷大的物理理论，在逻辑上都是不自洽的。&lt;/p>
+&lt;h3 id="信息最大传输速度-i">信息最大传输速度 &lt;em>i&lt;/em>&lt;/h3>
+&lt;p>新版论文最大的变化，是提出了一个比光速 &lt;em>c&lt;/em> 更根本的常数 &lt;em>i&lt;/em>。&lt;/p>
+&lt;p>核心假设是：&lt;strong>&lt;em>i&lt;/em> &amp;gt; &lt;em>c&lt;/em>&lt;/strong>。&lt;/p>
+&lt;p>在这个框架下，光速 &lt;em>c&lt;/em> 不是宇宙的终极限速，而是光子（规范玻色子）在宇宙信息基底中传播时所能达到的最大速度。两者之间的差值 Δ = &lt;em>i&lt;/em> − &lt;em>c&lt;/em> 代表真空的&amp;quot;计算阻力&amp;quot;——类似于网络中理论带宽和实际吞吐量之间的差距。&lt;/p>
+&lt;p>将 &lt;em>i&lt;/em> 代入洛伦兹变换后，&lt;em>c&lt;/em> 不再是一个需要被假设的常数，而成为信息基底特性的一个衍生结果。整个相对论的数学框架因此变得更加自然。&lt;/p>
+&lt;h3 id="为什么必须有相对论">为什么必须有相对论&lt;/h3>
+&lt;p>如果 &lt;em>i&lt;/em> = ∞（信息传递无速度上限），宇宙中任意两点之间都存在可以产生瞬时交互的可能性，每个局部坐标点都必须同时包含全宇宙所有状态的信息。通过香农信息论，我们可以计算得出，此时局部信息密度趋于无穷大，直接违反有限信息公理。&lt;/p>
+&lt;p>因此，&lt;em>i&lt;/em> 必须是有限值。一旦 &lt;em>i&lt;/em> 有限，宇宙就必须被划分为因果隔离的区域（光锥），各区域之间只能以有限速率交换信息。相对论所描述的因果结构和时空特性，本质上是维持信息有限性的必要机制。&lt;/p>
+&lt;h3 id="为什么必须有量子力学">为什么必须有量子力学&lt;/h3>
+&lt;p>如果空间是完美连续的，描述一个粒子的精确位置需要无穷多比特的信息。根据贝肯斯坦上限，有限空间内的信息容量是有限的，连续空间会导致信息量超出物理系统的承载能力。&lt;/p>
+&lt;p>为了避免这种&amp;quot;分辨率溢出&amp;quot;，空间和能量必须是离散化的（普朗克长度 $\ell_P$、普朗克常数 $h$）。量子力学的存在，是宇宙在微观尺度上维持信息有限性的手段。&lt;/p>
+&lt;h3 id="万有理论为什么不可能">万有理论为什么不可能&lt;/h3>
+&lt;p>任何&amp;quot;描述一切&amp;quot;的理论 $\mathcal{T}$ 本身也是宇宙中的信息，必须编码在宇宙之内。如果 $\mathcal{T}$ 要描述整个宇宙，就必须包含对自身计算开销的描述，由此产生无限递归：&lt;/p>
+&lt;p>$$\mathcal{T}_{n+1} = \mathcal{T}_n + \text{Info}(\text{computation of } \mathcal{T}_n)$$&lt;/p>
+&lt;p>随着迭代次数增加，理论的信息量会超过宇宙的总容量。因此，科学研究注定是一个渐近过程——知识可以无限逼近，但永远不会闭合。&lt;/p>
+&lt;h3 id="实验预测计算红移">实验预测：计算红移&lt;/h3>
+&lt;p>这是新版论文最重要的新增内容。如果 &lt;em>i&lt;/em> &amp;gt; &lt;em>c&lt;/em> 成立，那么我们观测到的天体红移中应包含一个额外的微小分量，来自信息基底的传输延迟，我们将其称为&amp;quot;计算红移&amp;quot;（Computational Redshift, CRI）。&lt;/p>
+&lt;p>论文给出了一个修正的多普勒公式：&lt;/p>
+&lt;p>$$\tanh(\ln(1+z)) = \frac{v}{i}$$&lt;/p>
+&lt;p>通过精确测量遥远类星体的红移 &lt;em>z&lt;/em> 和退行速度 &lt;em>v&lt;/em>，可以反推 &lt;em>i&lt;/em> 的值。如果 &lt;em>i&lt;/em> 被测出是一个有限的、略大于 &lt;em>c&lt;/em> 的常数，就意味着光速确实是被信息基底&amp;quot;限速&amp;quot;的结果，宇宙本质上是一个有限带宽的计算系统。&lt;/p>
+&lt;h3 id="总结">总结&lt;/h3>
+&lt;p>相对论和量子力学不只是经验科学的发现，它们更像是信息有限性这一底层约束的逻辑推论。相对论防止宏观传递的信息溢出，量子力学防止微观分辨率的信息溢出。新版论文的关键进展在于：引入了 &lt;em>i&lt;/em> 作为比 &lt;em>c&lt;/em> 更根本的常数，将光速从&amp;quot;公理&amp;quot;降格为&amp;quot;推论&amp;quot;；同时给出了计算红移这一可检验的实验预测，使得整个框架具备了可证伪性。&lt;/p>
+&lt;hr>
+&lt;p>&lt;em>原始论文：
+&lt;a href="https://conanhujinming.github.io/publication/finitude-of-information/">The Informational Foundation of Physical Reality: Proving the Necessity of Relativity and Quantics via Information Bandwidth&lt;/a> — Jinming Hu, Sea-Land AI Research, 2026&lt;/em>&lt;/p></description></item><item><title>The Informational Foundation of Physical Reality: Proving the Necessity of Relativity and Quantics via Information Bandwidth</title><link>https://conanhujinming.github.io/publication/finitude-of-information/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://conanhujinming.github.io/publication/finitude-of-information/</guid><description/></item></channel></rss>

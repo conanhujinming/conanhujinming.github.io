@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Jinming Hu</title><link>https://conanhujinming.github.io/authors/admin/</link><atom:link href="https://conanhujinming.github.io/authors/admin/index.xml" rel="self" type="application/rss+xml"/><description>Jinming Hu</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><lastBuildDate>Tue, 24 Mar 2026 12:00:00 +0800</lastBuildDate><image><url>img/map[gravatar:%!s(bool=false) shape:square]</url><title>Jinming Hu</title><link>https://conanhujinming.github.io/authors/admin/</link></image><item><title/><link>https://conanhujinming.github.io/authors/admin/</link><pubDate>Tue, 24 Mar 2026 12:00:00 +0800</pubDate><guid>https://conanhujinming.github.io/authors/admin/</guid><description>&lt;p>我目前是
+&lt;a href="https://sea-land.ai" target="_blank" rel="noopener">Sea-Land.ai&lt;/a> 的创始人兼首席科学家。&lt;/p>
+&lt;p>我曾在多伦多大学计算机科学系攻读博士。此前，我毕业于浙江大学 CAD&amp;amp;CG 国家重点实验室 ZJULearning 组人工智能硕士项目，有幸师从
+&lt;a href="https://dengcai.zjulearning.org.cn/" target="_blank" rel="noopener">蔡登教授&lt;/a> 与
+&lt;a href="https://scholar.google.com/citations?user=QLLFowsAAAAJ&amp;amp;hl=en" target="_blank" rel="noopener">何晓飞教授&lt;/a>。我也曾很不幸地在多伦多大学与
+&lt;a href="https://qizhenzhang.me" target="_blank" rel="noopener">Qizhen Zhang&lt;/a>一起进行研究合作，后决定退出。我的研究方向包括机器学习、数据挖掘、深度学习、计算机视觉、操作系统、系统编程与数据库。&lt;/p>
+&lt;p>我曾在 Optiver 上海担任系统开发工程师，也曾在
+&lt;a href="https://fabu.ai/" target="_blank" rel="noopener">杭州飞步科技&lt;/a> 和 Google 从事机器学习相关工作，在那里有幸与许多优秀同事合作，包括
+&lt;a href="https://www.linkedin.com/in/jingtaow" target="_blank" rel="noopener">Jingtao Wang&lt;/a>。我还曾在
+&lt;a href="https://dolphindb.com/" target="_blank" rel="noopener">DolphinDB Inc&lt;/a> 担任软件工程师，有幸与
+&lt;a href="https://scholar.google.com/citations?user=zOSjZA8AAAAJ&amp;amp;hl=en" target="_blank" rel="noopener">Davis&lt;/a>、
+&lt;a href="https://zxjcarrot.github.io/" target="_blank" rel="noopener">Xinjing Zhou&lt;/a> 以及许多同事共事。&lt;/p></description></item><item><title>写在读博旅程之后：我与我的博导Qizhen Zhang之间的冲突</title><link>https://conanhujinming.github.io/post/after_phd_journey/</link><pubDate>Tue, 24 Mar 2026 12:00:00 +0800</pubDate><guid>https://conanhujinming.github.io/post/after_phd_journey/</guid><description>&lt;p>读博申请时，我拿到了德国和瑞士最顶尖的几个数据库组的 offer，以及多伦多大学 Qizhen Zhang 的 offer，最终我选择加入了多伦多大学做数据库的研究。在这之后，我的签证一直被加拿大卡着，至今没有通过。于是我 9 月份开始远程做科研，虽然还没正式入学，但也勉强算是开始了读博旅程。之前写了一篇《写在读博旅程之前》那篇文章，正是写在那时候。&lt;/p>
+&lt;p>但写那篇文章的时候，我怎么也没想到，我的读博旅程会结束得这么快。不到 3 个月的时间，我就选择了退学，而我现在的内心，竟然还十分感激能如此迅速地退学。&lt;/p>
+&lt;p>事情是这个样子的：最开始我做的第一个研究是联邦学习与数据库的结合，也就是联邦学习与各种数据库交叉的内容。选择这个方向，主要是因为 Qizhen 应该有一个重要的基金与联邦学习有关，所以他比较希望我做这个。我本人对联邦学习的兴趣一般，但我想做一些机器学习与数据库方向的结合，就接受了他的建议。&lt;/p>
+&lt;p>我们的第一个课题，是研究噪声对联邦学习的影响。这篇文章其实主要是做了一些实验，发现联邦学习相比于传统的机器学习，对噪声更加敏感。推进的大部分时间里，其实我们很像无头苍蝇，因为组里除了我之外，并没有比较懂机器学习的人。所以基本上都是我在努力写代码、做实验，以及思考实验现象背后的原因。这篇论文在 10 月中旬写完，提交到了 SIGMOD 2026 上，并在 1 月初左右收到了 revision 的通知，最终修改通过，在 2 月底收到了录取通知。&lt;/p>
+&lt;p>除此以外，在做这个研究的过程中，因为发现联邦学习对数据的质量和噪声比较敏感，我就想解决这个问题。同时我也发现，之前有研究表明重复数据对机器学习（尤其是大语言模型）的训练没啥帮助，反而增加了训练时间；而大模型的训练数据是从互联网上爬取的，有极多的数据重复，其实很需要做数据去重。以前的数据去重算法比较中心化，我就提出，我们可以做一个分布式的、去中心化的、联邦的、保护数据隐私的去重算法，使得用户的隐私数据不需要被收集到中心节点。这个想法大概是 9 月中旬产生的，我大概花了一天时间就设计出了一个比较高效的算法，并且花了两天时间就写出了一个比较高效的实现，最终提交到了 10 月初的 WWW 2026 上。&lt;/p>
+&lt;p>在 10 月提交了这两篇论文之后，Qizhen 又开始督促我继续做联邦学习的研究，主要是训练框架和 data pipeline 执行的优化。其实这时候我已经有点不太想做联邦学习了。我当然可以做得很好，但我觉得这不是眼下最重要的任务。诚然，长远来看保护数据隐私是很重要，但眼下最重要的，还是提升大模型训练和推理的智能和效率。&lt;/p>
+&lt;p>但是 Qizhen 很希望我继续做联邦学习，他还和我说：“读博期间，重要的是在一个方向上深度耕耘，分心做别的方向对做研究是有害处的。我知道你以后的目的是走教职，多伦多每年都会拒绝大批的教职候选人，只因为他们读博期间的研究方向不够集中；你联邦学习做得很好，我希望你能做得更好，做出自己的品牌。”我当时其实有些纳闷，我真正开始做博士的研究也就一两个月时间。诚然，我投了两篇顶会论文出去，而且后面中了 SIGMOD 2026（数据库最好的会议），但也不至于这一两个月的工夫就让我定型了自己的研究方向吧？我就不能做自己更感兴趣的方向吗？但我后来大概意识到了，可能主要还是他的基金有这方面的需求吧。&lt;/p>
+&lt;p>当时虽然觉得不太舒服，但我还是继续做着联邦学习的研究。12 月下旬，我和好友去香港见了老朋友，回来深有感触，还写了几篇文章。结果从香港回来之后，事情突然发生了变化：我的一位至亲身患重病，需要长年陪同治疗。在得知这个消息的时候我是错愕的，但我瞬间就下定了决心：我不出国读博了，我要退学陪亲人治疗。&lt;/p>
+&lt;p>随即我就把这个消息告诉了 Qizhen。他也很错愕，但他和我说：“你别急，你马上就够 3 篇顶会了，也许我可以帮你联系学院，提前让你一年就毕业。你甚至不用怎么来多伦多，来办个手续也许就可以了。当然我不能保证这个能成功，我只能说去试试看。”这听上去当然不错，如果能够不出国并且一年就收获一个博士学位，那还可以继续我的教职梦，那当然是很好了。我没想到 Qizhen 愿意为我做到这个程度，当时惊喜又感动，还和不少朋友说了这件事情。但我也下定了决心，无论如何，我的重心必须放在亲人这边。&lt;/p>
+&lt;p>那么，退学之后我做什么呢？我不想看着亲人受这么多年的痛苦折磨，我想帮助攻克这个麻烦的疾病，这是我眼下最想做的事情，毫无疑问。但我不懂医学啊，怎么办呢？我突然想到，现在人工智能、大模型很强，非常强。我作为程序员和计算机科学的研究人员，可能比大多数人都能更真切地感受到 AI 的潜力和强大。我是不懂医学，也无法亲自攻克这些疾病，但如果我能推动 AI 的进步，甚至帮助做出一个前所未有强大的 AI，让 AI 来辅助人类攻克疾病，这是不是就有希望了呢？想到这里，我决定：我要创业做 AI。这也就是后来我选择 AI 创业的原因。我的一位好友得知之后非常支持我，并决定加入我们的创业团队，成为了团队的核心创始人。&lt;/p>
+&lt;p>很好笑的是，我们团队因为本身自带流量，虽然我们前期尽量想保持低调，但工商信息的变更还是暴露了我们创业的事情。结果引来了不少自媒体和营销号的报道与介绍，而这些报道与介绍很多应该都是用 AI 写的，编造了不少谣言。比如什么我是杭电毕业的啦，让我们深感无奈。创业到现在，其实我们几乎没在公众平台发过任何声音，也没花钱买过国内大流量营销号的文章，去发什么“学霸带队创业！中国团队剑指 AGI！”这样的通稿。而且，我们之前极少数发的一些关于创业进度的声音，也受到了很多质疑，尤其是小红书这样的平台上，几乎所有人都认为我们在造假，令人深感无奈。但也算幸运吧，这段时间也有很多投资人试图接触我们、投资我们。不过我们都拒绝了，眼下我们只想专心做事。&lt;/p>
+&lt;p>1 月份的时候，SIGMOD 的 revision 通知下来了。Qizhen 开始 push 我搞修改。我花了点时间写完了实验所需要的全部代码，并且根据我们的硬件资源设计了实验，确保截稿时间之前能全部跑完。不过他还是很担忧，经常催我。即使我每天因为忙于创业和照顾家人，可能要晚上 11 点多才到家，他也还是催我搞实验，有时候甚至要和我开视频会议盯着我干活。至于之前帮我去申请毕业的事情，他再也没有提过。但出于责任心等原因，我还是按照时间节点搞定了所有实验。最终，SIGMOD 2026 结果出来，我们这篇论文被正式录取了！苦心没有白费！&lt;/p>
+&lt;p>戏剧性的转折来了。我登录 Slack 准备恭喜 Qizhen，结果发现他在实验室群里发的论文作者列表中，我竟然被排到了第二位！我顿时感到一阵无语。同时我发现，在 Qizhen 的个人网站上，这篇论文的作者列表里我也被排到了第二位，而第一作者，是一个在整个实验项目中写了 0 行代码、0 行论文的本科生(Jiahao Gu)！这不就是明目张胆地抢我一作吗？！我立刻发 Slack 质问 Qizhen，我说你要改作者顺序，最最起码，也应该先征求一下我的同意吧？结果，Qizhen 随后直接将我从所有实验室的群组、包括 GitHub 群组中踢了出去。&lt;/p>
+&lt;p>我和同学吐槽了这事儿，还发了朋友圈和知乎。感慨我以前经常听 B 站“皮总”那些劝退读博的歌，里面经常唱到什么被抢一作，没想到这种事居然真的发生在我身上了，无奈地笑。其实我倒不觉得有什么可气的，说穿了就是一篇 SIGMOD 而已，我能在一个多月中一篇，以后自然也不会缺这么一篇。但我只是觉得很好笑，之前 Qizhen 和我交流的时候明明非常平易近人，还信誓旦旦地和我说要帮我申请一年毕业，原来到最后终于露出了狐狸尾巴，笑。&lt;/p>
+&lt;p>过了一会儿，听说是他们组的本科生看到了我发的知乎并截图给了他看，Qizhen 决定写邮件回应我。颇具讽刺意味的是，这封邮件的上一封还是：“I am very anxious that we may not be able to submit the revision. Please contact me as soon as possible. We should meet to decide what to do”（我非常焦虑，我们可能无法按时提交论文。请你看到邮件后立刻联系我，我们应该马上视频来采取下一步动向）。那是在离截稿还有一周多的时候，他焦虑地催我赶紧搬砖，确保实验能够按时搞定。我当时也很无奈，实验都在 GPU 上跑着，催我能有什么用。&lt;/p>
+&lt;p>Qizhen 在最新的这封回应邮件里说：我提交论文的时候就和你说了，你和那个本科生是共同一作，而他的名字按字母序排在你前面，所以我把他放在了前面。我觉得很可笑：写了 100% 代码的我和写了 0% 代码的他，做了全部理论分析的我、写了绝大部分论文的我，和写了 0 行论文的他，凭什么算作共同一作？&lt;/p>
+&lt;p>我当即意识到我需要立刻捍卫自己论文的主权。于是我马上给 SIGMOD 的主席写了邮件询问这件事情。SIGMOD 主席回复说，系统里并没有什么共同一作，你就是 primary author，而且没有任何人能在不经过你同意的情况下改变任何作者顺序。我懂了，原来这全是 Qizhen 的一厢情愿。也许他只是在“报复”我选择退学，并且在 revision 阶段让他感到焦虑了吧（笑）。回过头来想，所谓的快速毕业应该也只是一块画好的大饼，诱饵罢了，只为了吊着我帮他把所有的论文都做完而已。没准做完之后，一作也照样不是我呢（笑）。而且后来我才得知，他组里的第一个 PhD 学长也是 master out 跑路了。而在那个学长决定退出之后，也同样和我一样被火速从实验室主页“除名”了，并且那位学长曾经的一作 VLDB 论文，在 revision 之后也光荣地变成了“N 作”（笑）。于是我立刻将我一作的论文放到我
+&lt;a href="https://sea-land.ai/founder#publications" target="_blank" rel="noopener">个人主页上&lt;/a>，并将代码开源在了
+&lt;a href="https://github.com/conanhujinming/fl_data_quality" target="_blank" rel="noopener">GitHub上&lt;/a>，否则我真不知道会不会我以后会变成“100 作”（笑）。&lt;/p>
+&lt;p>回过头来想想，人生就是这样充满了随机性。你永远不知道下一段时间会发生什么样的事情，也许有些之前看似很好的人突然就会在背后捅你一刀，也许平静的生活就会突发横祸。但是人能控制的，只有自己的心态，和自己的应对方式。所谓塞翁失马焉知非福，我退学看似很可惜，也许断了我的教职梦，但创业也许也能实现我最喜欢做的事情：帮助他人成长；同时这还变相帮助我避开了一个大坑，否则真不知道以后会被坑成什么样呢（笑）。也许这就是人生吧。我们能做的，就是继续努力，继续笑对命运，继续永不低头，继续抬头仰望星空，低头脚踏实地。&lt;/p></description></item><item><title>写在读博旅程之前</title><link>https://conanhujinming.github.io/post/before_phd_journey/</link><pubDate>Tue, 24 Mar 2026 00:00:00 +0800</pubDate><guid>https://conanhujinming.github.io/post/before_phd_journey/</guid><description>&lt;p>
+&lt;a href="https://conanhujinming.github.io/post/after_phd_journey/">续篇：写在读博旅程之后&lt;/a>&lt;/p>
+&lt;p>就要开始我的读博旅程了。此刻坐在书桌前，窗外是熟悉的街景，内心却已经开始了一场漫长的告别。杭州的夏天也许闷热，但最近的天气转凉，既有夏日的艳阳，又不会热到让人发晕，颇为舒适。五年多的工作生涯，像一部快进的电影，一幕幕在眼前闪过。我想，是时候把这些年的经历、思考、挣扎和选择，都写下来了。这既是对过去的一个交代，也是对未来旅程的一次遥望和确认。&lt;/p>
+&lt;p>其实，读博这个念头，并非一时兴起。它像一颗种子，早在学生时代就已在我心里埋下。那时候的我，对做研究这件事，抱有兴趣。我至今都清晰地记得，Andrej Karpathy 在他的《A Survival Guide to a PhD》里写下的那段话，它像一道光，照亮了我对未来的一种想象。他说，读博士的五年，你有机会将自己完全投身于一个方向，在这个方向上成为世界上最前沿的人，亲手推动它的进步。这是一种奢侈（luxury），也许这辈子，你就再也没有这样的机会了。&lt;/p>
+&lt;p>“奢侈”，这个词用得真好。在一个日益喧嚣和碎片化的世界里，能够拥有五年不受打扰的时间，去专注地、纯粹地探索一个问题的边界，这本身就是一种巨大的幸福。我渴望这种奢侈，渴望那种在知识的旷野上或独自或与他人前行的感觉，那种与世界上最聪明的头脑进行思想碰撞的激动。&lt;/p>
+&lt;p>但现实的考量，总是比梦想更早一步到来。我的家庭条件比较贫寒，父母都没有养老金、退休金和医保，他们辛苦了一辈子，我作为儿子，有责任为他们的晚年撑起一份最基本的保障。这份责任，是我人生必须满足的约束条件，不容商榷。所以，在理想和责任之间，我选择了先承担责任。毕业后，我走进了职场，把那个读博的梦想，像一件珍爱的白衬衫，小心地叠好，放进了衣柜的最深处。我告诉自己，只是暂时，等时机成熟，我一定会再把它取出来。&lt;/p>
+&lt;h2 id="在现实中摸索寻找我的目标函数">在现实中摸索：寻找我的“目标函数”&lt;/h2>
+&lt;p>我的第一份工作，在高频交易行业。从世俗的眼光看，这是一份非常不错的起点。技术要求高，挑战大，回报也丰厚。最初的几个月，我确实沉浸在解决技术难题的乐趣中，那种智力上的满足感是真实而强烈的。但随着时间的推移，一种深刻的虚无感开始像潮水般将我笼罩。&lt;/p>
+&lt;p>我记得有一次，我与一位 trader 为了一个核心算法的实现，连续奋战了两周。那段时间，我们几乎天天都待在公司，工作到深夜。会议室的白板上，密密麻麻地画满了复杂的公式和系统架构图，擦了又写，写了又擦。最终，我们成功地将整个交易策略的延迟降低了 90%，这是一个巨大的技术突破。那一刻，团队里响起了短暂的欢呼，同事们互相击掌庆祝。但我站在人群中，内心却一片平静，甚至有些空洞。&lt;/p>
+&lt;p>那天深夜，我独自走出办公楼，站在陆家嘴的天桥上。身边是璀璨的灯火，脚下是川流不息的车水马龙，每一扇窗户背后，似乎都有一个和我一样忙碌的灵魂。我问自己：我做的这一切，究竟改变了什么？除了让一些数字以更快的速度跳动，除了让资本的游戏变得更加极致，它是否让这个世界变得更好了一点点？我找不到答案。那种感觉，就像你精心打造了一把无比锋利的武器，却发现它唯一的用途，只是在一个封闭的竞技场里，参与一场与大多数人无关的游戏。我不禁问自己：这是我想要的生活吗？那种空洞感并非仅此一次。它开始渗透到我的日常。在每一个清晨挤上地铁去往陆家嘴的路上，在每一次深夜写下自认为精妙绝伦的代码后，它都会准时地浮现。工作越是成功，这种感觉越是强烈。我像一个登山者，奋力攀上了一座高山，却发现山顶的风景并非我所渴望。这种成功与内心意义的背离，是比单纯的技术挑战更令人疲惫的挣扎。&lt;/p>
+&lt;p>我开始意识到，我像一个高效的、但没有灵魂的执行者。我所做的事情，无法与我内心的价值观产生共鸣。这段经历让我痛苦，但也像一次必要的校准，让我彻底想明白了自己到底想要什么。我内心深处，渴望做那些自己觉得有意思、并且对社会有价值的工作。我有一种朴素的信念：如果我的工作对社会产生了真正的价值，那么我作为创造者，也一定会从中获得相应的、无论是物质还是精神上的回报。如果一份工作，即使收入再高，但不能满足我内心对“意义”的追寻，那么它对我来说，就是一种持续的内耗。&lt;/p>
+&lt;p>我开始用我熟悉的工程术语来定义我的人生困惑：我人生的“目标函数”出了问题。无论我把局部的优化做得多好，都无法弥补目标本身的偏差。我需要的，不是在一条错误的道路上跑得更快，而是要停下来，找到那条真正属于我的路。&lt;/p>
+&lt;p>就在我为此感到迷茫时，一束光从远方照了过来。毕业一年左右，我的好友信静，那个曾和我一起在浙大校园里探讨技术、一起憧憬未来的伙伴，拿到了 MIT 的博士录取，去追寻他的数据库之梦了。我看着他发来的消息，发自内心地为他高兴，也感到一种强烈的、近乎刺痛的羡慕。他的选择，像一声清脆的钟鸣，在我心中回荡，它在提醒我，那件被我放进衣柜深处的白衬衫，依然洁白如新。我告诉自己，我也要走上那条路，我必须走上那条路。&lt;/p>
+&lt;h2 id="一次意外的彩排在讲台上找到的天命">一次意外的彩排：在讲台上找到的天命&lt;/h2>
+&lt;p>第一份工作辞职后，一个非常偶然的机会，我回到了母校浙大，给图灵班的同学讲了一段时间的机器学习。起初，我只是想完成导师的托付，弥补一个临时的空缺，从未想过，这次“意外”，竟会成为我人生的一个决定性转折点。&lt;/p>
+&lt;p>那是一段让我至今难忘、甚至可以说是激动人心的经历。当我第一次站在讲台上，看着台下几十双清澈、明亮、充满求知欲的眼睛时，一种前所未有的感觉击中了我。我不再是一个迷茫的工程师，我成了一个知识的传递者，一个思想的引路人。那一刻，我感觉那件被我叠好、放进衣柜深处的白衬衫，仿佛自己从箱底飘了出来，带着阳光的味道，轻轻披在了我的身上。&lt;/p>
+&lt;p>我花了大量的时间备课。那段时间，我几乎推掉了一切社交，每天都沉浸在 MIT、Stanford、CMU、Berkeley 的课程大纲和教学视频里。我希望能给这些全中国最聪明的学生们，带来一门真正世界级水准的课程。在课堂上，我不再只是传授公式和算法，我更想传递的是学习的乐趣，是那些知识背后的 motivation。我引导他们提问，鼓励他们批判性地思考。&lt;/p>
+&lt;p>我记得有一次课上，讲到谱聚类（Spectral Clustering），有一位同学举手说：“老师，min-cut 这个问题，感觉与算法课程里的最大流最小割非常类似，是否可以直接用那个算法来解决问题呢？”这个问题让我愣住了几秒，随即感到一阵狂喜。这正是我最渴望看到的！学生们不再是被动地接收知识，而是在主动地、跨学科地构建自己的思想体系。当看到一个困惑的表情，在我的讲解和引导下逐渐变得明朗；当一场深入的问答，能点亮一个原本迷茫的灵魂时，我体会到了一种比写出任何高效代码都更深刻、更持久的快乐和成就感。&lt;/p>
+&lt;p>最后一堂课的时候，我和他们说，我说我希望这门课能让你们明白，机器学习是有趣且有用的，学习也是有用的，而且很多时候也可以很有趣。最后，我当堂背了一段《少年中国说》，我说：“各位同学，往小了说，机器学习、深度学习还有很多问题还没解决，也许眼下还没人知道该怎么解决；往大了说，这个国家、这个社会也还有很多问题没有解决。我相信你们未来中会有人能去解决其中的一部分。去创造属于你们自己的未来吧！”在最后一堂课结束时，学生们给了我长久的掌声，还主动上前来与我合影。我站在讲台上，看着他们年轻的、充满希望的脸庞，内心无比确定：这就是我想做一辈子的事情。&lt;/p>
+&lt;p>这次经历，也让我回想起了自己的成长道路。我的家境贫寒，如果没有国家和社会的教育政策，我不可能有机会一路走到今天，更不可能有机会去改变自己和家庭的生活。教育，是这个国家给予我的最宝贵的礼物。现在，我希望能把这份礼物，亲手传递下去。我决心，一定要为中国的计算机教育，为那些像曾经的我一样出身普通、但心怀梦想的孩子们，贡献出自己的一份力量。&lt;/p>
+&lt;p>那个被我收在衣柜深处的读博梦想，在这一刻，与“献身教育”的使命，完美地重合了。它不再仅仅是一个个人的学术追求，它被赋予了更宏大、更沉重的意义。&lt;/p>
+&lt;h2 id="在工程中淬炼为理想磨砺兵刃">在工程中淬炼：为理想磨砺兵刃&lt;/h2>
+&lt;p>我知道，这就是我想做一辈子的事情。但通往这条路的旅程，注定是漫长的。理想需要现实的土壤来滋养，那件象征着未来的白衬衫，需要我用踏实的努力去赎回。我还需要继续为家庭积攒保障，也需要为将来的学术生涯，磨砺出更锋利的兵刃。于是，带着这份全新的、无比清晰的决心，我加入了 DolphinDB。在这里的几年，是我工程能力得到飞速成长的时期。&lt;/p>
+&lt;p>我非常幸运，能够在一个技术氛围纯粹、挑战巨大的环境中，完整地经历一个世界级软件产品从无到有的全过程。这不再是学校里的小作业，也不是大公司里拧螺丝钉。我们面对的，是真实世界里最严苛的性能要求和最复杂的应用场景。那几年的工作，就像一场高强度的淬炼。我学到的，远不止是写代码。&lt;/p>
+&lt;p>21 年的时候，我们当时要从零开始，开发一个新的存储引擎。这意味着一切都要从头开始。我与信静进行了大量的方案调研，我们把领域内近十年所有相关的顶级论文都翻了出来，一篇一篇地啃，然后在白板前进行充分的讨论，画出了一版又一版复杂的系统架构图，从理论上反复推演、评估方案的可行性。我还记得，为了一个关于 memtable 的关键设计，我和信静两个人，讨论了好几天，从 LSM-Tree 的各种变种，到 B+Tree 的适用性，再到我们自己提出的混合方案，每一种可能性都被我们拆解到最底层的细节，写各种 prototype 做各种实验反复验证我们的想法。&lt;/p>
+&lt;p>理论上完美的方案，在实践中总会遇到意想不到的问题。我们必须写出最精简的原型（Prototype）去做概念验证（Proof of Concept）。我至今还记得，当我们第一次实现了 memtable 的 lock-free 和 zero-copy，并在测试环境中看到整个系统的吞吐量瞬间上升了一个数量级时，那种纯粹的工程师的快乐，是任何语言都难以形容的。那是一种你亲手将理论变为现实、将智慧凝结为性能的、无可替代的创造之乐。&lt;/p>
+&lt;p>我也开始承担起研发负责人的角色，需要组织团队，分配任务。但更重要的是，我始终和大家一起，战斗在写代码的第一线。我相信，只有深入到最底层的实现细节中，才能真正理解一个系统的优劣。我们为质量定下了极致的标准，编写了海量的测试用例，建立了完善的 CI/CD 流程，确保我们交付的每一个版本都是稳定可靠的。&lt;/p>
+&lt;p>这个完整的闭环，让我对“如何做好一个工程项目”有了脱胎换骨的认识。我非常感谢我的好友信静，是他把我引荐到了这里，也是我的第一位 Mentor；感谢 DolphinDB 的创始人 Davis，他不仅是一位卓越的 CEO，更是一位至今仍在一线写代码的顶尖技术专家，他的视野和对技术的洞察力让我叹为观止；感谢我的同事大飞哥以及团队里的每一个人，他们给了我无数的指导和帮助。&lt;/p>
+&lt;p>在 DolphinDB，我的工作得到了认可，不到四个月就升任了研发负责人。我可以留下来，等待公司上市，获得丰厚的物质回报。在 DolphinDB 的那些日子，我时常会感到一种幸福的矛盾。一方面，我沉浸在解决世界级工程难题的纯粹快乐中，与最优秀的伙伴们并肩作战，每一天都能感受到自己的成长。这里有我热爱的一切：技术挑战、优秀同事、清晰的目标。它本可以成为一个完美的归宿。但在那些夜深人静的时刻，讲台上的灯光，学生们求知的眼神，又会清晰地浮现在我眼前。那个“天命”般的声音总是在提醒我：你在这里磨砺出的所有兵刃，都是为了未来那场更重要的战役。你的白衬衫，还在衣柜里，等待着你哪一天取出来，穿在身上。&lt;/p>
+&lt;p>其实在入职前，我就已经和 Davis 坦诚地聊过我的未来规划。我说，我未来肯定是要去读博的，来这里工作，一个重要的目标就是为家庭攒足保障。他理解并尊重我的选择。这些年，我也一直没有停止为读博做准备。我很幸运地与信静、Viktor Leis、Xiangyao Yu 还有 Mike Stonebraker 老师合作发了一篇 SIGMOD2025 的 paper，这为我的申请打下了坚实的基础。&lt;/p>
+&lt;h2 id="抉择的时刻当梦想照进现实">抉择的时刻：当梦想照进现实&lt;/h2>
+&lt;p>时间一晃，就到了我在 DolphinDB 的第四年。我算了算自己的积蓄，我觉得，这笔钱已经足够为父母未来的生活提供一份安心的保障了。那个曾经束缚我的“约束条件”，终于被满足了。&lt;/p>
+&lt;p>我知道，是时候了。是时候打开那个衣柜，取出那件珍藏已久的白衬衫了。&lt;/p>
+&lt;p>我开始正式准备申请博士。由于我本科院校（西北工业大学）的背景，在美国的签证政策下面临着巨大的不确定性，我不得不将目光投向其他国家。这个过程，我再次感受到了善意和支持的力量。我们 SIGMOD 论文的二作、慕尼黑工业大学的 Viktor Leis 老师，非常热心地为我推荐了德国和瑞士的几位顶尖教授，让我得以顺利地进入他们的视野，并最终拿到了录取。这份跨越国界的帮助，我铭记于心。&lt;/p>
+&lt;p>一开始，我的申请名单里其实并没有加拿大。但我的硕士导师们，蔡登老师和何晓飞老师，都强烈建议我一定要考虑北美。他们认为，那里依然是计算机科学的学术中心，拥有最活跃的学术生态。我在 Google 实习时的老师 Jingtao，也极力推荐我申请，并给了我很多宝贵的建议。于是，在他们的鼓励下，我最终递交了多伦多大学的申请。&lt;/p>
+&lt;p>当所有的 offer 都下来后，我迎来了幸福的烦恼。我与几位我非常尊敬的老师们进行了深入的交流，他们几乎一致地推荐我去多伦多大学。而且，我博士期间也希望能在数据库领域做一些与 AI 结合的创新工作，多伦多大学在这方面无疑拥有世界顶级的资源。于是，最终的决定就落在了这里。其实，我后来在想，去哪里做研究对我来说也许区别都不是太大，那些学校的老师们都能提供非常好的研究环境，而我只需要能够静静地做自己喜欢的事情，朝着自己的目标进发，这就足够了。&lt;/p>
+&lt;p>当我告诉 Davis 我要去读博的决定时，他非常舍不得。但他对我说了一番让我非常感动的话：“公司当然很希望你继续留下来，和我们一起走到上市。但你自己的事情更重要，我们还是支持你去选择自己的道路。”&lt;/p>
+&lt;h2 id="一些感悟写在出发之前">一些感悟：写在出发之前&lt;/h2>
+&lt;p>回望这毕业五年多的曲折道路，有一些感悟，想在这里分享一下。&lt;/p>
+&lt;p>首先，选择自己真正热爱的事情，真的很重要。我知道，选择读博，选择走上教育这条路，对我来说是一种无法抗拒的“天命”。我只能这么选，如果不这么选，我一定会后悔一辈子。人生中，总有一些选择，是超越了利弊计算的。当你的内心有一个足够强大的声音时，你只需要去倾听它，追随它。也正因为如此，我相信，在这条注定充满挑战的路上，不论碰到什么困难，这份源自内心深处的热爱，都能支撑我战胜一切。就像乔布斯所说的，“everything else is secondary”。&lt;/p>
+&lt;p>其次，在这个 AI 的时代，如果能善用工具，个人的能力可以被前所未有地放大。我对未来充满了乐观。我相信，借助这些新的技术，我们有机会创造出更高效、更公平、更具启发性的教育模式。我希望在未来，我真的能够将我在学术界和工业界所学，结合 AI 的力量，为国内的计算机教育做出一些实实在在的、哪怕是微小的贡献。&lt;/p>
+&lt;p>最后，我想再次感谢这个过程中所有给予我帮助的人。我的研究生导师们，他们不仅传授我知识，更在我人生的关键节点上为我指明方向。为我写推荐信的老师们，他们的信任是我获得这些机会的基石。我的好友信静，他是我的榜样，也是我精神上的同路人。还有那些志同道合的朋友们，与他们的每一次交流，都让我受益匪浅。我的家人们，他们默默地承受着我的“任性”，给予我最无条件的爱。以及 DolphinDB 的领导和同事们，他们给予我的成长和支持，是我未来道路上宝贵的财富。&lt;/p>
+&lt;p>而最需要感谢的，是我的夫人。当我向她描述那条看起来有些“奇特”和艰难的道路，当我告诉她，我希望她能认同我的理想，支持我追寻自己的理想时，是她，给了我最坚定不移的理解和支持，让我可以毫无后顾之忧地去追寻我的“天命”。我仍然记得当时我和她说，我说我最喜欢的表白，是周恩来总理对他的夫人写的那句话：“希望我们能一起投身革命，未来一起上断头台。”她瞬间就理解了我，紧紧握住了我的手。她就是与我并肩的“革命战友”。&lt;/p>
+&lt;p>我的国家，我一定会回来的。等着我。&lt;/p></description></item><item><title>FEDDE: Federated Data Deduplication</title><link>https://conanhujinming.github.io/publication/fedde/</link><pubDate>Tue, 24 Feb 2026 00:00:00 +0000</pubDate><guid>https://conanhujinming.github.io/publication/fedde/</guid><description/></item><item><title>Understanding the Impact of Data Noise in Federated Learning: Experiments and Analysis</title><link>https://conanhujinming.github.io/publication/data-quality-fl/</link><pubDate>Tue, 24 Feb 2026 00:00:00 +0000</pubDate><guid>https://conanhujinming.github.io/publication/data-quality-fl/</guid><description/></item><item><title>信息带宽：相对论与量子力学的逻辑必然性</title><link>https://conanhujinming.github.io/post/informational-foundation-of-physical-reality/</link><pubDate>Thu, 19 Feb 2026 00:00:00 +0000</pubDate><guid>https://conanhujinming.github.io/post/informational-foundation-of-physical-reality/</guid><description>&lt;p>最近重写了之前那篇关于信息有限性的论文。新版的核心变化是引入了一个新的基本常数 &lt;em>i&lt;/em>（Information Maximum Transfer Speed，信息最大传输速度），并给出了一个可实验检验的预测。以下是论文的主要内容。&lt;/p>
+&lt;h3 id="基础公理信息有限性">基础公理：信息有限性&lt;/h3>
+&lt;p>论文的起点不变：宇宙中任何物理系统所包含的信息量，必须是有限的。任何允许信息量趋于无穷大的物理理论，在逻辑上都是不自洽的。&lt;/p>
+&lt;h3 id="信息最大传输速度-i">信息最大传输速度 &lt;em>i&lt;/em>&lt;/h3>
+&lt;p>新版论文最大的变化，是提出了一个比光速 &lt;em>c&lt;/em> 更根本的常数 &lt;em>i&lt;/em>。&lt;/p>
+&lt;p>核心假设是：&lt;strong>&lt;em>i&lt;/em> &amp;gt; &lt;em>c&lt;/em>&lt;/strong>。&lt;/p>
+&lt;p>在这个框架下，光速 &lt;em>c&lt;/em> 不是宇宙的终极限速，而是光子（规范玻色子）在宇宙信息基底中传播时所能达到的最大速度。两者之间的差值 Δ = &lt;em>i&lt;/em> − &lt;em>c&lt;/em> 代表真空的&amp;quot;计算阻力&amp;quot;——类似于网络中理论带宽和实际吞吐量之间的差距。&lt;/p>
+&lt;p>将 &lt;em>i&lt;/em> 代入洛伦兹变换后，&lt;em>c&lt;/em> 不再是一个需要被假设的常数，而成为信息基底特性的一个衍生结果。整个相对论的数学框架因此变得更加自然。&lt;/p>
+&lt;h3 id="为什么必须有相对论">为什么必须有相对论&lt;/h3>
+&lt;p>如果 &lt;em>i&lt;/em> = ∞（信息传递无速度上限），宇宙中任意两点之间都存在可以产生瞬时交互的可能性，每个局部坐标点都必须同时包含全宇宙所有状态的信息。通过香农信息论，我们可以计算得出，此时局部信息密度趋于无穷大，直接违反有限信息公理。&lt;/p>
+&lt;p>因此，&lt;em>i&lt;/em> 必须是有限值。一旦 &lt;em>i&lt;/em> 有限，宇宙就必须被划分为因果隔离的区域（光锥），各区域之间只能以有限速率交换信息。相对论所描述的因果结构和时空特性，本质上是维持信息有限性的必要机制。&lt;/p>
+&lt;h3 id="为什么必须有量子力学">为什么必须有量子力学&lt;/h3>
+&lt;p>如果空间是完美连续的，描述一个粒子的精确位置需要无穷多比特的信息。根据贝肯斯坦上限，有限空间内的信息容量是有限的，连续空间会导致信息量超出物理系统的承载能力。&lt;/p>
+&lt;p>为了避免这种&amp;quot;分辨率溢出&amp;quot;，空间和能量必须是离散化的（普朗克长度 $\ell_P$、普朗克常数 $h$）。量子力学的存在，是宇宙在微观尺度上维持信息有限性的手段。&lt;/p>
+&lt;h3 id="万有理论为什么不可能">万有理论为什么不可能&lt;/h3>
+&lt;p>任何&amp;quot;描述一切&amp;quot;的理论 $\mathcal{T}$ 本身也是宇宙中的信息，必须编码在宇宙之内。如果 $\mathcal{T}$ 要描述整个宇宙，就必须包含对自身计算开销的描述，由此产生无限递归：&lt;/p>
+&lt;p>$$\mathcal{T}_{n+1} = \mathcal{T}_n + \text{Info}(\text{computation of } \mathcal{T}_n)$$&lt;/p>
+&lt;p>随着迭代次数增加，理论的信息量会超过宇宙的总容量。因此，科学研究注定是一个渐近过程——知识可以无限逼近，但永远不会闭合。&lt;/p>
+&lt;h3 id="实验预测计算红移">实验预测：计算红移&lt;/h3>
+&lt;p>这是新版论文最重要的新增内容。如果 &lt;em>i&lt;/em> &amp;gt; &lt;em>c&lt;/em> 成立，那么我们观测到的天体红移中应包含一个额外的微小分量，来自信息基底的传输延迟，我们将其称为&amp;quot;计算红移&amp;quot;（Computational Redshift, CRI）。&lt;/p>
+&lt;p>论文给出了一个修正的多普勒公式：&lt;/p>
+&lt;p>$$\tanh(\ln(1+z)) = \frac{v}{i}$$&lt;/p>
+&lt;p>通过精确测量遥远类星体的红移 &lt;em>z&lt;/em> 和退行速度 &lt;em>v&lt;/em>，可以反推 &lt;em>i&lt;/em> 的值。如果 &lt;em>i&lt;/em> 被测出是一个有限的、略大于 &lt;em>c&lt;/em> 的常数，就意味着光速确实是被信息基底&amp;quot;限速&amp;quot;的结果，宇宙本质上是一个有限带宽的计算系统。&lt;/p>
+&lt;h3 id="总结">总结&lt;/h3>
+&lt;p>相对论和量子力学不只是经验科学的发现，它们更像是信息有限性这一底层约束的逻辑推论。相对论防止宏观传递的信息溢出，量子力学防止微观分辨率的信息溢出。新版论文的关键进展在于：引入了 &lt;em>i&lt;/em> 作为比 &lt;em>c&lt;/em> 更根本的常数，将光速从&amp;quot;公理&amp;quot;降格为&amp;quot;推论&amp;quot;；同时给出了计算红移这一可检验的实验预测，使得整个框架具备了可证伪性。&lt;/p>
+&lt;hr>
+&lt;p>&lt;em>原始论文：
+&lt;a href="https://conanhujinming.github.io/publication/finitude-of-information/">The Informational Foundation of Physical Reality: Proving the Necessity of Relativity and Quantics via Information Bandwidth&lt;/a> — Jinming Hu, Sea-Land AI Research, 2026&lt;/em>&lt;/p></description></item><item><title>The Informational Foundation of Physical Reality: Proving the Necessity of Relativity and Quantics via Information Bandwidth</title><link>https://conanhujinming.github.io/publication/finitude-of-information/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://conanhujinming.github.io/publication/finitude-of-information/</guid><description/></item><item><title>The Computational Event Horizon: A Heuristic Taxonomy of Solvability for the Millennium Prize Problems</title><link>https://conanhujinming.github.io/publication/computational-event-horizon/</link><pubDate>Sun, 21 Dec 2025 00:00:00 +0000</pubDate><guid>https://conanhujinming.github.io/publication/computational-event-horizon/</guid><description/></item><item><title>The Computational Event Horizon: The Universal Quantifier Trap</title><link>https://conanhujinming.github.io/post/computational-event-horizon/</link><pubDate>Sun, 21 Dec 2025 00:00:00 +0000</pubDate><guid>https://conanhujinming.github.io/post/computational-event-horizon/</guid><description>&lt;p>Why have we solved the Poincaré Conjecture but not Navier-Stokes? Why does the Riemann Hypothesis feel &amp;quot;true&amp;quot; while $P$ vs $NP$ feels &amp;quot;impossible&amp;quot;?&lt;/p>
+&lt;p>We posit that mathematical problems exist on a spectrum of &lt;strong>Simulational Capacity&lt;/strong>.&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>Class I (Structural):&lt;/strong> Systems governed by rigid symmetries or smoothing operators. The evolution of the system destroys distinct information states, collapsing the phase space into a predictable manifold.&lt;/li>
+&lt;li>&lt;strong>Class II (Simulational):&lt;/strong> Systems capable of encoding arbitrary Boolean logic and unbounded memory. These are effectively &amp;quot;fluid computers&amp;quot; where the system&amp;rsquo;s evolution is computationally irreducible.&lt;/li>
+&lt;/ol>
+&lt;p>Our central thesis is logic-theoretic: &lt;em>One cannot prove a Universal Statement ($\forall x, P(x)$) if the domain $x$ contains an embedded Turing Complete subspace.&lt;/em>&lt;/p>
+&lt;h2 id="class-i-the-domain-of-structure">Class I: The Domain of Structure&lt;/h2>
+&lt;p>Class I problems inhabit structures where information is either conserved (symmetry) or destroyed (smoothing).&lt;/p>
+&lt;h3 id="the-poincaré-conjecture-solved">The Poincaré Conjecture (Solved)&lt;/h3>
+&lt;p>Perelman&amp;rsquo;s proof utilizing Ricci Flow ($\partial_t g_{ij} = -2 R_{ij}$) is the archetype of Class I. Physically, this is a heat equation. Diffusion increases entropy and erases &amp;quot;memory.&amp;quot;&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;strong>Principle (Information Destruction):&lt;/strong> A diffusive flow smoothes out arbitrary topological complexity. It destroys the distinct, stable states required for bit transitions. Because the flow &amp;quot;forgets&amp;quot; the microscopic details of the initial metric, the final state is topologically simple ($S^3$). The proof succeeds because the system naturally compresses itself.&lt;/p>&lt;/blockquote>
+&lt;h3 id="the-riemann-hypothesis-rh">The Riemann Hypothesis (RH)&lt;/h3>
+&lt;p>While unsolved, RH is likely Class I. By the Hilbert-Pólya conjecture, the zeros of $\zeta(s)$ correspond to eigenvalues of a self-adjoint operator in a chaotic quantum system.&lt;/p>
+&lt;p>Unlike a general computer which can halt at arbitrary times, the spectrum of physical operators exhibits &amp;quot;rigidity&amp;quot; (GUE statistics). The system lacks the degrees of freedom to encode a logical paradox (like the Halting Problem) into the distribution of primes.&lt;/p>
+&lt;h2 id="class-ii-the-domain-of-simulation">Class II: The Domain of Simulation&lt;/h2>
+&lt;p>We define Class II problems as those defined on substrates rich enough to support &lt;strong>Universal Computation&lt;/strong>.&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;strong>The Universality Hypothesis:&lt;/strong> If a dynamical system $\Psi$ is Turing-complete, then determining its global asymptotic stability entails solving the Halting Problem for all possible programs.&lt;/p>&lt;/blockquote>
+&lt;h3 id="navier-stokes-ns">Navier-Stokes (NS)&lt;/h3>
+&lt;p>The non-linearity of the inertial term $(u \cdot \nabla)u$ allows for constructive interference of vortices. Tao has suggested that Euler and NS equations might be capable of simulating a von Neumann machine.&lt;/p>
+&lt;p>If a fluid can &amp;quot;compute,&amp;quot; then the initial velocity field $u_0(x)$ acts as the &amp;quot;software&amp;quot; (input tape). To prove Global Regularity, one must prove that &lt;em>no&lt;/em> software causes the machine to crash (blow up).&lt;/p>
+&lt;h3 id="p-vs-np">$P$ vs $NP$&lt;/h3>
+&lt;p>This is the archetype of Class II. Disproving $P \neq NP$ would require finding a polynomial algorithm that compresses the search space of &lt;em>all&lt;/em> boolean circuits.&lt;/p>
+&lt;p>The &lt;em>Natural Proofs&lt;/em> barrier implies that current methods fail because they cannot distinguish &amp;quot;hard&amp;quot; pseudo-random functions from truly random ones. In our framework: the &amp;quot;hardness&amp;quot; of $NP$ problems comes from their incompressibility.&lt;/p>
+&lt;h2 id="the-universal-quantifier-trap">The Universal Quantifier Trap&lt;/h2>
+&lt;p>Here we formalize why Class II problems are likely independent of $ZFC$. The obstruction is not that &lt;em>all&lt;/em> inputs are hard, but that &lt;em>some&lt;/em> inputs act as undecidable logic gates.&lt;/p>
+&lt;h3 id="the-logical-structure-of-the-problems">The Logical Structure of the Problems&lt;/h3>
+&lt;p>The Millennium Problems are framed as Universal Statements:
+$$ \forall x \in \mathcal{S}, \quad \Phi(x) \text{ holds.} $$
+Where $\mathcal{S}$ is the set of all initial conditions (fluids) or all languages (complexity).&lt;/p>
+&lt;h3 id="embedding-turing-machines">Embedding Turing Machines&lt;/h3>
+&lt;blockquote>
+&lt;p>&lt;strong>The Embeddability Lemma:&lt;/strong> Let $\mathcal{S}$ be the domain of a Class II system. Because the system is Turing Complete, there exists an injective mapping $\Gamma: \mathbb{N} \to \mathcal{S}$ such that for any Turing Machine $M_n$, there exists a corresponding initial state $x_n = \Gamma(n) \in \mathcal{S}$ that simulates $M_n$.&lt;/p>&lt;/blockquote>
+&lt;p>For Navier-Stokes, $x_n$ would be a highly complex, geometrically precise arrangement of vortices designed to execute logic operations.&lt;/p>
+&lt;h3 id="the-undecidability-mechanism">The Undecidability Mechanism&lt;/h3>
+&lt;p>Let the property $\Phi(x)$ be &amp;quot;The solution remains regular/bounded for all time.&amp;quot; In the context of the embedded simulation, a &amp;quot;singularity&amp;quot; (blow-up) corresponds to the machine reaching a specific &amp;quot;Halt&amp;quot; state.&lt;/p>
+&lt;p>Thus:
+$$ \Phi(x_n) \text{ is False} \iff M_n \text{ Halts.} $$&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;strong>The Quantifier Obstruction Theorem:&lt;/strong> The statement &amp;quot;$\forall x \in \mathcal{S}, \Phi(x)$&amp;quot; implies &amp;quot;$\forall n, M_n \text{ does not Halt}$&amp;quot; (assuming we are testing for non-blowup). However, the set of indices $n$ for which $M_n$ halts is recursively enumerable but not recursive. There exist indices $k$ such that the statement &amp;quot;$M_k$ does not Halt&amp;quot; is undecidable in $ZFC$ (Gödel/Turing).&lt;/p>
+&lt;p>Therefore, the truth value of $\Phi(x_k)$ is undecidable. Since the Universal Statement requires $\Phi(x)$ to be true for &lt;strong>all&lt;/strong> $x$, and we cannot determine the truth for $x_k$, the Universal Statement cannot be proven.&lt;/p>&lt;/blockquote>
+&lt;p>&lt;em>Remark: It does not matter if the &amp;quot;rogue&amp;quot; inputs $x_k$ are rare (measure zero). In a logical proof, a single counter-example falsifies the theorem. If the existence of that counter-example is undecidable, the theorem is independent.&lt;/em>&lt;/p>
+&lt;h2 id="conclusion">Conclusion&lt;/h2>
+&lt;p>The Millennium Prize problems are not merely difficult; they are categorized by their logical compressibility.&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align: left">Problem&lt;/th>
+&lt;th style="text-align: left">Mechanism&lt;/th>
+&lt;th style="text-align: left">Status&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align: left">Poincaré&lt;/td>
+&lt;td style="text-align: left">Info. Destruction&lt;/td>
+&lt;td style="text-align: left">&lt;strong>Class I (Provable)&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">Riemann Hyp.&lt;/td>
+&lt;td style="text-align: left">Spectral Rigidity&lt;/td>
+&lt;td style="text-align: left">&lt;strong>Class I (Provable)&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">Navier-Stokes&lt;/td>
+&lt;td style="text-align: left">Universal Sim.&lt;/td>
+&lt;td style="text-align: left">&lt;strong>Class II (Indep.)&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">$P$ vs $NP$&lt;/td>
+&lt;td style="text-align: left">Circuit Univ.&lt;/td>
+&lt;td style="text-align: left">&lt;strong>Class II (Indep.)&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>For Class II problems, we are not hitting a lack of technique; we are hitting the &lt;strong>Computational Event Horizon&lt;/strong>. The domain of inputs contains embedded logical paradoxes. To prove the theorem, one would have to resolve the Halting Problem. Thus, the answers lie beyond the reach of finite axiomatic systems.&lt;/p>
+&lt;hr>
+&lt;p>&lt;em>This post is based on my recent paper:
+&lt;a href="https://conanhujinming.github.io/publication/computational-event-horizon/">The Computational Event Horizon&lt;/a>&lt;/em>&lt;/p></description></item><item><title>Practical db-os co-design with privileged kernel bypass</title><link>https://conanhujinming.github.io/publication/practical-db-os-codesign/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><guid>https://conanhujinming.github.io/publication/practical-db-os-codesign/</guid><description/></item><item><title>Accelerate cnns from three dimensions: A comprehensive pruning framework</title><link>https://conanhujinming.github.io/publication/accelerate-cnns/</link><pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate><guid>https://conanhujinming.github.io/publication/accelerate-cnns/</guid><description/></item><item><title>Complementary pseudo labels for unsupervised domain adaptation on person re-identification</title><link>https://conanhujinming.github.io/publication/complementary-pseudo-labels/</link><pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate><guid>https://conanhujinming.github.io/publication/complementary-pseudo-labels/</guid><description/></item><item><title>Es-net: Erasing salient parts to learn more in re-identification</title><link>https://conanhujinming.github.io/publication/es-net/</link><pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate><guid>https://conanhujinming.github.io/publication/es-net/</guid><description/></item><item><title>DBP: Discrimination based block-level pruning for deep model acceleration</title><link>https://conanhujinming.github.io/publication/dbp-pruning/</link><pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate><guid>https://conanhujinming.github.io/publication/dbp-pruning/</guid><description/></item></channel></rss>
